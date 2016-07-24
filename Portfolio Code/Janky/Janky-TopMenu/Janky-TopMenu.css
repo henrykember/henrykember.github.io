@@ -1,0 +1,340 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+  background-color: FFFFFF;
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+.menu  {
+  position: fixed;
+  margin-top; 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 10px;
+  max-width: 1500px;
+  min-width: 900px;
+  border: 0px solid black;
+  z-index: 10;
+}
+.menuitems  {
+  display: inline;
+  width: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 0px solid black;
+  text-align: center;
+}
+a  {
+  list-style-type: none;
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+#sideways  {
+  float: right;
+  font-size: 44px;
+  margin-top: 230px;
+  margin-right: -70px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+  z-index: 0;
+}
+#usyd  {
+  position: absolute;
+  width: 340px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+#usydpic1  {
+  position: relative;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#usydpic2  {
+  position: relative;
+  width: 300px;
+  margin-top: -150px;
+  margin-left: 20px;
+  z-index: 3;
+}
+#usydpic3  {
+  position: relative;
+  width: 300px;
+  margin-top: -150px;
+  margin-left: 40px;
+  z-index: 2;
+}
+#usyd img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.rollover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  background-color: rgba(0,0,0,.35);
+  opacity: 0;
+  color: white;
+}
+.rollover span {
+  padding-top: auto;
+  padding-bottom: auto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+#usyd:hover .rollover  {
+  opacity: 1;
+}
+#gdinterviews  {
+  width: 340px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 480px;
+}
+#gdinterviews img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdinterviews:hover .rollover  {
+   opacity: 1;
+}
+#tf2  {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 950px;
+}
+#tf2pic1  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#tf2pic2  {
+  position: relative;
+  width: 200px;
+  margin-top: -265px;
+  margin-left: 20px;
+  z-index: 3;
+}
+#tf2pic3  {
+  position: relative;
+  width: 200px;
+  margin-top: -265px;
+  margin-left: 39px;
+  border: 1px solid #A8A8A8;
+  z-index: 2;
+}
+#tf2pic4  {
+  position: absolute;
+  width: 200px;
+  margin-top: -265px;
+  margin-left: 58px;
+  z-index: 1;
+}
+#tf2 img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#tf2:hover .rollover  {
+   opacity: 1;
+}
+#gdseeing  {
+  width: 340px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 550px;
+  z-index: 3;
+}
+#gdseeing img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdseeing:hover .rollover  {
+   opacity: 1;
+}
+#mixionary {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 50px;
+}
+#mixpic1  {
+  position: relative;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixpic2  {
+  position: relative;
+  width: 150px;
+  margin-top: -405px;
+  margin-left: 170px;
+  z-index: 5;
+}
+#mixpic3  {
+  position: relative;
+  width: 150px;
+  margin-top: -192.12px;
+  margin-left: 190px;
+  z-index: 4;
+}
+#mixpic4  {
+  position: relative;
+  width: 150px; 
+  margin-top: -192.12px;
+  margin-left: 210px;
+  z-index: 3;
+}
+#mixpic5  {
+  position: relative;
+  width: 150px;
+  margin-top: -192.12px;
+  margin-left: 230px;
+  z-index: 2;
+}
+#mixpic6  {
+  position: absolute;
+  width: 300px;
+  margin-top: -192.12px;
+  margin-left: 99px;
+  border: 1px solid #BABABA;
+  z-index: 1;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixionary:hover .rollover  {
+   opacity: 1;
+}
+#seafolly  {
+  width: 600px;
+  position: absolute;
+  margin-top: 1050px;
+  margin-left: 50px;
+}
+#seafolly img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#seafolly:hover .rollover  {
+   opacity: 1;
+}
+#blackfri  {
+  width: 300px;
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 700px;
+}
+#blackfri img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#blackfri:hover .rollover  {
+   opacity: 1;
+}
+#ikeapillow  {
+  width: 300px;
+  position: absolute;
+  margin-top: 794px;
+  margin-left: 500px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#gdexperience  {
+  position: absolute;
+  margin-top: 1200px;
+  margin-left: 850px;
+}
+#gdexp1  {
+  position: relative;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#gdexp2 {
+  position: relative;
+  width: 300px;
+  margin-top: -150px;
+  margin-left: 20px;
+  z-index: 3;
+}
+#gdexp3  {
+  position: relative;
+  width: 300px;
+  margin-top: -150px;
+  margin-left: 40px;
+  z-index: 2;
+}
+#gdexp4  {
+  position: relative;
+  width: 150px;
+  margin-top: -100px;
+  margin-left: 60px;
+  z-index: 2;
+}
+#gdexp5  {
+  position: relative;
+  width: 150px;
+  margin-top: -80px;
+  margin-left: 80px;
+  z-index: 2;
+}
+#gdexp6  {
+  position: relative;
+  width: 150px;
+  margin-top: -60px;
+  margin-left: 100px;
+  z-index: 2;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdexperience:hover .rollover  {
+   opacity: 1;
+}
+
+  position: absolute;
+  width: 30px;
+  margin-top: 1500px;
+  margin-left: 40px;
+  z-index: 5;
+}

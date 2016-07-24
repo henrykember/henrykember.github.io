@@ -1,0 +1,83 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+html  {
+    cursor: url("http://i.imgur.com/WCh1J0s.png"), auto;
+}
+
+body  {
+  font-family: 'Roboto';
+}
+#header  {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 165px;
+  width: 810px;
+  border: 0px solid black;
+}
+#headerp  {
+   font-size: 68px;
+   font-weight: 400;
+   text-decoration: underline;
+ }
+clearit  {
+  clear: both;
+}
+ #tsandcs  {
+   position: absolute;
+     font-size: 13px;
+     line-height: 19px;
+     line-width: 6px;
+     border: 0px solid black;
+     width: 760px;
+     margin-top: 50px;
+     margin-left: 200px;
+     padding-right: 13px;
+     height: 500px;
+     overflow-x: scroll;
+}
+span  {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#buttons {
+  position: absolute;
+  margin-top: 575px;
+  margin-left: 200px;
+  display: block;
+  box-sizing: border-box;
+  height: 200px;
+  width: 812px;
+}
+  #accept  {
+    display: block;
+    text-decoration: none; 
+    list-style-type: none;
+    font-size: 24px;
+    color: black;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+  }
+#decline  {
+  display: block;
+  text-decoration: none; 
+  list-style-type: none;
+  font-size: 24px;
+  color: black;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#accept:hover  {
+  background: url("http://i.imgur.com/E7wBX3y.jpg");
+  background-size: 128px 64px;
+}
+#decline:hover  {
+  background: url("http://i.imgur.com/jrbQTR6.png");
+}
+
