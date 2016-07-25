@@ -167,7 +167,7 @@ a  {
   width: 340px;
   position: absolute;
   margin-top: 450px;
-  margin-left: 550px;
+  margin-left: 510px;
   z-index: 3;
 }
 #gdseeing img  {
@@ -251,8 +251,8 @@ a  {
 #blackfri  {
   width: 300px;
   position: absolute;
-  margin-top: 1000px;
-  margin-left: 700px;
+  margin-top: 1050px;
+  margin-left: 800px;
 }
 #blackfri img  {
   display: block;
@@ -278,50 +278,52 @@ a  {
 }
 #gdexperience  {
   position: absolute;
-  margin-top: 1200px;
-  margin-left: 850px;
+  margin-top: 1400px;
+  margin-left: 950px;
 }
 #gdexp1  {
   position: relative;
   width: 300px;
   margin-top: 0px;
   margin-left: 0px;
-  z-index: 4;
+  z-index: 8;
 }
-#gdexp2 {
+#gdexp2  {
   position: relative;
   width: 300px;
   margin-top: -150px;
   margin-left: 20px;
-  z-index: 3;
+  z-index: 7;
 }
 #gdexp3  {
   position: relative;
   width: 300px;
-  margin-top: -150px;
+  margin-top:  -150px;
   margin-left: 40px;
-  z-index: 2;
+  border-left: 1px solid #BABABA;
+  border-bottom: 1px solid #BABABA;
+  z-index: 6;
 }
 #gdexp4  {
   position: relative;
   width: 150px;
-  margin-top: -100px;
-  margin-left: 60px;
-  z-index: 2;
+  margin-top: -225px;
+  margin-left: 100px;
+  z-index: 5;
 }
 #gdexp5  {
   position: relative;
   width: 150px;
-  margin-top: -80px;
-  margin-left: 80px;
-  z-index: 2;
+  margin-top: -210px;
+  margin-left: 120px;
+  z-index: 4;
 }
 #gdexp6  {
   position: relative;
   width: 150px;
-  margin-top: -60px;
-  margin-left: 100px;
-  z-index: 2;
+  margin-top: -210px;
+  margin-left: 140px;
+  z-index: 3;
 }
 #gdexperience img {
   display: block;
@@ -331,10 +333,31 @@ a  {
 #gdexperience:hover .rollover  {
    opacity: 1;
 }
-
+#telstra  {
+  width: 500px;
   position: absolute;
-  width: 30px;
+  margin-top: 1794px;
+  margin-left: 500px;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#boost  {
+  width: 500px;
+  position: absolute;
   margin-top: 1500px;
-  margin-left: 40px;
-  z-index: 5;
+  margin-left: 100px;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#boost:hover .rollover  {
+   opacity: 1;
 }
