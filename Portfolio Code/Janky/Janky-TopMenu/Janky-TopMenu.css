@@ -348,10 +348,52 @@ a  {
    opacity: 1;
 }
 #boost  {
-  width: 500px;
+  width: 300px;
   position: absolute;
   margin-top: 1500px;
   margin-left: 100px;
+}
+#boostmary  {
+  width: 400px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+   z-index: 7;
+}
+#boostben  {
+  position: relative;
+  width: 400px;
+  margin-top: -213px;
+  margin-left: 10px;
+  z-index: 6;
+}
+#boostsaff  {
+  position: relative;
+  width: 400px;
+  margin-top: -212px;
+  margin-left: 20px;
+   z-index: 5;
+}
+#boostprint1  {
+  width: 200px;
+  position: relative;
+  margin-top: -293px;
+  margin-left: -10px;
+   z-index: 5;
+}
+#boostprint2  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -20px;
+   z-index: 4;
+}
+#boostprint3  {
+  width: 200px;
+  position: relative;
+  margin-top: -125px;
+  margin-left: -30px;
+   z-index: 3;
 }
 #boost img  {
   display: block;
