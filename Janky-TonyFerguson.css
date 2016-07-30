@@ -74,32 +74,32 @@ a  {
   margin-top: 500px;
   font-size: 14px;
 }
-#boostfilm {
+#tfprint {
   position: absolute;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 450px;
 }
-.boost iframe {
-  width: 720px;
-  height: 405px;
-}
-.boost.mary {
+.tf  {
+  width: 340px;
   position: relative;
+}
+.tf img {
+  width: 100%;
+}
+.tf.energy {
   margin-top: 0px;
   margin-left: 0px;
 }
-.boost.ben  {
-  position: relative;
-  margin-top: 10px;
+.tf.muscle {
+  margin-top: 15px;
   margin-left: -110px;
+  border: 1px solid #A8A8A8;
 }
-.boost.saffjen  {
-  position: relative;
-  margin-top: 10px;
+.tf.mood {
+  margin-top: 15px;
   margin-left: 0px;
 }
-.boost.case  {
-  position: relative;
-  margin-top: 10px;
+.tf.hair  {
+  margin-top: 15px;
   margin-left: -110px;
 }

@@ -43,7 +43,7 @@ a  {
   position: fixed;
   font-size: 44px;
   margin-top: 230px;
-  margin-left: 980px;
+  margin-left: 900px;
   width: 350px;
   height: 90px;
   padding: 20px;
@@ -69,37 +69,36 @@ a  {
   font-size: 42px;
   font-style: italic;
 }
-.deets.blurb  {
-  position: fixed;
-  margin-top: 500px;
-  font-size: 14px;
-}
-#boostfilm {
+.vitalstats  {
   position: absolute;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 50px;
 }
-.boost iframe {
-  width: 720px;
-  height: 405px;
+.cv  {
+  float: left;
+  font-size: 20px;
+  width: 400px;
+  margin-right: 70px;
+  border: 0px solid black;
+  line-height: 23px;
 }
-.boost.mary {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
+.cv span  {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: underline;
 }
-.boost.ben  {
-  position: relative;
-  margin-top: 10px;
-  margin-left: -110px;
+.cv a  {
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 20px;
 }
-.boost.saffjen  {
-  position: relative;
-  margin-top: 10px;
-  margin-left: 0px;
+.cv a:hover  {
+  text-decoration:;
 }
-.boost.case  {
-  position: relative;
-  margin-top: 10px;
-  margin-left: -110px;
+.cv.education {
+
 }
+.cv.other {
+}
+
