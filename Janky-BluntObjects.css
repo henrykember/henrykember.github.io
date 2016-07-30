@@ -53,53 +53,26 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
-.deets  {
+.bluntobjects  {
   position: fixed;
+  margin-top: 100px;
   margin-left: 50px;
   width: 240px;
-}
-.deets.title  {
-  margin-top: 100px;
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
 }
-.deets.description  {
-  margin-top: 230px;
-  font-size: 42px;
-  font-style: italic;
-}
-.deets.blurb  {
-  position: fixed;
-  margin-top: 500px;
-  font-size: 14px;
-}
-#tfprint {
+.awards  {
   position: absolute;
   margin-top: 100px;
-  margin-left: 450px;
+  margin-left: 440px;
+  width: 500px;
+  font-size: 20px;
+  line-height: 25px;
+  border: 0px solid black;
 }
-.tf  {
-  width: 340px;
-  position: relative;
+.awards span  {
+  font-style: italic;
 }
-.tf img {
-  width: 100%;
-}
-.tf.energy {
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.tf.muscle {
-  margin-top: 15px;
-  margin-left: -110px;
-  border: 1px solid #A8A8A8;
-}
-.tf.mood {
-  margin-top: 15px;
-  margin-left: 0px;
-}
-.tf.hair  {
-  margin-top: 15px;
-  margin-left: -110px;
-}
+
+

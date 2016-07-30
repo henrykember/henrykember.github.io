@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 html  {
-    cursor: rl("http://i.imgur.com/WCh1J0s.png"), auto;
+    cursor: url("http://i.imgur.com/WCh1J0s.png"), auto;
             width: 4px;
 }
 
@@ -78,8 +78,8 @@ span  {
   border: 2px solid black;
 }
 #accept:hover  {
-  background: url("http://i.imgur.com/AUFiSgp.png");
-  background-size: 128px 64px;
+  background: url("http://i.imgur.com/nJNg1Em.png");
+  background-size: 180px 64px;
 }
 #decline:hover  {
   background: url("http://i.imgur.com/DQsuZnL.png");

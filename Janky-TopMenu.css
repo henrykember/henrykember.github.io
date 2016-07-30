@@ -43,7 +43,7 @@ a  {
   position: fixed;
   font-size: 44px;
   margin-top: 230px;
-  margin-left: 980px;
+  margin-left: 900px;
   width: 350px;
   height: 90px;
   padding: 20px;
@@ -55,29 +55,29 @@ a  {
 }
 #usyd  {
   position: absolute;
-  width: 340px;
+  width: 250px;
   margin-top: 200px;
   margin-left: 50px;
 }
 #usydpic1  {
   position: relative;
-  width: 300px;
+  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 4;
 }
 #usydpic2  {
   position: relative;
-  width: 300px;
+  width: 250px;
   margin-top: -150px;
-  margin-left: 20px;
+  margin-left: 10px;
   z-index: 3;
 }
 #usydpic3  {
   position: relative;
-  width: 300px;
+  width: 250px;
   margin-top: -150px;
-  margin-left: 40px;
+  margin-left: 20px;
   z-index: 2;
 }
 #usyd img {
@@ -100,7 +100,7 @@ a  {
 .rollover span {
   padding-top: auto;
   padding-bottom: auto;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 300;
   line-height: 30px;
 }
@@ -108,7 +108,7 @@ a  {
   opacity: 1;
 }
 #gdinterviews  {
-  width: 340px;
+  width: 250px;
   position: absolute;
   margin-top: 150px;
   margin-left: 480px;
@@ -128,31 +128,31 @@ a  {
 }
 #tf2pic1  {
   position: relative;
-  width: 200px;
+  width: 150px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 4;
 }
 #tf2pic2  {
   position: relative;
-  width: 200px;
-  margin-top: -265px;
-  margin-left: 20px;
+  width: 150px;
+  margin-top: -222px;
+  margin-left: 10px;
   z-index: 3;
 }
 #tf2pic3  {
   position: relative;
-  width: 200px;
-  margin-top: -265px;
-  margin-left: 39px;
+  width: 150px;
+  margin-top: -222px;
+  margin-left: 20px;
   border: 1px solid #A8A8A8;
   z-index: 2;
 }
 #tf2pic4  {
   position: absolute;
-  width: 200px;
-  margin-top: -265px;
-  margin-left: 58px;
+  width: 150px;
+  margin-top: -222px;
+  margin-left: 30px;
   z-index: 1;
 }
 #tf2 img {
@@ -185,7 +185,7 @@ a  {
 }
 #mixpic1  {
   position: relative;
-  width: 300px;
+  width: 200px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 6;
@@ -193,36 +193,36 @@ a  {
 #mixpic2  {
   position: relative;
   width: 150px;
-  margin-top: -405px;
-  margin-left: 170px;
+  margin-top: -265px;
+  margin-left: 60px;
   z-index: 5;
 }
 #mixpic3  {
   position: relative;
   width: 150px;
   margin-top: -192.12px;
-  margin-left: 190px;
+  margin-left: 70px;
   z-index: 4;
 }
 #mixpic4  {
   position: relative;
   width: 150px; 
   margin-top: -192.12px;
-  margin-left: 210px;
+  margin-left: 80px;
   z-index: 3;
 }
 #mixpic5  {
   position: relative;
   width: 150px;
   margin-top: -192.12px;
-  margin-left: 230px;
+  margin-left: 90px;
   z-index: 2;
 }
 #mixpic6  {
   position: absolute;
   width: 300px;
   margin-top: -192.12px;
-  margin-left: 99px;
+  margin-left: 100px;
   border: 1px solid #BABABA;
   z-index: 1;
 }
@@ -235,7 +235,7 @@ a  {
    opacity: 1;
 }
 #seafolly  {
-  width: 500px;
+  width: 250px;
   position: absolute;
   margin-top: 1050px;
   margin-left: 50px;
@@ -348,13 +348,13 @@ a  {
    opacity: 1;
 }
 #boost  {
-  width: 300px;
+  width: 250px;
   position: absolute;
   margin-top: 1450px;
   margin-left: 100px;
 }
 #boostmary  {
-  width: 300px;
+  width: 250px;
   position: relative;
   margin-top: 0px;
   margin-left: 0px;
@@ -362,15 +362,15 @@ a  {
 }
 #boostben  {
   position: relative;
-  width: 300px;
-  margin-top: -213px;
+  width: 250px;
+  margin-top: -130px;
   margin-left: 10px;
   z-index: 6;
 }
 #boostsaff  {
   position: relative;
-  width: 300px;
-  margin-top: -212px;
+  width: 250px;
+  margin-top: -130px;
   margin-left: 20px;
    z-index: 5;
 }
@@ -378,7 +378,7 @@ a  {
   width: 200px;
   position: relative;
   margin-top: -130px;
-  margin-left: -10px;
+  margin-left: 30px;
    z-index: 4;
 }
 #boostprint2  {
