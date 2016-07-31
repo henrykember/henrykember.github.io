@@ -77,10 +77,8 @@ a  {
 #tfprint {
   position: absolute;
   margin-top: 100px;
-  margin-left: 450px;
+  margin-left: 150px;
 }
 #slides  img {
   width: 340px;
-  position: relative;
-  width: 100%;
 }
