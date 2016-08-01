@@ -10,7 +10,7 @@ body {
 }
 .menu  {
   position: fixed;
-  margin-top; 5px;
+  margin-top: 5px;
   margin-left: 0px;
   margin-right: 5px;
   padding: 10px;
@@ -283,44 +283,44 @@ a  {
 }
 #gdexp1  {
   position: relative;
-  width: 300px;
+  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 8;
 }
 #gdexp2  {
   position: relative;
-  width: 300px;
-  margin-top: -150px;
-  margin-left: 20px;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
   z-index: 7;
 }
 #gdexp3  {
   position: relative;
-  width: 300px;
-  margin-top:  -150px;
-  margin-left: 40px;
+  width: 250px;
+  margin-top:  -130px;
+  margin-left: 20px;
   border-left: 1px solid #BABABA;
   border-bottom: 1px solid #BABABA;
   z-index: 6;
 }
 #gdexp4  {
   position: relative;
-  width: 150px;
+  width: 100px;
   margin-top: -225px;
   margin-left: 100px;
   z-index: 5;
 }
 #gdexp5  {
   position: relative;
-  width: 150px;
+  width: 100px;
   margin-top: -210px;
   margin-left: 120px;
   z-index: 4;
 }
 #gdexp6  {
   position: relative;
-  width: 150px;
+  width: 100px;
   margin-top: -210px;
   margin-left: 140px;
   z-index: 3;
