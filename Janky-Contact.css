@@ -81,7 +81,13 @@ a  {
   text-decoration: underline;
 
 }
-i {
-  font-size: 20px;
+.contacts i {
+  font-size: 80px;
   color: black;
+}
+#linkedin img  {
+  height: 60px;
+}
+#facebook img  {
+  height: 60px;
 }

@@ -32,7 +32,7 @@ clearit  {
      line-width: 6px;
      border: 0px solid black;
      width: 660px;
-     margin-top: 100px;
+     margin-top: 124px;
      margin-left: 200px;
      padding-right: 13px;
      height: 340px;
@@ -45,7 +45,7 @@ span  {
 }
 #buttons {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 480px;
   margin-left: 200px;
   display: block;
   box-sizing: border-box;
@@ -73,13 +73,13 @@ span  {
   color: black;
   width: 90px;
   padding: 8px;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-left: 30px;
   border: 2px solid black;
 }
 #accept:hover  {
-  background: url("http://i.imgur.com/nJNg1Em.png");
-  background-size: 180px 64px;
+  background: url("./Stripes.jpg");
+  background-size: 180px 104px;
 }
 #decline:hover  {
   background: url("http://i.imgur.com/DQsuZnL.png");
