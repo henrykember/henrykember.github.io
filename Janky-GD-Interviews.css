@@ -76,7 +76,7 @@ a  {
   font-size: 14px;
 
 }
-#gdeu  {
+#gdi  {
   position: absolute;
   margin-top: 100px;
   margin-left: 300px;
@@ -85,30 +85,21 @@ a  {
   width: 640px;
   height: 360px;
 }
-.gd.bush {
+.gd {
   position: relative;
   margin-top: 0px;
   margin-left: 0px;
 }
-.gd.ferry {
-  position: relative;
-  margin-top: 110px;
-  margin-left: -110px;
-}
-.gd.city {
-  position: relative;
-  margin-top: 110px;
-  margin-left: 00px;
-}
 .bottom  {
   position: absolute;
-  margin-top: 50px;
-  margin-left: 0px;
+  margin-top: 650px;
+  margin-left: 340px;
   line-height: 20px;
   width: 400px;
   height: 30px;
-  border: px solid black;
+  border: 0px solid black;
   padding: 60px;
   text-align: center;
 }
+
 

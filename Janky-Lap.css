@@ -53,10 +53,10 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
- .deets  {
+.deets  {
   position: fixed;
   margin-left: 50px;
-  width: 260px;
+  width: 240px;
 }
 .deets.title  {
   margin-top: 100px;
@@ -65,50 +65,46 @@ a  {
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 280px;
-  font-size: 22px;
+  margin-top: 17 s s s0px;
+  font-size: 32px;
   font-style: italic;
-  text-align: left;
 }
 .deets.blurb  {
   position: fixed;
-  margin-top: 500px;
+  margin-top: 240px;
   font-size: 14px;
-
 }
-#gdeu  {
+#lapcontainer {
   position: absolute;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 440px;
 }
-.gd iframe {
-  width: 640px;
-  height: 360px;
+.lap iframe {
+  width: 420px;
+  height: 315px;
 }
-.gd.bush {
+.lap.one  {
   position: relative;
   margin-top: 0px;
   margin-left: 0px;
 }
-.gd.ferry {
+.lap.two {
   position: relative;
   margin-top: 110px;
   margin-left: -110px;
 }
-.gd.city {
+.lap.three  {
   position: relative;
   margin-top: 110px;
-  margin-left: 00px;
+  margin-left: 0px;
 }
 .bottom  {
   position: absolute;
-  margin-top: 50px;
-  margin-left: 0px;
+  margin-top: 1300px;
+  margin-left: 450px;
   line-height: 20px;
-  width: 400px;
   height: 30px;
-  border: px solid black;
+  border: 0px solid black;
   padding: 60px;
   text-align: center;
 }
-
