@@ -1,14 +1,4 @@
 /* Basic jQuery Slider essential styles */
-
-#container  {
-	position: absolute;
-    margin-top: 100px;
-    margin-left: 200px;
-    width: 100%;
-
-
-
-}
 ul.bjqs{
 	position:relative; 
 	list-style:none;
