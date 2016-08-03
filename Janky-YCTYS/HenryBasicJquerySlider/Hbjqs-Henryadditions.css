@@ -1,0 +1,20 @@
+.bjqs-controls .bjqs-prev a {
+	margin-left: -50px;
+	list-style-type: none;
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+}
+.bjqs-controls .bjqs-next a {
+	margin-right: -50px;
+	list-style-type: none;
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+}
+.bjqs-markers.h-centered a  {
+    list-style-type: none;
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+}
