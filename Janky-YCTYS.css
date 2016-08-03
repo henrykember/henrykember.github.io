@@ -60,58 +60,68 @@ a  {
 }
 .deets.title  {
   margin-top: 100px;
-  font-size: 58px;
+  font-size: 50px;
   font-weight: 400;
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 280px;
-  font-size: 22px;
+  margin-top: 250px;
+  font-size: 32px;
   font-style: italic;
-  text-align: left;
 }
 .deets.blurb  {
   position: fixed;
-  margin-top: 500px;
+  margin-top: 330px;
+  width: 200px;
   font-size: 14px;
-
 }
-#gdeu  {
+.slider-wrapper {
+  display: block;
+  margin-top: 200;
+  margin-left: 200;
+}
+
+/*#yctys {
   position: absolute;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 400px;
 }
-.gd iframe {
-  width: 640px;
-  height: 360px;
+.bjqs img  {
+      width: 250px;
+      height: 100%;
 }
-.gd.bush {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
+ul.bjqs{
+  position:relative; 
+  list-style:none;
+  padding:0;
+  margin:0;
+  overflow:hidden; 
+  display:none;
 }
-.gd.ferry {
-  position: relative;
-  margin-top: 110px;
-  margin-left: -70px;
+li.bjqs-slide  {
+  display:none;
 }
-.gd.city {
-  position: relative;
-  margin-top: 110px;
-  margin-left: 00px;
+ul.bjqs-controls  {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  z-index:9999;
 }
-#gdprint  {
-  position: absolute;
-  margin-top: 1510px;
-  margin-left: 230px;
-  width: 710px;
+ul.bjqs-controls.v-centered li a  {
+  position:absolute;
 }
-.gdpr img  {
-  width: 100%;
-}
+ul.bjqs-controls.v-centered li.bjqs-next a  {
+  right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
 .bottom  {
   position: absolute;
-  margin-top: 1450px;
+  margin-top: 1650px;
   margin-left: 340px;
   line-height: 20px;
   width: 400px;
@@ -119,5 +129,7 @@ a  {
   border: 0px solid black;
   padding: 60px;
   text-align: center;
-}
+}*/
+*/
 
+*/
