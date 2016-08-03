@@ -6,7 +6,8 @@
     <title>Basic jQuery Slider - Demo</title>
       
     <!-- bjqs.css contains the *essential* css needed for the slider to work -->
-    <link rel="stylesheet" href="./Hbjqs.css">
+    <link rel="stylesheet" href="../../reset.css">
+   <link rel="stylesheet" href="./Hbjqs.css">
     <link rel="stylesheet" href="./Hbjqs-Henryadditions.css">
     <!-- load jQuery and the plugin -->
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
@@ -15,8 +16,38 @@
   </head>
   
   <body>
-  
-    <div id="container">
+     <div class="menu">
+         <div class="menuitems" id="Home">
+           <a href="./Janky-TopMenu.html">Home</a>
+         </div>
+         <div class="menuitems" id="bluntobjects">
+           <a href="./Janky-BluntObjects.html">Blunt Objects</a>
+         </div>
+         <div class="menuitems" id="vitalstats">
+           <a href="./Janky-VitalStats.html">Vital Stats</a>
+         </div>
+          <div class="menuitems" id="pictures">
+           <a href="https://au.pinterest.com/henrykember/" target="blank">Pictures</a>
+         </div>
+         <div class="menuitems" id="tsandcs">
+           <a href="./Janky-Thosetsandcs.html">Those Ts&amp;Cs</a>
+         </div>
+         <div class="menuitems" id="contact">
+           <a href="./Janky-Contact.html">#@Hi</a>
+         </div> 
+       </div>
+      <div id="sideways">
+           Henry Kember<br>CD/Writer
+      </div>
+        <div id="details">
+         <div class="deets title">YOU CAN<br>TAKE YOUR<br>SUBURB
+         </div>
+         <div class="deets description">Personal<br>Project
+         </div>
+         <div class="deets blurb">I used to live on the border of two suburbs: Surry Hills and Redfern. When people asked where I lived, 
+       </div>
+     </div> 
+     <div id="container">
       <!--  Outer wrapper for presentation only, this can be anything you like -->
       <div id="banner-fade">
 
@@ -30,14 +61,15 @@
 
       </div>
     </div>
+    <div class="bottom"><i class="fa fa-copyright" aria-hidden="true"></i> Henry Kember 2016</div>
       <!-- End outer wrapper -->
 
       <script class="secret-source">
         jQuery(document).ready(function($) {
 
           $('#banner-fade').bjqs({
-            height      : 925,
-            width       : 720,
+            height      : 700,
+            width       : 545,
             responsive  : true,
             nexttext : '&#8680;', // Text for 'next' button (can use HTML)
             prevtext : '&#x21e6;', // Text for 'previous' button (can use HTML)
