@@ -3,13 +3,15 @@
     <meta charset="utf-8" />
     <title>HK | Tony Ferguson</title>
     <link rel="stylesheet" type="text/css" href="./reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./Janky-TonyFerguson.css"/>
+     <link rel="stylesheet" href="./Hbjqs.css">
+    <link rel="stylesheet" type="text/css" href="./Janky-TonyFergusonslider.css"/>
     <script
         src="https://code.jquery.com/jquery-3.1.0.min.js"
         integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./Janky-TopMenu.js"></script>
-    <script src="https://use.fonticons.com/db3a1f8f.js"></script>
+     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="./Hbjqs-1.3.min.js"></script>
+    <script src="https://use.fontawesome.com/dabf123cfb.js"></script>
   </head>
   <body>
       <div class="menu">
@@ -43,19 +45,42 @@
         <div class="deets description">LOSE<br>WEIGHT<br>WELL</div>
         <div class="deets blurb">TF2+ is a weight loss product that doesn't leave you looking like a pile of shit. That was my first stab at an end line. The next was 'lose weight well'. We then commissioned artist James Joyce (of Nike, Collette, and NOT 'Ulysses' fame) to bring the benefit to life.</div>
       </div>
-      <div id="tfprint">  
-        <div class="tf energy">
-          <img src="http://i.imgur.com/0ugypaj.jpg"/>
-        </div>
-        <div class="tf muscle">
-          <img src="http://i.imgur.com/Nv0fi7J.jpg"/>
-        </div>
-        <div class="tf mood">
-          <img src="http://i.imgur.com/7uvxeWQ.jpg"/>
-        </div>
-        <div class="tf hair">
-          <img src="http://i.imgur.com/t5cjNP2.jpg"/>
-        </div>  
-      </div>   
-</body>
+      <div id="container">
+      <!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="banner-fade">
+
+      <ul class="bjqs">
+          <li><img src="http://i.imgur.com/0ugypaj.jpg"></li>
+          <li><img src="http://i.imgur.com/zzptPbW.jpg"></li>
+          <li><img src="http://i.imgur.com/7uvxeWQ.jpg"></li>
+          <li><img src="http://i.imgur.com/t5cjNP2.jpg"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+    </div>
+    <div class="bottom"><i class="fa fa-copyright" aria-hidden="true"></i> Henry Kember 2016</div>
+      
+    <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 578,
+            width       : 450,
+            responsive  : true,
+            nexttext : '&#8680;', // Text for 'next' button (can use HTML)
+            prevtext : '&#x21e6;', // Text for 'previous' button (can use HTML)
+            animtype : 'fade', // accepts 'fade' or 'slide'
+            animduration : 450, // how fast the animation are
+            animspeed : 4000, // the delay between each slide
+            automatic : false, // automatic
+          });
+
+        });
+  </script>
+
+      
+  </body>
+</html>
+
       

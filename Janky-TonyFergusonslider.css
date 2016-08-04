@@ -73,41 +73,16 @@ a  {
   margin-top: 5px;
   font-size: 32px;
   font-style: italic;
-  text-transform: uppercase;
 }
 .deets.blurb  {
   margin-top: 5px;
   width: 200px;
   font-size: 14px;
 }
-#gdeu  {
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 300px;
-}
-.gd iframe {
-  width: 640px;
-  height: 360px;
-}
-.gd.bush {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.gd.ferry {
-  position: relative;
-  margin-top: 110px;
-  margin-left: -70px;
-}
-.gd.city {
-  position: relative;
-  margin-top: 110px;
-  margin-left: 00px;
-}
 #container  {
   box-sizing: border-box;
   position: absolute;
-  margin-top: 1510px;
+  margin-top: 100px;
   width: 700px;
   height: 700px;
   margin-left: 270px;
@@ -140,7 +115,7 @@ a  {
 }
 .bottom  {
   position: absolute;
-  margin-top: 2250px;
+  margin-top: 750px;
   margin-left: 340px;
   line-height: 20px;
   width: 400px;

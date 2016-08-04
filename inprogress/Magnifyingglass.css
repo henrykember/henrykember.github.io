@@ -1,0 +1,20 @@
+body  {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.magnify  {
+	width: 200px;
+	margin: 50px auto;
+}
+.large  {
+	width: 175px; height: 175px;
+	position: absolute;
+	border radius: 100%;
+	/*Multiple box shadows to achieve the glass effect*/
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.8);
+    background: url(http://i.imgur.com/chB84NW.jpg) no-repeat;
+}
+.magnify  {
+	position: relative;
+}
