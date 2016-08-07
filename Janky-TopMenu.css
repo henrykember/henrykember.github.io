@@ -42,7 +42,7 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-left: 900px;
   width: 350px;
   height: 90px;
@@ -110,8 +110,8 @@ a  {
 #gdinterviews  {
   width: 250px;
   position: absolute;
-  margin-top: 150px;
-  margin-left: 480px;
+  margin-top: 740px;
+  margin-left: 400px;
 }
 #gdinterviews img  {
   display: block;
@@ -123,35 +123,34 @@ a  {
 }
 #tf2  {
   position: absolute;
-  margin-top: 580px;
-  margin-left: 950px;
+  margin-top: 710px;
+  margin-left: 50px;
 }
 #tf2pic1  {
   position: relative;
-  width: 150px;
+  width: 160px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 4;
 }
 #tf2pic2  {
   position: relative;
-  width: 150px;
-  margin-top: -222px;
+  width: 160px;
+  margin-top: -216px;
   margin-left: 10px;
   z-index: 3;
 }
 #tf2pic3  {
   position: relative;
-  width: 150px;
-  margin-top: -222px;
+  width: 160px;
+  margin-top: -214px;
   margin-left: 20px;
-  border-top: 0px solid #A8A8A8;
   z-index: 2;
 }
 #tf2pic4  {
   position: absolute;
-  width: 150px;
-  margin-top: -222px;
+  width: 160px;
+  margin-top: -215px;
   margin-left: 30px;
   z-index: 1;
 }
@@ -166,8 +165,8 @@ a  {
 #gdseeing  {
   width: 250px;
   position: absolute;
-  margin-top: 450px;
-  margin-left: 510px;
+  margin-top: 1250px;
+  margin-left: 85px;
   z-index: 3;
 }
 #gdseeing img  {
@@ -180,8 +179,8 @@ a  {
 }
 #mixionary {
   position: absolute;
-  margin-top: 520px;
-  margin-left: 50px;
+  margin-top: 290px;
+  margin-left: 770px;
 }
 #mixpic1  {
   position: relative;
@@ -193,36 +192,36 @@ a  {
 #mixpic2  {
   position: relative;
   width: 150px;
-  margin-top: -265px;
+  margin-top: -273px;
   margin-left: 60px;
   z-index: 5;
 }
 #mixpic3  {
   position: relative;
   width: 150px;
-  margin-top: -192.12px;
+  margin-top: -200px;
   margin-left: 70px;
   z-index: 4;
 }
 #mixpic4  {
   position: relative;
   width: 150px; 
-  margin-top: -192.12px;
+  margin-top: -200px;
   margin-left: 80px;
   z-index: 3;
 }
 #mixpic5  {
   position: relative;
   width: 150px;
-  margin-top: -192.12px;
+  margin-top: -200px;
   margin-left: 90px;
   z-index: 2;
 }
 #mixpic6  {
   position: absolute;
-  width: 300px;
-  margin-top: -192.12px;
-  margin-left: 100px;
+  width: 265px;
+  margin-top: -200px;
+  margin-left: -18px;
   border: 1px solid #BABABA;
   z-index: 1;
 }
@@ -237,8 +236,8 @@ a  {
 #seafolly  {
   width: 250px;
   position: absolute;
-  margin-top: 1050px;
-  margin-left: 50px;
+  margin-top: 130px;
+  margin-left: 450px;
 }
 #seafolly img  {
   display: block;
@@ -249,10 +248,10 @@ a  {
    opacity: 1;
 }
 #blackfri  {
-  width: 300px;
+  width: 140px;
   position: absolute;
-  margin-top: 1050px;
-  margin-left: 800px;
+  margin-top: 1080px;
+  margin-left: 930px;
 }
 #blackfri img  {
   display: block;
@@ -263,10 +262,10 @@ a  {
    opacity: 1;
 }
 #ikeapillow  {
-  width: 300px;
+  width: 250px;
   position: absolute;
-  margin-top: 794px;
-  margin-left: 500px;
+  margin-top: 1040px;
+  margin-left: 210px;
 }
 #ikeapillow img  {
   display: block;
@@ -278,8 +277,8 @@ a  {
 }
 #gdexperience  {
   position: absolute;
-  margin-top: 1400px;
-  margin-left: 950px;
+  margin-top: 1510px;
+  margin-left: 810px;
 }
 #gdexp1  {
   position: relative;
@@ -307,23 +306,23 @@ a  {
 #gdexp4  {
   position: relative;
   width: 100px;
-  margin-top: -225px;
-  margin-left: 100px;
+  margin-top: -170px;
+  margin-left: 70px;
   z-index: 5;
 }
 #gdexp5  {
   position: relative;
   width: 100px;
-  margin-top: -210px;
-  margin-left: 120px;
-  z-index: 4;
+  margin-top: -150px;
+  margin-left: 90px;
+  z-index: 3;
 }
 #gdexp6  {
   position: relative;
   width: 100px;
-  margin-top: -210px;
-  margin-left: 140px;
-  z-index: 3;
+  margin-top: -115px;
+  margin-left: 105px;
+  z-index: 4;
 }
 #gdexperience img {
   display: block;
@@ -336,8 +335,8 @@ a  {
 #telstra  {
   width: 300px;
   position: absolute;
-  margin-top: 1700px;
-  margin-left: 50px;
+  margin-top: 700px;
+  margin-left: 850px;
 }
 #telstra img  {
   display: block;
@@ -350,7 +349,7 @@ a  {
 #boost  {
   width: 250px;
   position: absolute;
-  margin-top: 1450px;
+  margin-top: 450px;
   margin-left: 100px;
 }
 #boostmary  {
@@ -378,7 +377,7 @@ a  {
   width: 200px;
   position: relative;
   margin-top: -130px;
-  margin-left: 30px;
+  margin-left: -10px;
    z-index: 4;
 }
 #boostprint2  {
@@ -404,10 +403,10 @@ a  {
    opacity: 1;
 }
 #yctys  {
-  width: 300px;
+  width: 250px;
   position: absolute;
-  margin-top: 1594px;
-  margin-left: 600px;
+  margin-top: 500px;
+  margin-left: 460px;
 }
 #yctys img  {
   width: 100%;
@@ -418,10 +417,10 @@ a  {
    opacity: 1;
 }
 #soundchaser  {
-  width: 300px;
+  width: 250px;
   position: absolute;
-  margin-top: 1294px;
-  margin-left: 600px;
+  margin-top: 1260px;
+  margin-left: 520px;
   border: 1px solid #A8A8A8;
 }
 #soundchaser img  {
@@ -435,8 +434,8 @@ a  {
 #paypal  {
   width: 200px;
   position: absolute;
-  margin-top: 2050px;
-  margin-left: 100px;
+  margin-top: 1510px;
+  margin-left: 80px;
 }
 #ppwind  {
   position: relative;
@@ -479,7 +478,7 @@ a  {
 #adsmydadsays  {
   width: 200px;
   position: absolute;
-  margin-top: 2250px;
+  margin-top: 1560px;
   margin-left: 400px;
   border: 1px solid #A8A8A8;
 }
@@ -494,8 +493,8 @@ a  {
 #ubank  {
   width: 250px;
   position: absolute;
-  margin-top: 2050px;
-  margin-left: 450px;
+  margin-top: 1800px;
+  margin-left: 125px;
 }
 #ubskater  {
   position: relative;
@@ -521,8 +520,10 @@ a  {
 #indepth  {
   width: 250px;
   position: absolute;
-  margin-top: 1950px;
-  margin-left: 750px;
+  margin-top: 950px;
+  margin-left: 550px;
+ /* margin-top: 950px;
+  margin-left: 550px;*/
   border: 1px solid #A8A8A8;
 }
 #indepth img  {
@@ -536,8 +537,8 @@ a  {
 #housework  {
   width: 250px;
   position: absolute;
-  margin-top: 2250px;
-  margin-left: 865px;
+  margin-top: 1850px;
+  margin-left: 665px;
   border: 1px solid #A8A8A8;
 }
 #housework img  {
@@ -547,4 +548,15 @@ a  {
 }
 #housework:hover .rollover  {
    opacity: 1;
+}
+.bottom  {
+  position: absolute;
+  margin-top: 2150px;
+  margin-left: 340px;
+  line-height: 20px;
+  width: 400px;
+  height: 30px;
+  border: 0px solid black;
+  padding: 60px;
+  text-align: center;
 }
