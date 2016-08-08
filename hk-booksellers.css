@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+  background-color: FFFFFF;
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+.menu  {
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 10px;
+  max-width: 1500px;
+  min-width: 900px;
+  border: 0px solid black;
+  z-index: 10;
+}
+.menuitems  {
+  display: inline;
+  width: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 0px solid black;
+  text-align: center;
+}
+a  {
+  list-style-type: none;
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+#sideways  {
+  position: fixed;
+  font-size: 44px;
+  margin-top: 280px;
+  margin-left: 980px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+  z-index: 0;
+}
+#details  {
+  position: fixed;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 250px;
+  border: 0px solid black;
+}
+.deets.title  {
+  margin-top: -6px;
+  font-size: 50px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.deets.description  {
+  margin-top: 5px;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.deets.blurb  {
+  margin-top: 5px;
+  width: 200px;
+  font-size: 14px;
+}
+#blackfri {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 330px;
+}
+.bf.press {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.bf img {
+  width: 600px;
+  height: 901px;
+}
+.bottom  {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 345px;
+  line-height: 20px;
+  width: 400px;
+  height: 30px;
+  border: 0px solid black;
+  padding: 60px;
+  text-align: center;
+}
