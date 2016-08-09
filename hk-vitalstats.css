@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
   background-color: FFFFFF;
 }
 body {
@@ -42,7 +44,7 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-left: 900px;
   width: 350px;
   height: 90px;
@@ -53,32 +55,27 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
-.deets  {
+.details  {
   position: fixed;
+  margin-top: 150px;
   margin-left: 50px;
   width: 240px;
-}
-.deets.title  {
-  margin-top: 100px;
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
 }
-.deets.description  {
-  margin-top: 230px;
-  font-size: 42px;
-  font-style: italic;
+.deets.title  {
+  margin-top: -6px;
 }
 .vitalstats  {
   position: absolute;
-  margin-top: 100px;
-  margin-left: 50px;
+  width: 700px;
+  margin-top: 150px;
+  margin-left: 300px;
+  border: 0px solid black;
 }
 .cv  {
-  float: left;
   font-size: 20px;
-  width: 400px;
-  margin-right: 70px;
   border: 0px solid black;
   line-height: 25px;
 }
@@ -97,8 +94,22 @@ a  {
   text-decoration:;
 }
 .cv.education {
-
+  width: 450px;
+  margin-right: 70px;
 }
 .cv.other {
+  margin-top: 40px;
+  width: 450px;
+  margin-right: 70px;float: right;
 }
-
+.bottom  {
+  position: absolute;
+  margin-top: 900px;
+  margin-left: 340px;
+  line-height: 20px;
+  width: 400px;
+  height: 30px;
+  border: 0px solid black;
+  padding: 60px;
+  text-align: center;
+}

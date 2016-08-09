@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
   background-color: FFFFFF;
 }
 body {
@@ -51,7 +53,7 @@ a  {
   transform: rotate(90deg);
   color: black;
   border: 5px solid black;
-  z-index: 0;
+  z-index: 4;
 }
 #details  {
   position: fixed;
@@ -79,51 +81,28 @@ a  {
   width: 200px;
   font-size: 14px;
 }
-#telstraair {
+#soundchaser {
   position: absolute;
   margin-top: 150px;
   margin-left: 300px;
-}
-.telstra iframe {
   width: 720px;
-  height: 405px;
+  border: 0px solid black;
+  z-index: 3;
 }
-.telstra.film {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.telstra.pics  {
-  position: absolute;
-  margin-top: 565px;
-  margin-left: 300px;
-  width: 650px;
-}
-.pic.one  {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 600px;
-}
-.pic.two  {
-  position: relative;
-  margin-top: 10px;
-  margin-left: 150px;
-  width: 600px;
-}
-.pic.three  {
-  position: relative;
-  margin-top: 10px;
-  margin-left: 50px;
-  width: 400px;
-}
-.pic img  {
-  width: 100%;
+.page img {
+  width: 130%;
   object-fit: contain;
+}
+.page.one {
+  position: relative;
+  margin-top: -30px;
+  margin-left: 0px;
+  width: 720px;
+  border: 0px solid black;
 }
 .bottom  {
   position: absolute;
-  margin-top: 2100px;
+  margin-top: 3400px;
   margin-left: 345px;
   line-height: 20px;
   width: 400px;

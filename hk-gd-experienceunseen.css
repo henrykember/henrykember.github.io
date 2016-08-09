@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
   background-color: FFFFFF;
 }
 body {
@@ -42,7 +44,7 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-left: 900px;
   width: 350px;
   height: 90px;
@@ -82,7 +84,7 @@ a  {
 }
 #gdeu  {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 300px;
 }
 .gd iframe {
@@ -107,7 +109,7 @@ a  {
 #container  {
   box-sizing: border-box;
   position: absolute;
-  margin-top: 1510px;
+  margin-top: 1560px;
   width: 700px;
   height: 700px;
   margin-left: 270px;
@@ -140,7 +142,7 @@ a  {
 }
 .bottom  {
   position: absolute;
-  margin-top: 2250px;
+  margin-top: 2300px;
   margin-left: 340px;
   line-height: 20px;
   width: 400px;

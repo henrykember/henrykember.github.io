@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
   background-color: FFFFFF;
 }
 body {
@@ -42,9 +44,9 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 282px;
   margin-left: 900px;
-  width: 350px;
+  width: 356px;
   height: 90px;
   padding: 20px;
   transform: translate(-50%, -100%);
@@ -53,37 +55,41 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
- .deets  {
+ #details  {
   position: fixed;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 150px;
   margin-left: 50px;
-  width: 260px;
+  width: 250px;
+  border: 0px solid black;
 }
 .deets.title  {
-  margin-top: 100px;
-  font-size: 58px;
+  display: block;
+  margin-top: 0px;
+  font-size: 50px;
   font-weight: 400;
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 280px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 32px;
   font-style: italic;
-  text-align: left;
+  text-transform: uppercase;
 }
 .deets.blurb  {
-  position: fixed;
-  margin-top: 500px;
+  margin-top: 5px;
+  width: 200px;
   font-size: 14px;
-
 }
 #gdi  {
   position: absolute;
-  margin-top: 100px;
-  margin-left: 300px;
+  margin-top: 150px;
+  margin-left: 275px;
 }
 .gd iframe {
-  width: 640px;
-  height: 360px;
+  width: 720px;
+  height: 405px;
 }
 .gd {
   position: relative;
@@ -92,7 +98,7 @@ a  {
 }
 .bottom  {
   position: absolute;
-  margin-top: 600px;
+  margin-top: 650px;
   margin-left: 340px;
   line-height: 20px;
   width: 400px;

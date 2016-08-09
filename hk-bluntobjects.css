@@ -1,7 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
-  background-color: FFFFFF;
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
 }
 body {
   font-family: 'Roboto';
@@ -42,7 +43,7 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-left: 900px;
   width: 350px;
   height: 90px;
@@ -53,18 +54,21 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
-.bluntobjects  {
+.details  {
   position: fixed;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 50px;
   width: 240px;
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
 }
+.deets.title  {
+  margin-top: -6px;
+}
 .awards  {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 440px;
   width: 500px;
   font-size: 20px;
@@ -74,5 +78,15 @@ a  {
 .awards span  {
   font-style: italic;
 }
-
+.bottom  {
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 345px;
+  line-height: 20px;
+  width: 400px;
+  height: 30px;
+  border: 0px solid black;
+  padding: 60px;
+  text-align: center;
+}
 

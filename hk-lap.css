@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 
 html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
   background-color: FFFFFF;
 }
 body {
@@ -42,7 +44,7 @@ a  {
 #sideways  {
   position: fixed;
   font-size: 44px;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-left: 900px;
   width: 350px;
   height: 90px;
@@ -59,7 +61,7 @@ a  {
   width: 240px;
 }
 .deets.title  {
-  margin-top: 100px;
+  margin-top: 150px;
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
@@ -76,7 +78,7 @@ a  {
 }
 #lapcontainer {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 440px;
 }
 .lap iframe {
@@ -100,7 +102,7 @@ a  {
 }
 .bottom  {
   position: absolute;
-  margin-top: 1300px;
+  margin-top: 1350px;
   margin-left: 450px;
   line-height: 20px;
   height: 30px;
