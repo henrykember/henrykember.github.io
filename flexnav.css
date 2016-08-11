@@ -55,6 +55,21 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
+/*#sideways  {
+  position: fixed;
+  font-size: 44px;
+  margin-top: 280px;
+  margin-left: 900px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+  z-index: 0;
+}
+*/
 .details  {
   position: fixed;
   margin-top: 150px;
@@ -63,51 +78,65 @@ a  {
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
+
 }
 .deets.title  {
   margin-top: -6px;
 }
-.contactcontainer  {
+.vitalstats  {
   position: absolute;
   top: 150px;
-  left: 260px;
-  right: 300px;
-  min-width: 400px;
-  max-width: 450px;
-  /*border: 1px solid black;*/
+  right: 260px;
+  left: 250px;
+  min-width: 450px;
+/*  border: 1px solid black;*/
 }
-.contact  {
-  float: right;
-  min-width: 400px;
-  /*border: 1px solid black;*/
+.cv  {
+  font-size: 20px;
+ /* border: 1px solid black;*/
+  line-height: 25px;
 }
-.contacts  {
-  margin-bottom: 20px;
-  font-size: 40px;
-  font-weight: 400;
-}
-.contacts  a  {
-  font-size: 30px;
+.cv span  {
   font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
   text-decoration: underline;
 }
-.contacts i {
-  font-size: 80px;
-  color: black;
+.cv a  {
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 20px;
 }
-#linkedin img  {
-  height: 60px;
+.cv a:hover  {
+  text-decoration:;
 }
-#facebook img  {
-  height: 60px;
+.cv.education {
+  width: 450px;
+  right: 70px;
+/*  border: 1px solid black;*/
+}
+.cv.other {
+  float: right;
+  padding-top: 20px;
+  padding-right: 0px;
+  width: 450px;
+/*  border: 1px solid black;*/
 }
 .bottom  {
   position: absolute;
-  top: 850px;
+  top: 950px;
   left: 0px;
   width: 100%;
   height: 70px;
  /* border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+ /* width: 150px;*/
+}
+/*#btmtext  {
+  margin-left: auto;
+  margin-right: auto;*/
+ /* text-align: center;
+  line-height: 20px;
+  width: 150px;*/
 }

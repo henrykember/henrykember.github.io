@@ -1,0 +1,598 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+  background-color: FFFFFF;
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
+}
+a  {
+  list-style-type: none;
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.logocontainer {
+  position: fixed;
+  top: 280;
+  right: -65;
+  left: 300;
+  min-width: 420px;
+  padding-left: 300px;
+/*  border: 1px solid black;*/
+}
+#sideways  {
+  float: right;
+  font-size: 44px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+  z-index: 0;
+}
+#usyd  {
+  position: absolute;
+  width: 250px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+#usydpic1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+/*#usydstill  {
+  position: relative;
+  margin-top: -141px;
+  margin-left: 0px;
+  width: 250px;
+  opacity: 0;
+  z-index: 7;
+}
+#usydstill img  {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+#usyd:hover #usydstill  {
+  opacity: 1;
+}*/
+#usydpic2  {
+  position: relative;
+  width: 250px;
+  margin-top: -150px;
+  margin-left: 10px;
+  z-index: 3;
+}
+#usydpic3  {
+  position: relative;
+  width: 250px;
+  margin-top: -150px;
+  margin-left: 20px;
+  z-index: 2;
+}
+#usyd img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.rollover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  background-color: rgba(0,0,0,.35);
+  opacity: 0;
+  color: white;
+  z-index: 8;
+}
+.rollover span {
+  padding-top: auto;
+  padding-bottom: auto;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 30px;
+  z-index: 100;
+}
+.rollover img  {
+  display: block;
+  position: absolute;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
+#usyd:hover .rollover  {
+  opacity: 1;
+}
+.gdintcontainer  {
+  position: absolute;
+  top: 740px;
+  left: 400px;
+  right: ;
+}
+#gdinterviews  {
+  width: 250px;
+}
+#gdinterviews img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdinterviews:hover .rollover  {
+   opacity: 1;
+}
+#tf2  {
+  position: absolute;
+  margin-top: 710px;
+  margin-left: 50px;
+}
+#tf2pic1  {
+  position: relative;
+  width: 160px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#tf2pic2  {
+  position: relative;
+  width: 160px;
+  margin-top: -216px;
+  margin-left: 10px;
+  z-index: 3;
+}
+#tf2pic3  {
+  position: relative;
+  width: 160px;
+  margin-top: -214px;
+  margin-left: 20px;
+  z-index: 2;
+}
+#tf2pic4  {
+  position: absolute;
+  width: 160px;
+  margin-top: -215px;
+  margin-left: 30px;
+  z-index: 1;
+}
+#tf2 img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#tf2:hover .rollover  {
+   opacity: 1;
+}
+#gdseeing  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1250px;
+  margin-left: 85px;
+  z-index: 3;
+}
+#gdseeing img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdseeing:hover .rollover  {
+   opacity: 1;
+}
+.mixcontainer  {
+  position: absolute;
+  top: 290px;
+  right: 250px;
+}
+#mixionary {
+  /*position: absolute;
+  margin-top: 290px;
+  margin-left: 770px;
+}*/
+}
+#mixpic1  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixpic2  {
+  position: relative;
+  width: 150px;
+  margin-top: -273px;
+  margin-left: 60px;
+  z-index: 5;
+}
+#mixpic3  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 70px;
+  z-index: 4;
+}
+#mixpic4  {
+  position: relative;
+  width: 150px; 
+  margin-top: -200px;
+  margin-left: 80px;
+  z-index: 3;
+}
+#mixpic5  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 90px;
+  z-index: 2;
+}
+#mixpic6  {
+  position: absolute;
+  width: 265px;
+  margin-top: -200px;
+  margin-left: -18px;
+  border: 1px solid #BABABA;
+  z-index: 1;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixionary:hover .rollover  {
+   opacity: 1;
+}
+#seafolly  {
+  width: 250px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 450px;
+}
+#seafolly img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#seafolly:hover .rollover  {
+   opacity: 1;
+}
+#blackfri  {
+  width: 140px;
+  position: absolute;
+  margin-top: 1080px;
+  margin-left: 930px;
+}
+#blackfri img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#blackfri:hover .rollover  {
+   opacity: 1;
+}
+#ikeapillow  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1040px;
+  margin-left: 210px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#gdexperience  {
+  position: absolute;
+  margin-top: 1510px;
+  margin-left: 810px;
+}
+#gdexp1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 8;
+}
+#gdexp2  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
+  z-index: 7;
+}
+#gdexp3  {
+  position: relative;
+  width: 250px;
+  margin-top:  -130px;
+  margin-left: 20px;
+  border-left: 1px solid #BABABA;
+  border-bottom: 1px solid #BABABA;
+  z-index: 6;
+}
+#gdexp4  {
+  position: relative;
+  width: 100px;
+  margin-top: -170px;
+  margin-left: 70px;
+  z-index: 5;
+}
+#gdexp5  {
+  position: relative;
+  width: 100px;
+  margin-top: -150px;
+  margin-left: 90px;
+  z-index: 3;
+}
+#gdexp6  {
+  position: relative;
+  width: 100px;
+  margin-top: -115px;
+  margin-left: 105px;
+  z-index: 4;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdexperience:hover .rollover  {
+   opacity: 1;
+}
+#telstra  {
+  width: 300px;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 850px;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#boost  {
+  width: 250px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 100px;
+}
+#boostmary  {
+  width: 250px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+   z-index: 7;
+}
+#boostben  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
+  z-index: 6;
+}
+#boostsaff  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 20px;
+   z-index: 5;
+}
+#boostprint1  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -10px;
+   z-index: 4;
+}
+#boostprint2  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -20px;
+   z-index: 3;
+}
+#boostprint3  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -30px;
+   z-index: 2;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#boost:hover .rollover  {
+   opacity: 1;
+}
+#yctys  {
+  width: 250px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 460px;
+}
+#yctys img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#yctys:hover .rollover  {
+   opacity: 1;
+}
+#soundchaser  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1260px;
+  margin-left: 520px;
+  border: 1px solid #A8A8A8;
+}
+#soundchaser img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#soundchaser:hover .rollover  {
+   opacity: 1;
+}
+#paypal  {
+  width: 200px;
+  position: absolute;
+  margin-top: 1510px;
+  margin-left: 80px;
+}
+#ppwind  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 1px solid #BABABA;
+  z-index: 7;
+}
+#ppoverseas  {
+  position: relative;
+  width: 200px;
+  margin-top: -160px;
+  margin-left: -9px;
+  z-index: 6;
+}
+#ppchain  {
+  position: relative;
+  width: 200px;
+  margin-top: -158px;
+  margin-left: -20px;
+  border: 1px solid #BABABA;
+  z-index: 5;
+}
+#ppfan  {
+  position: relative;
+  width: 200px;
+  margin-top: -160px;
+  margin-left: -28px;
+  z-index: 4;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#paypal:hover .rollover  {
+   opacity: 1;
+}
+#adsmydadsays  {
+  width: 200px;
+  position: absolute;
+  margin-top: 1560px;
+  margin-left: 400px;
+  border: 1px solid #A8A8A8;
+}
+#adsmydadsays img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#adsmydadsays:hover .rollover  {
+   opacity: 1;
+}
+#ubank  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 125px;
+}
+#ubskater  {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 7;
+}
+#ubactress  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: -9px;
+  z-index: 6;
+}
+#ubank img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ubank:hover .rollover  {
+   opacity: 1;
+}
+#indepth  {
+  width: 250px;
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 550px;
+ /* margin-top: 950px;
+  margin-left: 550px;*/
+  border: 1px solid #A8A8A8;
+}
+#indepth img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#indepth:hover .rollover  {
+   opacity: 1;
+}
+#housework  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1850px;
+  margin-left: 665px;
+  border: 1px solid #A8A8A8;
+}
+#housework img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#housework:hover .rollover  {
+   opacity: 1;
+}
+.bottom  {
+  position: absolute;
+  top: 2150px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+ /* border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}

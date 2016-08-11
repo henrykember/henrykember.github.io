@@ -10,24 +10,17 @@ body {
   margin: 0;
   padding: 0;
 }
-.menu  {
+.menucontainer  {
   position: fixed;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 5px;
-  padding: 10px;
-  max-width: 1500px;
-  min-width: 900px;
-  border: 0px solid black;
-  z-index: 10;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
 }
-.menuitems  {
-  display: inline;
-  width: 200px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 0px solid black;
-  text-align: center;
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
 }
 a  {
   list-style-type: none;
@@ -41,11 +34,18 @@ a  {
 .menuitems a:hover  {
   font-style: italic;
 }
-#sideways  {
+.logocontainer {
   position: fixed;
+  top: 280;
+  right: -65;
+  left: 300;
+  min-width: 420px;
+  padding-left: 300px;
+/*  border: 1px solid black;*/
+}
+#sideways  {
+  float: right;
   font-size: 44px;
-  margin-top: 280px;
-  margin-left: 900px;
   width: 350px;
   height: 90px;
   padding: 20px;
@@ -63,20 +63,22 @@ a  {
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
+
 }
 .deets.title  {
   margin-top: -6px;
 }
 .vitalstats  {
   position: absolute;
-  width: 700px;
-  margin-top: 150px;
-  margin-left: 300px;
-  border: 0px solid black;
+  top: 150px;
+  right: 260px;
+  left: 250px;
+  min-width: 450px;
+/*  border: 1px solid black;*/
 }
 .cv  {
   font-size: 20px;
-  border: 0px solid black;
+ /* border: 1px solid black;*/
   line-height: 25px;
 }
 .cv span  {
@@ -95,21 +97,24 @@ a  {
 }
 .cv.education {
   width: 450px;
-  margin-right: 70px;
+  right: 70px;
+/*  border: 1px solid black;*/
 }
 .cv.other {
-  margin-top: 40px;
+  float: right;
+  padding-top: 20px;
+  padding-right: 0px;
   width: 450px;
-  margin-right: 70px;float: right;
+/*  border: 1px solid black;*/
 }
 .bottom  {
   position: absolute;
-  margin-top: 900px;
-  margin-left: 340px;
-  line-height: 20px;
-  width: 400px;
-  height: 30px;
-  border: 0px solid black;
-  padding: 60px;
+  top: 950px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+ /* border: 1px solid black;*/
   text-align: center;
+  line-height: 20px;
 }
+
