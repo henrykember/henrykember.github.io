@@ -135,14 +135,16 @@ a  {
 #usyd:hover .rollover  {
   opacity: 1;
 }
-.gdintcontainer  {
+/*.gdintcontainer  {
   position: absolute;
   top: 740px;
   left: 400px;
-  right: ;
-}
+}*/
 #gdinterviews  {
   width: 250px;
+  position: absolute;
+  margin-top: 740px;
+  margin-left: 400px;
 }
 #gdinterviews img  {
   display: block;
@@ -211,9 +213,16 @@ a  {
 .mixcontainer  {
   position: absolute;
   top: 290px;
-  right: 250px;
+  left: 400px;
+  right: 50px;
+  max-width: 830px;
+  min-width: 300px;
+  border: 1px solid black;
 }
 #mixionary {
+  float: right;
+  /*right: 0px;
+  top: 0px;*/
   /*position: absolute;
   margin-top: 290px;
   margin-left: 770px;
@@ -270,32 +279,63 @@ a  {
 #mixionary:hover .rollover  {
    opacity: 1;
 }
-#seafolly  {
-  width: 250px;
+.sfcontainer  {
   position: absolute;
-  margin-top: 130px;
-  margin-left: 450px;
+  top: 130px;
+  left: 450px;
+  right: 250px;
+  max-width: 600px;
+  min-width: 250px;
+  border: 1px solid black;
 }
-#seafolly img  {
+#seafolly  {
+  float: right;
+  /*width: 250px;*/
+ /* position: absolute;
+  margin-top: 130px;
+  margin-left: 450px;*/
+}
+#sfpic  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#sfpic img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#seafolly:hover .rollover  {
+#sfpic:hover .rollover  {
    opacity: 1;
 }
-#blackfri  {
-  width: 140px;
+.bfcontainer  {
   position: absolute;
-  margin-top: 1080px;
-  margin-left: 930px;
+  top: 1080px;
+  left: 430px;
+  right: 150px;
+  max-width: 900px;
+  min-width: 140px;
+  border: 1px solid black;
 }
-#blackfri img  {
+#blackfri  {
+  float: right;
+ /* max-width: 140px;*/
+}
+#bfpic  {
+  position: relative;
+  width: 140px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#bfpic img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#blackfri:hover .rollover  {
+#bfpic:hover .rollover  {
    opacity: 1;
 }
 #ikeapillow  {
@@ -312,10 +352,18 @@ a  {
 #ikeapillow:hover .rollover  {
    opacity: 1;
 }
-#gdexperience  {
+.gdexpcontainer  {
   position: absolute;
-  margin-top: 1510px;
-  margin-left: 810px;
+  top: 1510px;
+  left: 430px;
+  right: 160px;
+  max-width: 700px;
+  min-width: 250px;
+  border: 1px solid black;
+}
+#gdexperience  {
+  float: right;
+ /* max-width: 250px;*/
 }
 #gdexp1  {
   position: relative;
@@ -369,18 +417,32 @@ a  {
 #gdexperience:hover .rollover  {
    opacity: 1;
 }
-#telstra  {
-  width: 300px;
+.telcontainer  {
   position: absolute;
-  margin-top: 700px;
-  margin-left: 850px;
+  top: 700px;
+  left: 430px;
+  right: 100px;
+  max-width: 700px;
+  min-width: 300px;
+  border: 1px solid black;
 }
-#telstra img  {
+#telstra  {
+  float: right;
+ /* max-width: 300px;*/
+}
+#telpic  {
+  position: relative;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+}
+#telpic img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#telstra:hover .rollover  {
+#telpic:hover .rollover  {
    opacity: 1;
 }
 #boost  {
@@ -571,19 +633,36 @@ a  {
 #indepth:hover .rollover  {
    opacity: 1;
 }
+.hwcontainer  {
+  position: absolute;
+  top: 1850px;
+  left: 250px;
+  right: 150px;
+  max-width: 900px;
+  min-width: 250px;
+  border: 1px solid black;
+}
 #housework  {
-  width: 250px;
+  float: right;
+  /*width: 250px;
   position: absolute;
   margin-top: 1850px;
-  margin-left: 665px;
+  margin-left: 665px;*/
   border: 1px solid #A8A8A8;
 }
-#housework img  {
+#hwpic  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#hwpic img  {
   width: 100%;
   display: block;
   object-fit: contain;
 }
-#housework:hover .rollover  {
+#hwpic:hover .rollover  {
    opacity: 1;
 }
 .bottom  {
