@@ -127,10 +127,11 @@ a  {
 .rollover img  {
   display: block;
   position: absolute;
-  width: 250px;
+ /* width: 250px;*/
+  width: 100%;
   top: 0px;
   left: 0px;
-  z-index: 7;
+  z-index: 99;
 }
 #usyd:hover .rollover  {
   opacity: 1;
