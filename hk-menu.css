@@ -68,22 +68,6 @@ a  {
   margin-left: 0px;
   z-index: 4;
 }
-/*#usydstill  {
-  position: relative;
-  margin-top: -141px;
-  margin-left: 0px;
-  width: 250px;
-  opacity: 0;
-  z-index: 7;
-}
-#usydstill img  {
-  display: block;
-  object-fit: contain;
-  width: 100%;
-}
-#usyd:hover #usydstill  {
-  opacity: 1;
-}*/
 #usydpic2  {
   position: relative;
   width: 250px;
@@ -104,6 +88,7 @@ a  {
   object-fit: contain;
 }
 .rollover {
+  display: block;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -117,12 +102,17 @@ a  {
   z-index: 8;
 }
 .rollover span {
-  padding-top: auto;
-  padding-bottom: auto;
-  font-size: 27px;
+  horizontal-align: text-bottom;
+  /*padding-top: 20px;
+  padding-left: 20px;*/
+  font-size: 17px;
+  /*font-style: italic;*/
   font-weight: 300;
-  line-height: 30px;
+  line-height: 18px;
   z-index: 100;
+}
+#title  {
+  font-style: italic;
 }
 .rollover img  {
   display: block;

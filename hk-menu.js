@@ -8,10 +8,12 @@ var startup = function ()  {
 
 	fivetonine.on('click', function ()  {		
 		business.toggle(200);
+		casual.toggle(200);
 	});
 
 	ninetofive.on('click', function ()  {
 		casual.toggle(200);
+		business.toggle(200);
 	});
 };
 
