@@ -55,25 +55,30 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
-.deets  {
+#details  {
   position: fixed;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 150px;
   margin-left: 50px;
-  width: 240px;
+  width: 250px;
+  border: 0px solid black;
 }
 .deets.title  {
-  margin-top: 150px;
-  font-size: 58px;
+  display: block;
+  margin-top: -6px;
+  font-size: 50px;
   font-weight: 400;
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 170px;
+  margin-top: 5px;
   font-size: 32px;
   font-style: italic;
 }
 .deets.blurb  {
-  position: fixed;
-  margin-top: 240px;
+  margin-top: 5px;
+  width: 200px;
   font-size: 14px;
 }
 #lapcontainer {

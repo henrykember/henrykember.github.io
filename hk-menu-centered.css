@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.menucontainer  {
+.maincontainer  {
   position: fixed;
   top: 0;
   width: 100%;
@@ -65,6 +65,7 @@ a  {
 .menuitems a:hover  {
   font-style: italic;
 }*/
+
 #sideways  {
   position: fixed;
   font-size: 44px;
@@ -79,11 +80,26 @@ a  {
   border: 5px solid black;
   z-index: 0;
 }
-#usyd  {
+.workcontainer  {
   position: absolute;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+.workwrapper  {
+ /* display: block;
+  top: 0;*/
+  width: 1100px;
+  /*height: 2400px;*/
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+*#usyd  {
+  position: relative;
   width: 250px;
   margin-top: 200px;
-  margin-left: 50px;
+  left: 50px;
 }
 #usydpic1  {
   position: relative;
@@ -123,20 +139,11 @@ a  {
   background-color: rgba(0,0,0,.35);
   opacity: 0;
   color: white;
+  font-size: 17px;
   z-index: 8;
 }
 .rollover span {
-  horizontal-align: text-bottom;
-  /*padding-top: 20px;
-  padding-left: 20px;*/
   font-size: 17px;
-  /*font-style: italic;*/
-  font-weight: 300;
-  line-height: 18px;
-  z-index: 100;
-}
-#title  {
-  font-style: italic;
 }
 .rollover img  {
   display: block;
@@ -145,29 +152,171 @@ a  {
   object-fit: contain;
   top: 0px;
   left: 0px;
-  z-index: 7;
+  z-index: 90;
 }
 #usyd:hover .rollover  {
   opacity: 1;
 }
-#gdinterviews  {
+#seafolly  {
   width: 250px;
-  position: absolute;
-  margin-top: 740px;
-  margin-left: 400px;
+  /*float: right;*/
+  position: relative;
+  top: 0px;
+  left: 440px;
 }
-#gdinterviews img  {
+#sfpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+}
+#sfpic img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#gdinterviews:hover .rollover  {
+#sfpic:hover .rollover  {
+   opacity: 1;
+}
+#mixionary {
+  /*position: absolute;*/
+  float: right;
+  margin-top: -170px;
+  /*margin-left: 720px;*/
+}
+#mixpic1  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixpic2  {
+  position: relative;
+  width: 150px;
+  margin-top: -273px;
+  margin-left: 60px;
+  z-index: 5;
+}
+#mixpic3  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 70px;
+  z-index: 4;
+}
+#mixpic4  {
+  position: relative;
+  width: 150px; 
+  margin-top: -200px;
+  margin-left: 80px;
+  z-index: 3;
+}
+#mixpic5  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 90px;
+  z-index: 2;
+}
+#mixpic6  {
+  position: relative;
+  width: 265px;
+  margin-top: -200px;
+  margin-left: -18px;
+  border: 1px solid #BABABA;
+  z-index: 1;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixionary:hover .rollover  {
+   opacity: 1;
+}
+#boost  {
+  /*width: 250px;*/
+  position: relative;
+  /*float: left;*/
+  top: 50px;
+  left: 100px;
+}
+#boostmary  {
+  width: 250px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+   z-index: 7;
+}
+#boostben  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
+  z-index: 6;
+}
+#boostsaff  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 20px;
+   z-index: 5;
+}
+#boostprint1  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -10px;
+   z-index: 4;
+}
+#boostprint2  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -20px;
+   z-index: 3;
+}
+#boostprint3  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -30px;
+   z-index: 2;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#boost:hover .rollover  {
+   opacity: 1;
+}
+#gdinterviews  {
+  position: relative;
+  top: 440px;
+  left: 400px;
+}
+#gdintpic  {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 250px;
+  z-index: 6;
+}
+#gdintpic img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdintpic:hover .rollover  {
    opacity: 1;
 }
 #tf2  {
-  position: absolute;
-  margin-top: 710px;
-  margin-left: 50px;
+  position: relative;
+  top: 710px;
+  left: 50px;
 }
 #tf2pic1  {
   position: relative;
@@ -220,76 +369,7 @@ a  {
 #gdseeing:hover .rollover  {
    opacity: 1;
 }
-#mixionary {
-  position: absolute;
-  margin-top: 290px;
-  margin-left: 770px;
-}
-#mixpic1  {
-  position: relative;
-  width: 200px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 6;
-}
-#mixpic2  {
-  position: relative;
-  width: 150px;
-  margin-top: -273px;
-  margin-left: 60px;
-  z-index: 5;
-}
-#mixpic3  {
-  position: relative;
-  width: 150px;
-  margin-top: -200px;
-  margin-left: 70px;
-  z-index: 4;
-}
-#mixpic4  {
-  position: relative;
-  width: 150px; 
-  margin-top: -200px;
-  margin-left: 80px;
-  z-index: 3;
-}
-#mixpic5  {
-  position: relative;
-  width: 150px;
-  margin-top: -200px;
-  margin-left: 90px;
-  z-index: 2;
-}
-#mixpic6  {
-  position: absolute;
-  width: 265px;
-  margin-top: -200px;
-  margin-left: -18px;
-  border: 1px solid #BABABA;
-  z-index: 1;
-}
-#mixionary img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#mixionary:hover .rollover  {
-   opacity: 1;
-}
-#seafolly  {
-  width: 250px;
-  position: absolute;
-  margin-top: 130px;
-  margin-left: 450px;
-}
-#seafolly img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#seafolly:hover .rollover  {
-   opacity: 1;
-}
+
 #blackfri  {
   width: 140px;
   position: absolute;
@@ -389,74 +469,25 @@ a  {
 #telstra:hover .rollover  {
    opacity: 1;
 }
-#boost  {
-  width: 250px;
-  position: absolute;
-  margin-top: 450px;
-  margin-left: 100px;
-}
-#boostmary  {
-  width: 250px;
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-   z-index: 7;
-}
-#boostben  {
-  position: relative;
-  width: 250px;
-  margin-top: -130px;
-  margin-left: 10px;
-  z-index: 6;
-}
-#boostsaff  {
-  position: relative;
-  width: 250px;
-  margin-top: -130px;
-  margin-left: 20px;
-   z-index: 5;
-}
-#boostprint1  {
-  width: 200px;
-  position: relative;
-  margin-top: -130px;
-  margin-left: -10px;
-   z-index: 4;
-}
-#boostprint2  {
-  width: 200px;
-  position: relative;
-  margin-top: -130px;
-  margin-left: -20px;
-   z-index: 3;
-}
-#boostprint3  {
-  width: 200px;
-  position: relative;
-  margin-top: -130px;
-  margin-left: -30px;
-   z-index: 2;
-}
-#boost img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#boost:hover .rollover  {
-   opacity: 1;
-}
+
 #yctys  {
-  width: 250px;
-  position: absolute;
-  margin-top: 500px;
-  margin-left: 460px;
+  /*position: absolute;*/
+  float: left;
+  margin-top: -120px;
+  margin-left: 480px;
 }
-#yctys img  {
+#yctyspic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#yctyspic img  {
   width: 100%;
   display: block;
   object-fit: contain;
 }
-#yctys:hover .rollover  {
+#yctyspic:hover .rollover  {
    opacity: 1;
 }
 #soundchaser  {
@@ -591,15 +622,14 @@ a  {
 }
 #housework:hover .rollover  {
    opacity: 1;
-}
+}*/
 .bottom  {
   position: absolute;
-  margin-top: 2150px;
-  margin-left: 340px;
-  line-height: 20px;
-  width: 400px;
-  height: 30px;
-  border: 0px solid black;
-  padding: 60px;
+  top: 2150px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+ /* border: 1px solid black;*/
   text-align: center;
+  line-height: 20px;
 }
