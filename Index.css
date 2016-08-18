@@ -8,33 +8,40 @@ html  {
 body  {
   font-family: 'Roboto';
 }
-#header  {
+#container  {
+  position: absolute;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+#wrapper  {
+  width: 780px;
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+#headerp  {
   position: absolute;
   display: block;
   box-sizing: border-box;
   list-style-type: none;
   margin-top: 52px;
-  margin-left: 148px;
+  margin-left: -2px;
   width: 810px;
   border: 0px solid black;
+  font-size: 65px;
+  font-weight: 400;
+  text-decoration: underline;
 }
-#headerp  {
-   font-size: 65px;
-   font-weight: 400;
-   text-decoration: underline;
- }
-clearit  {
-  clear: both;
-}
- #tsandcs  {
-   position: absolute;
+#tsandcs  {
+    position: absolute;
      font-size: 13px;
      line-height: 19px;
      line-width: 6px;
      border: 0px solid black;
      width: 660px;
      margin-top: 124px;
-     margin-left: 200px;
+     margin-left: 50px;
      padding-right: 13px;
      height: 340px;
      overflow-x: scroll;
@@ -47,7 +54,7 @@ span  {
 #buttons {
   position: absolute;
   margin-top: 480px;
-  margin-left: 200px;
+  margin-left: 50px;
   display: block;
   box-sizing: border-box;
   height: 150px;
