@@ -5,20 +5,41 @@ var startup = function ()  {
 	var ninetofive = $("#ninetofive");
 	var business = $(".business");
 	var casual = $(".casual");
+		// console.log("hi");
 
-	fivetonine.on('click', function ()  {		
-		business.toggle(200);
-		casual.toggle(200);
+	fivetonine.on('click', function ()  {	
+	console.log("hi");	
+		business.hide(200);
+		casual.show(200);
+		// casual.toggle(200);
 	});
 
+	fivetonine.off('click', function ()  {
+		console.log("hi");	
+		business.show(200);
+		casual.show(200);
+		// casual.toggle(200);
+	});
+	
 	ninetofive.on('click', function ()  {
-		casual.toggle(200);
-		business.toggle(200);
+		// console.log("hi");
+		// casual.toggle(200);
+		// business.toggle(200);
+		business.show(200);
+		casual.hide(200);
+	});
+
+	ninetofive.off('click', function ()  {
+		// console.log("hi");
+		// casual.toggle(200);
+		// business.toggle(200);
+		business.show(200);
+		casual.show(200);
 	});
 };
 
 
-$(document).ready(startup);
+$(document).ready(startup());
 
 
 
