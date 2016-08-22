@@ -1,5 +1,12 @@
 "use strict"
 
+
+$(document).ready(function() {
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+	startup();
+
+});
+
 var startup = function ()  {
 	var fivetonine = $("#fivetonine");
 	var ninetofive = $("#ninetofive");
@@ -39,7 +46,7 @@ var startup = function ()  {
 };
 
 
-$(document).ready(startup());
+
 
 
 
