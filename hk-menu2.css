@@ -34,9 +34,8 @@ div#preloader {
   margin: 20px 70px;
   /*border: 1px solid black;*/
 }
-a  {
+.menuitems a  {
   list-style-type: none;
-  text-decoration: underline;
   color: black;
   font-size: 16px;
   line-height: 28px;
@@ -46,37 +45,6 @@ a  {
 .menuitems a:hover  {
   font-style: italic;
 }
-/*.menu  {
-  position: fixed;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 5px;
-  padding: 10px;
-  max-width: 1500px;
-  min-width: 900px;
-  border: 0px solid black;
-  z-index: 10;
-}
-.menuitems  {
-  display: inline;
-  width: 200px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 0px solid black;
-  text-align: center;
-}
-a  {
-  list-style-type: none;
-  text-decoration: underline;
-  color: black;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  cursor: pointer;
-}
-.menuitems a:hover  {
-  font-style: italic;
-}*/
 .sidecontainer  {
   position: fixed;
   top: 0;
@@ -117,38 +85,7 @@ a  {
   margin-left: auto;
   margin-right: auto;
 }
-#usyd  {
-  position: absolute;
-  width: 250px;
-  margin-top: 200px;
-  margin-left: 0px;
-}
-#usydpic1  {
-  position: relative;
-  width: 250px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 4;
-}
-#usydpic2  {
-  position: relative;
-  width: 250px;
-  margin-top: -150px;
-  margin-left: 10px;
-  z-index: 3;
-}
-#usydpic3  {
-  position: relative;
-  width: 250px;
-  margin-top: -150px;
-  margin-left: 20px;
-  z-index: 2;
-}
-#usyd img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
+/* The following affects every thumbnail on rollover */
 .rollover {
   display: block;
   width: 100%;
@@ -158,7 +95,7 @@ a  {
   left: 0;
   display: flex;
   justify-content: left;
-  background-color: rgba(0,0,0,.35);
+  /*background-color: rgba(0,0,0,.35);*/
   opacity: 0;
   color: white;
   z-index: 8;
@@ -183,10 +120,78 @@ a  {
   object-fit: contain;
   top: 0px;
   left: 0px;
+  /*z-index: 7;*/
+}
+.subtitles  {
+	position: relative;
+	display: list-item;
+	list-style-type: none;
+	/*text-decoration: none;*/
+	/*text-decoration-color: black;*/
+	top: 20px;
+	left: 0px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #000000;
+	/*z-index: 6;*/
+}
+/*The above affects every thumbnail on rollover*/
+#gdexperience  {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+#gdexp1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 8;
+}
+#gdexp2  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
   z-index: 7;
 }
-#usyd:hover .rollover  {
-  opacity: 1;
+#gdexp3  {
+  position: relative;
+  width: 250px;
+  margin-top:  -130px;
+  margin-left: 20px;
+  border-left: 1px solid #BABABA;
+  border-bottom: 1px solid #BABABA;
+  z-index: 6;
+}
+#gdexp4  {
+  position: relative;
+  width: 100px;
+  margin-top: -170px;
+  margin-left: 70px;
+  z-index: 5;
+}
+#gdexp5  {
+  position: relative;
+  width: 100px;
+  margin-top: -150px;
+  margin-left: 90px;
+  z-index: 3;
+}
+#gdexp6  {
+  position: relative;
+  width: 100px;
+  margin-top: -115px;
+  margin-left: 105px;
+  z-index: 4;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdexperience:hover .rollover  {
+   opacity: 1;
 }
 #seafolly  {
   width: 250px;
@@ -258,32 +263,18 @@ a  {
 #mixionary:hover .rollover  {
    opacity: 1;
 }
-#yctys  {
+#boost  {
   width: 250px;
   position: absolute;
   margin-top: 500px;
   margin-left: 435px;
 }
-#yctys img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#yctys:hover .rollover  {
-   opacity: 1;
-}
-#boost  {
-  width: 250px;
-  position: absolute;
-  margin-top: 450px;
-  margin-left: 50px;
-}
 #boostmary  {
   width: 250px;
   position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-   z-index: 7;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
 }
 #boostben  {
   position: relative;
@@ -328,6 +319,34 @@ a  {
 #boost:hover .rollover  {
    opacity: 1;
 }
+#ikeapillow  {
+  width: 250px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 50px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#gdinterviews  {
+  width: 250px;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 850px;
+}
+#gdinterviews img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdinterviews:hover .rollover  {
+   opacity: 1;
+}
 #tf2  {
   position: absolute;
   margin-top: 710px;
@@ -369,24 +388,24 @@ a  {
 #tf2:hover .rollover  {
    opacity: 1;
 }
-#gdinterviews  {
+#subsub  {
   width: 250px;
   position: absolute;
   margin-top: 740px;
   margin-left: 325px;
 }
-#gdinterviews img  {
-  display: block;
+#subsub img  {
   width: 100%;
+  display: block;
   object-fit: contain;
 }
-#gdinterviews:hover .rollover  {
+#subsub:hover .rollover  {
    opacity: 1;
 }
 #telstra  {
   width: 300px;
   position: absolute;
-  margin-top: 700px;
+  margin-top: 750px;
   margin-left: 850px;
 }
 #telstra img  {
@@ -397,141 +416,39 @@ a  {
 #telstra:hover .rollover  {
    opacity: 1;
 }
-#ikeapillow  {
+*/placeholder for 48hr film fest*/
+#ubank  {
   width: 250px;
   position: absolute;
   margin-top: 1040px;
   margin-left: 130px;
 }
-#ikeapillow img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#ikeapillow:hover .rollover  {
-   opacity: 1;
-}
-#indepth  {
-  width: 250px;
-  position: absolute;
-  margin-top: 950px;
-  margin-left: 550px;
-  border: 1px solid #A8A8A8;
-}
-#indepth img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#indepth:hover .rollover  {
-   opacity: 1;
-}
-#blackfri  {
-  width: 140px;
-  position: absolute;
-  margin-top: 1080px;
-  margin-left: 980px;
-}
-#blackfri img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#blackfri:hover .rollover  {
-   opacity: 1;
-}
-#gdseeing  {
-  width: 250px;
-  position: absolute;
-  margin-top: 1250px;
-  margin-left: 15px;
-  z-index: 3;
-}
-#gdseeing img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#gdseeing:hover .rollover  {
-   opacity: 1;
-}
-#gdexperience  {
-  position: absolute;
-  margin-top: 1510px;
-  margin-left: 860px;
-}
-#gdexp1  {
+#ubskater  {
   position: relative;
-  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
-  z-index: 8;
+  z-index: 7;
 }
-#gdexp2  {
+#ubactress  {
   position: relative;
   width: 250px;
   margin-top: -130px;
-  margin-left: 10px;
-  z-index: 7;
-}
-#gdexp3  {
-  position: relative;
-  width: 250px;
-  margin-top:  -130px;
-  margin-left: 20px;
-  border-left: 1px solid #BABABA;
-  border-bottom: 1px solid #BABABA;
+  margin-left: -9px;
   z-index: 6;
 }
-#gdexp4  {
-  position: relative;
-  width: 100px;
-  margin-top: -170px;
-  margin-left: 70px;
-  z-index: 5;
-}
-#gdexp5  {
-  position: relative;
-  width: 100px;
-  margin-top: -150px;
-  margin-left: 90px;
-  z-index: 3;
-}
-#gdexp6  {
-  position: relative;
-  width: 100px;
-  margin-top: -115px;
-  margin-left: 105px;
-  z-index: 4;
-}
-#gdexperience img {
+#ubank img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#gdexperience:hover .rollover  {
-   opacity: 1;
-}
-#soundchaser  {
-  width: 250px;
-  position: absolute;
-  margin-top: 1260px;
-  margin-left: 520px;
-  border: 1px solid #A8A8A8;
-}
-#soundchaser img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#soundchaser:hover .rollover  {
+#ubank:hover .rollover  {
    opacity: 1;
 }
 #paypal  {
   width: 200px;
   position: absolute;
-  margin-top: 1510px;
-  margin-left: 80px;
+  margin-top: 1080px;
+  margin-left: 980px;
 }
 #ppwind  {
   position: relative;
@@ -571,6 +488,36 @@ a  {
 #paypal:hover .rollover  {
    opacity: 1;
 }
+#gdseeing  {
+  width: 250px;
+  position: absolute;
+  margin-top: 1250px;
+  margin-left: 15px;
+  z-index: 3;
+}
+#gdseeing img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdseeing:hover .rollover  {
+   opacity: 1;
+}
+#housework  {
+  width: 250px;
+  position: absolute;
+  margin-top: 12600px;
+  margin-left: 520px;
+  border: 1px solid #A8A8A8;
+}
+#housework img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#housework:hover .rollover  {
+   opacity: 1;
+}
 #adsmydadsays  {
   width: 200px;
   position: absolute;
@@ -586,46 +533,72 @@ a  {
 #adsmydadsays:hover .rollover  {
    opacity: 1;
 }
-#ubank  {
-  width: 250px;
+#usyd  {
   position: absolute;
-  margin-top: 1800px;
-  margin-left: 125px;
+  list-style-type: none;
+  width: 250px;
+  margin-top: 200px;
+  margin-left: 0px;
 }
-#ubskater  {
+#usydpic1  {
   position: relative;
+  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
-  z-index: 7;
+  z-index: 5;
 }
-#ubactress  {
+#usydpic2  {
   position: relative;
   width: 250px;
-  margin-top: -130px;
-  margin-left: -9px;
-  z-index: 6;
+  margin-top: -150px;
+  margin-left: 10px;
+  z-index: 4;
 }
-#ubank img  {
+#usydpic3  {
+  position: relative;
+  width: 250px;
+  margin-top: -150px;
+  margin-left: 20px;
+  z-index: 3;
+}
+#usyd img {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#ubank:hover .rollover  {
+#usyd:hover .rollover  {
+  opacity: 1;
+}
+/*Placeholder for archive*/
+#blackfri  {
+  width: 140px;
+  position: absolute;
+  margin-top: 1080px;
+  margin-left: 980px;
+}
+#blackfri img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#blackfri:hover .rollover  {
    opacity: 1;
 }
-#housework  {
+#lap  {
   width: 250px;
   position: absolute;
-  margin-top: 1850px;
-  margin-left: 665px;
+  margin-top: 950px;
+  margin-left: 550px;
+ /* margin-top: 950px;
+  margin-left: 550px;*/
   border: 1px solid #A8A8A8;
 }
-#housework img  {
+#lap img  {
   width: 100%;
   display: block;
   object-fit: contain;
 }
-#housework:hover .rollover  {
+#lap:hover .rollover  {
    opacity: 1;
 }
 .bottom  {
