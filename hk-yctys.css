@@ -80,7 +80,8 @@ a  {
 .deets.blurb  {
   margin-top: 5px;
   width: 200px;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 17px;
 }
 #container  {
   box-sizing: border-box;
