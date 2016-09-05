@@ -221,7 +221,7 @@ div#preloader {
 #mixionary {
   position: absolute;
   margin-top: 220px;
-  margin-left: 820px;
+  margin-left: 880px;
 }
 #mixpic1  {
   position: relative;
@@ -522,7 +522,7 @@ div#preloader {
   width: 200px;
   position: absolute;
   margin-top: 1240px;
-  margin-left: 980px;
+  margin-left: 928px;
 }
 #ppwind  {
   position: relative;
@@ -686,7 +686,7 @@ div#preloader {
 #gdseeing  {
   position: absolute;
   margin-top: 1600px;
-  margin-left: 125px;
+  margin-left: 110px;
   z-index: 3;
 }
 .gdseepic  {
