@@ -49,15 +49,25 @@ body {
 }
 #sideways  {
   font-size: 44px;
-  margin-top: 330px;
-  margin-left: 900px;
-  width: 460px;
+  margin-top: 350px;
+  margin-left: 870px;
+  width: 500px;
   height: 90px;
   padding: 20px;
   transform: translate(-50%, -100%);
   transform: rotate(90deg);
   color: black;
   border: 5px solid black;
+}
+#sidetitle  {
+   text-transform: uppercase;
+  text-decoration: underline;
+   font-style: italic; 
+  padding-bottom: 15px;
+}
+#sidedescription  {
+ /* font-style: italic; */ 
+ 
 }
 .deetscontainer  {
   position: fixed;
@@ -97,7 +107,7 @@ body {
 }
 .deets.blurb  {
   margin-top: 5px;
-  width: 200px;
+  width: 210px;
   font-size: 14px;
   line-height: 21px;
   font-style: italic;
@@ -130,7 +140,7 @@ body {
 .telstra.film {
   position: relative;
   margin-top: 0px;
-  margin-left: 300px;
+  margin-left: 280px;
 }
 .telstra.pics  {
   position: absolute;

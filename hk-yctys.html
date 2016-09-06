@@ -14,52 +14,57 @@
     <script src="https://use.fontawesome.com/dabf123cfb.js"></script>
   </head>
   <body>
-      <div class="menu">
-         <div class="menuitems" id="Home">
-           <a href="./hk-menu.html">Home</a>
-         </div>
-         <div class="menuitems" id="bluntobjects">
-           <a href="./hk-bluntobjects.html">Blunt Objects</a>
-         </div>
-         <div class="menuitems" id="vitalstats">
-           <a href="./hk-vitalstats.html">Vital Stats</a>
-         </div>
-          <div class="menuitems" id="pictures">
-           <a href="https://au.pinterest.com/henrykember/" target="blank">Pictures</a>
-         </div>
-         <div class="menuitems" id="tsandcs">
-           <a href="./hk-thosetsandcs.html">Those Ts&amp;Cs</a>
-         </div>
-         <div class="menuitems" id="contact">
-           <a href="./hk-contact.html">#@Hi</a>
-         </div>   
-       </div>
-      <div id="sideways">
-           Henry Kember CD/Writer
-      </div>
-      <div id="details">
-        <div class="deets title">You Can Take Your Suburb</div>
-        <div class="deets description">Personal<br>project</div>
-        <div class="deets blurb">I used to live on the border of two suburbs: Surry Hills and Redfern. When people asked where I lived, I said 'East Surryfern'. One day I signed up for a mailing list using this name, and the mail still arrived in my box. I then got friends and family to send me letters using a variety of different 'suburbs'. The next step is to colonise a street with an alternative suburb name. </div>
-      </div>
-      <div id="container">
-      <!--  Outer wrapper for presentation only, this can be anything you like -->
-         <div id="banner-fade">
-          <ul class="bjqs">
-            <li><img src="http://i.imgur.com/XMzNI5o.jpg"></li>
-            <li><img src="http://i.imgur.com/kKSCQ1x.jpg"></li>
-            <li><img src="http://i.imgur.com/xTIUgvg.jpg"></li>
-            <li><img src="http://i.imgur.com/kluFCVT.jpg"></li>
-            <li><img src="http://i.imgur.com/WrsUNgs.jpg"></li>
-            <li><img src="http://i.imgur.com/TD2wCN3.jpg"></li>
-            <li><img src="http://i.imgur.com/H11Djzz.jpg"></li>
-            <li><img src="http://i.imgur.com/WFirAXX.jpg"></li>
-            <li><img src="http://i.imgur.com/X6vsvpR.jpg"></li>
-            <li><img src="http://i.imgur.com/TfqVTIB.jpg"></li>  
-          </ul>
-        <!-- end Basic jQuery Slider -->
+       <div class="menucontainer">
+      <ul class="menu">
+        <li class="menuitems" id="Home"><a href="hk-menu3.html">Home</a></li>
+        <li class="menuitems" id="bluntobjects"><a href="./hk-bluntobjects.html">Blunt Objects</a></li>
+        <li class="menuitems" id="vitalstats"><a href="./hk-vitalstats.html">Vital Stats</a></li>
+        <li class="menuitems" id="pictures"><a href="https://au.pinterest.com/henrykember/" target="blank">Pictures</a></li>
+        <li class="menuitems" id="tsandcs"><a href="./hk-thosetsandcs.html">Those Ts&amp;Cs</a></li>
+        <li class="menuitems" id="contact"><a href="./hk-contact.html">#@Hi</a></li>
+      </ul>
+    </div>
+     
+   <!--  <div class="sidecontainer">
+      <div class="sidewrapper">
+        <div id="sideways">
+           Telstra Air /<br>Public Light Installation
         </div>
       </div>
+    </div> -->
+    <div class="deetscontainer">
+      <div class ="deetswrapper">
+         <div id="details">
+            <div class="deets title">Substi-<br>tute<br>Suburb</div>
+            <div class="deets description">personal<br>project</div>
+            <div class="deets blurb">I used to live on the border of two suburbs: Surry Hills and Redfern. When people asked where I lived, I said 'East Surryfern'. One day I signed up for a mailing list using this name, and the mail still arrived in my box. I then got friends and family to send me letters using a variety of different 'suburbs'. The next step is to colonise a street with an alternative suburb name. 
+            </div>
+          </div>
+      </div>
+    </div>
+        
+    <div class="workcontainer">
+      <div class="workwrapper">
+        <div id="container">
+      <!--  Outer wrapper for presentation only, this can be anything you like -->
+          <div id="banner-fade">
+            <ul class="bjqs">
+              <li><img src="http://i.imgur.com/XMzNI5o.jpg"></li>
+              <li><img src="http://i.imgur.com/kKSCQ1x.jpg"></li>
+              <li><img src="http://i.imgur.com/xTIUgvg.jpg"></li>
+              <li><img src="http://i.imgur.com/kluFCVT.jpg"></li>
+              <li><img src="http://i.imgur.com/WrsUNgs.jpg"></li>
+              <li><img src="http://i.imgur.com/TD2wCN3.jpg"></li>
+              <li><img src="http://i.imgur.com/H11Djzz.jpg"></li>
+              <li><img src="http://i.imgur.com/WFirAXX.jpg"></li>
+              <li><img src="http://i.imgur.com/X6vsvpR.jpg"></li>
+              <li><img src="http://i.imgur.com/TfqVTIB.jpg"></li>  
+            </ul>
+        <!-- end Basic jQuery Slider -->
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="bottom"><i class="fa fa-copyright" aria-hidden="true"></i> Henry Kember 2016</div>
       
     <script class="secret-source">
@@ -67,7 +72,7 @@
 
           $('#banner-fade').bjqs({
             height      : 373,
-            width       : 560,
+            width       : 640,
             responsive  : true,
             nexttext : '&#8680;', // Text for 'next' button (can use HTML)
             prevtext : '&#x21e6;', // Text for 'previous' button (can use HTML)

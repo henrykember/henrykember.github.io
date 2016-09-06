@@ -10,28 +10,21 @@ body {
   margin: 0;
   padding: 0;
 }
-.menu  {
+.menucontainer  {
   position: fixed;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 5px;
-  padding: 10px;
-  max-width: 1500px;
-  min-width: 900px;
-  border: 0px solid black;
-  z-index: 10;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
 }
-.menuitems  {
-  display: inline;
-  width: 200px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 0px solid black;
-  text-align: center;
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
 }
-a  {
+.menuitems a  {
   list-style-type: none;
-  text-decoration: underline;
   color: black;
   font-size: 16px;
   line-height: 28px;
@@ -41,7 +34,7 @@ a  {
 .menuitems a:hover  {
   font-style: italic;
 }
-#sideways  {
+/*#sideways  {
   position: fixed;
   font-size: 44px;
   margin-top: 280px;
@@ -54,42 +47,73 @@ a  {
   color: black;
   border: 5px solid black;
   z-index: 0;
+}*/
+.deetscontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  /*border: 1px solid black;*/
+}
+.deetswrapper  {
+  width: 1400px;
+  border: 1px solid black;
+  margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #details  {
-  position: fixed;
+  float: left;
   display: block;
+  margin-top: -5px;
   box-sizing: border-box;
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 80px;
   width: 250px;
-  border: 0px solid black;
+  /*border: 1px solid black;*/
 }
 .deets.title  {
-  display: block;
   margin-top: -6px;
   font-size: 50px;
   font-weight: 400;
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 5px;
+  margin-top: 11px;
   font-size: 32px;
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 5px;
-  width: 200px;
+  margin-top: 11px;
+  width: 210px;
   font-size: 14px;
+  line-height: 21px;
+  font-style: italic;
+}
+.workcontainer  {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+.workwrapper  {
+ /* display: block;
+  top: 0;*/
+  width: 1250px;
+  /*height: 2400px;*/
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 #usyd  {
   position: absolute;
   margin-top: 150px;
-  margin-left: 300px;
+  margin-left: 320px;
 }
 .us iframe {
-  width: 640px;
-  height: 360px;
+  width: 720px;
+  height: 405px;
 }
 .us.sweetfighter  {
   position: relative;
