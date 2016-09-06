@@ -172,14 +172,14 @@ div#preloader {
 #gdexp5  {
   position: relative;
   width: 100px;
-  margin-top: -150px;
+  margin-top: -144px;
   margin-left: 90px;
   z-index: 3;
 }
 #gdexp6  {
   position: relative;
   width: 100px;
-  margin-top: -115px;
+  margin-top: -125px;
   margin-left: 105px;
   z-index: 4;
 }
@@ -192,7 +192,7 @@ div#preloader {
    opacity: 1;
 }
 #gdexptitle  {
-  top: 57px;
+  top: 58px;
   left: 20px;
 }
 #seafolly  {
@@ -215,7 +215,7 @@ div#preloader {
    opacity: 1;
 }
 #seatitle  {
-  top: 10px;
+  top: 8px;
   left: 0px;
 }
 #mixionary {
@@ -281,8 +281,8 @@ div#preloader {
 #boost  {
   width: 250px;
   position: absolute;
-  margin-top: 500px;
-  margin-left: 435px;
+  margin-top: 450px;
+  margin-left: 455px;
 }
 #boostmary  {
   width: 250px;
@@ -340,7 +340,7 @@ div#preloader {
 }
 #ikeapillow  {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 500px;
   margin-left: 0px;
 }
 .ikeapic  {
@@ -358,7 +358,7 @@ div#preloader {
    opacity: 1;
 }
 #ikeatitle  {
-  top: 10px;
+  top: 8px;
   left: 0px;
 }
 #gdinterviews  {
@@ -386,15 +386,56 @@ div#preloader {
 }
 #subsub  {
   position: absolute;
-  margin-top: 710px;
+  margin-top: 790px;
   margin-left: 0px;
 }
-#subsubpic {
+#subsubpic1 {
   position: relative;
-  width: 250px;
+  width: 200px;
   top: 0;
   left: 0;
+  z-index: 6;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic2 {
+  position: relative;
+  width: 200px;
+  top: -152;
+  left: 10;
+  z-index: 5;
   border: 1px solid #BABABA;
+}
+#subsubpic3 {
+  position: relative;
+  width: 200px;
+  top: -264;
+  left: 20;
+  z-index: 4;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic4 {
+  position: relative;
+  width: 200px;
+  top: -413;
+  left: 30;
+  z-index: 3;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic5 {
+  position: relative;
+  width: 200px;
+  top: -555;
+  left: 40;
+  z-index: 2;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic6 {
+  position: relative;
+  width: 200px;
+  top: -670;
+  left: 50;
+  z-index: 1;
+  /*border: 1px solid #BABABA;*/
 }
 #subsub img  {
   width: 100%;
@@ -405,7 +446,7 @@ div#preloader {
    opacity: 1;
 }
 #subsubtitle  {
-  top: 10px;
+  top: -565px;
   left: 0px;
 }
 #telstra  {
@@ -452,7 +493,7 @@ div#preloader {
 }
 #tf2  {
   position: absolute;
-  margin-top: 1000px;
+  margin-top: 1045px;
   margin-left: 0px;
 }
 #tf2pic1  {
@@ -497,7 +538,7 @@ div#preloader {
 }
 #sicklove  {
   position: absolute;
-  margin-top: 850px;
+  margin-top: 820px;
   margin-left: 400px;
 }
 .sickpic  {
@@ -621,8 +662,8 @@ div#preloader {
 }
 #housework  {
   position: absolute;
-  margin-top: 1150px;
-  margin-left: 440px;
+  margin-top: 1140px;
+  margin-left: 485px;
   /*border: 1px solid #A8A8A8;*/
 }
 .housepic  {
@@ -647,7 +688,7 @@ div#preloader {
   position: absolute;
   list-style-type: none;
   width: 250px;
-  margin-top: 1350px;
+  margin-top: 1420px;
   margin-left: 0px;
 }
 #usydpic1  {
@@ -680,13 +721,13 @@ div#preloader {
   opacity: 1;
 }
 #usydtitle  {
-  top: 25;
+  top: 26;
   left: 0;
 }
 #gdseeing  {
   position: absolute;
-  margin-top: 1600px;
-  margin-left: 110px;
+  margin-top: 1670px;
+  margin-left: 0px;
   z-index: 3;
 }
 .gdseepic  {
@@ -710,7 +751,7 @@ div#preloader {
 #lap  {
   position: absolute;
   margin-top: 1450px;
-  margin-left: 500px;
+  margin-left: 455px;
 }
 .lappic  {
   position: relative;
@@ -731,19 +772,23 @@ div#preloader {
   left: 0;
 }
 /*Placeholder for archive*/
-#blackfri  {
+#archive  {
   width: 140px;
   position: absolute;
-  margin-top: 1080px;
-  margin-left: 980px;
+  margin-top: 1680px;
+  margin-left: 480px;
 }
-#blackfri img  {
+#archive img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#blackfri:hover .rollover  {
+#archive:hover .rollover  {
    opacity: 1;
+}
+#archivetitle  {
+	top: 8;
+	left: 0;
 }
 
 /*#ubank  {
