@@ -10,28 +10,21 @@ body {
   margin: 0;
   padding: 0;
 }
-.menu  {
+.menucontainer  {
   position: fixed;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 5px;
-  padding: 10px;
-  max-width: 1500px;
-  min-width: 900px;
-  border: 0px solid black;
-  z-index: 10;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
 }
-.menuitems  {
-  display: inline;
-  width: 200px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 0px solid black;
-  text-align: center;
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
 }
-a  {
+.menuitems a  {
   list-style-type: none;
-  text-decoration: underline;
   color: black;
   font-size: 16px;
   line-height: 28px;
@@ -41,28 +34,52 @@ a  {
 .menuitems a:hover  {
   font-style: italic;
 }
-#sideways  {
+.sidecontainer  {
   position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  /*border: 1px solid black;*/
+}
+.sidewrapper  {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid black;*/
+}
+#sideways  {
   font-size: 44px;
-  margin-top: 280px;
-  margin-left: 980px;
-  width: 350px;
+  margin-top: 330px;
+  margin-left: 900px;
+  width: 460px;
   height: 90px;
   padding: 20px;
   transform: translate(-50%, -100%);
   transform: rotate(90deg);
   color: black;
   border: 5px solid black;
-  z-index: 4;
+}
+.deetscontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  /*border: 1px solid black;*/
+}
+.deetswrapper  {
+  width: 1400px;
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 #details  {
-  position: fixed;
+  float: left;
   display: block;
   box-sizing: border-box;
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 80px;
   width: 250px;
-  border: 0px solid black;
+  /*border: 1px solid black;*/
 }
 .deets.title  {
   margin-top: -6px;
@@ -71,15 +88,33 @@ a  {
   text-decoration: underline;
 }
 .deets.description  {
-  margin-top: 5px;
+  margin-top: 11px;
   font-size: 32px;
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 5px;
+  margin-top: 11px;
   width: 200px;
   font-size: 14px;
+  line-height: 21px;
+  font-style: italic;
+  /*border: 1px solid black;*/
+}
+.workcontainer  {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+.workwrapper  {
+ /* display: block;
+  top: 0;*/
+  width: 1150px;
+  /*height: 2400px;*/
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 #adsmydadsays {
   position: absolute;
@@ -98,64 +133,57 @@ a  {
   margin-top: 0px;
   margin-left: 0px;
   width: 500px;
-  border: 0px solid black;
+  border: 1px solid #A8A8A8;
 }
 .page.two {
   position: relative;
   margin-top: 10px;
   margin-left: 110px;
   width: 500px;
-  border: 0px solid black;
+  border: 1px solid #A8A8A8;
 }
 .page.three {
   position: relative;
   margin-top: 10px;
   margin-left: 0px;
   width: 500px;
-  border: 0px solid black;
-}
-.page.three {
-  position: relative;
-  margin-top: 10px;
-  margin-left: 0px;
-  width: 500px;
-  border: 0px solid black;
+    border: 1px solid #A8A8A8;
 }
 .page.four {
   position: relative;
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 100px;
   width: 500px;
-  border: 0px solid black;
+  border: 1px solid #A8A8A8;
 }
 .page.five {
   position: relative;
   margin-top: 10px;
   margin-left: 0px;
   width: 500px;
-  border: 0px solid black;
+    border: 1px solid #A8A8A8;
 }
 .page.six {
   position: relative;
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 100px;
   width: 500px;
-  border: 1px solid black;
+  border: 1px solid #A8A8A8;
 }
 .page.seven {
   position: relative;
   margin-top: 10px;
   margin-left: 0px;
   width: 500px;
-  border: 1px solid black;
+  border: 1px solid #A8A8A8;
 }
 .bottom  {
   position: absolute;
-  top: 4200px;
+  top: 4250px;
   left: 0px;
   width: 100%;
-  height: 70px;
- /* border: 1px solid black;*/
+  height: 100px;
+  /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
 }
