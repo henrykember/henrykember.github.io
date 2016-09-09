@@ -23,6 +23,7 @@ body {
 }*/
 
 div#content {
+	z-index: 300;
     /*display: none;*/
     }
  
@@ -39,6 +40,7 @@ div#loading {
     background-color: white;
     /*background: url(loading.gif) no-repeat;*/
     cursor: wait;
+    z-index: 400;
     }
 /*#loading img  {
 	width: 100%;
@@ -133,7 +135,7 @@ div#loading {
   /*font-style: italic;*/
   font-weight: 300;
   line-height: 13px;
-  z-index: 100;
+  z-index: 90;
 }
 .rollover img  {
   display: block;
