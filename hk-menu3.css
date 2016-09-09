@@ -3,7 +3,7 @@
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
             width: 22px;
-  background-color: FFFFFF;
+  /*background-color: white;*/
 }
 body {
   font-family: 'Roboto';
@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-div#preloader { 
+/*div#preloader { 
 	position: fixed; 
 	left: 0; 
 	top: 0; 
@@ -20,7 +20,21 @@ div#preloader {
 	height: 100%; 
 	overflow: visible; 
 	background: solid white url('loading.gif') no-repeat center center; 
-}
+}*/
+div#content {
+    display: none;
+    }
+ 
+div#loading {
+    top: 200 px;
+    margin: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 160px;
+    height: 24px;
+    background: url(loading.gif) no-repeat;
+    cursor: wait;
+    }
 .menucontainer  {
   position: fixed;
   top: 0;
