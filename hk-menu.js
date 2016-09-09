@@ -1,7 +1,7 @@
 "use strict"
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
 	// $('#preloader').fadeOut('slow',function(){$(this).remove();});
 	// 	startup();
 	// function turnoffpreloader(){
@@ -11,7 +11,7 @@ $(document).ready(function() {
 	// setTimeout(turnoffpreloader, 2000);
 
  var minimumShowLoadingTimeReached = false;
-    setTimeout(function() {minimumShowLoadingTimeReached = true;}, 3000);
+    setTimeout(function() {minimumShowLoadingTimeReached = true;}, 5000);
 
     function preloader() {
       if (minimumShowLoadingTimeReached) {
