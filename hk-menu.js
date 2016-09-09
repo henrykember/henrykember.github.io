@@ -2,8 +2,13 @@
 
 
 $(document).ready(function() {
-	$('#preloader').fadeOut('slow',function(){$(this).remove();});
-	startup();
+	
+	function turnoffpreloader(){
+		$('#preloader').fadeOut('slow',function(){$(this).remove();});
+		startup();
+	}
+
+	setTimeout(turnoffpreloader, 2000);
 
 });
 
