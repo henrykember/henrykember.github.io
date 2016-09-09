@@ -22,7 +22,7 @@ body {
 	background: solid white url('loading.gif') no-repeat center center; 
 }*/
 div#content {
-    display: none;
+    /*display: none;*/
     }
  
 div#loading {
