@@ -41,6 +41,7 @@ div#preloader {
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
+  text-decoration: underline;
 }
 .menuitems a:hover  {
   font-style: italic;

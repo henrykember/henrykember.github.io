@@ -10,6 +10,7 @@ $(document).ready(function() {
 var startup = function ()  {
 	var fivetonine = $("#fivetonine");
 	var ninetofive = $("#ninetofive");
+	var all = $("#all");
 	var business = $(".business");
 	var casual = $(".casual");
 		// console.log("hi");
@@ -37,6 +38,22 @@ var startup = function ()  {
 	});
 
 	ninetofive.off('click', function ()  {
+		// console.log("hi");
+		// casual.toggle(200);
+		// business.toggle(200);
+		business.show(200);
+		casual.show(200);
+	});
+
+	all.on('click', function ()  {
+		// console.log("hi");
+		// casual.toggle(200);
+		// business.toggle(200);
+		business.show(200);
+		casual.show(200);
+	});
+
+	all.off('click', function ()  {
 		// console.log("hi");
 		// casual.toggle(200);
 		// business.toggle(200);
