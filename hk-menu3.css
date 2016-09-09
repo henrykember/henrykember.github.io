@@ -19,7 +19,7 @@ div#preloader {
 	width: 100%; 
 	height: 100%; 
 	overflow: visible; 
-	background: solid white url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; 
+	background: solid white url('loading.gif') no-repeat center center; 
 }
 .menucontainer  {
   position: fixed;

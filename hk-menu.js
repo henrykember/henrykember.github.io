@@ -2,13 +2,13 @@
 
 
 $(document).ready(function() {
-	
-	function turnoffpreloader(){
-		$('#preloader').fadeOut('slow',function(){$(this).remove();});
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
 		startup();
-	}
+	// function turnoffpreloader(){
+		
+	// }
 
-	setTimeout(turnoffpreloader, 2000);
+	// setTimeout(turnoffpreloader, 2000);
 
 });
 
