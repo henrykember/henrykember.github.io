@@ -1,7 +1,7 @@
 "use strict"
 
 
-// $(document).ready(function() {
+$(document).ready(function() {
 	// $('#preloader').fadeOut('slow',function(){$(this).remove();});
 	// 	startup();
 	// function turnoffpreloader(){
@@ -10,25 +10,34 @@
 
 	// setTimeout(turnoffpreloader, 2000);
 
- var minimumShowLoadingTimeReached = false;
-    setTimeout(function() {minimumShowLoadingTimeReached = true;}, 5000);
+ // var minimumShowLoadingTimeReached = false;
+ //    setTimeout(function() {minimumShowLoadingTimeReached = true;}, 5000);
 
-    function preloader() {
-      if (minimumShowLoadingTimeReached) {
-          showContent();
-      } else {
-          setTimeout(function() {
-            preloader();
-          }, 500);
-      }
-    }
+ //    function preloader() {
+ //      if (minimumShowLoadingTimeReached) {
+ //          showContent();
+ //      } else {
+ //          setTimeout(function() {
+ //            preloader();
+ //          }, 500);
+ //      }
+ //    }
 
-    function showContent(){
-        document.getElementById("loading").style.display = "none";
-        document.getElementById("content").style.display = "block";
-    }
-    window.onload = preloader;
+ //    function showContent(){
+ //        document.getElementById("loading").style.display = "none";
+ //        document.getElementById("content").style.display = "block";
+ //    }
+ //    window.onload = preloader;
+
+    function hideloader() {
+	$('#loading').fadeOut('slow',function(){$(this).remove();});
+	}
+
+	setTimeout(hideloader, 4000);
 });
+
+
+
 
 // var startup = function ()  {
 // 	var fivetonine = $("#fivetonine");
@@ -83,7 +92,7 @@
 // 		business.show(200);
 // 		casual.show(200);
 // 	});
-};
+//};
 
 
 
