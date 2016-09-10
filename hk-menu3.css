@@ -40,7 +40,7 @@ div#content {
 #loading img  {
 	margin-left: 50vw;
 	margin-top: 50vh;
-	transform: translate(-33px, -33px);
+	transform: translate(-100px, -100px);
 }
 .menucontainer  {
   position: fixed;
