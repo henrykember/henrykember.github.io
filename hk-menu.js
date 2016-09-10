@@ -37,8 +37,6 @@ $(document).ready(function() {
 });
 
 
-
-
 var startup = function ()  {
 	var fivetonine = $("#fivetonine");
 	var ninetofive = $("#ninetofive");
