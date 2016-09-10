@@ -33,7 +33,7 @@ $(document).ready(function() {
 	$('#loading').fadeOut('slow',function(){$(this).remove();});
 	}
 
-	setTimeout(hideloader, 2500);
+	setTimeout(hideloader, 4000);
 });
 
 
