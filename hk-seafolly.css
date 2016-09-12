@@ -76,15 +76,14 @@ body {
 #details  {
   float: left;
   display: block;
-  margin-top: -5px;
   box-sizing: border-box;
   margin-top: 150px;
   margin-left: 80px;
-  width: 250px;
+  width: 200px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: 0px;
+ margin-top: -5px;
   font-size: 50px;
   font-weight: 400;
   text-decoration: underline;

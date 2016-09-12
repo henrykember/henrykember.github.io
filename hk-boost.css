@@ -77,13 +77,13 @@ body {
   box-sizing: border-box;
   margin-top: 150px;
   margin-left: 80px;
-  width: 250px;
+  width: 200px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: -6px;
   font-size: 50px;
   font-weight: 400;
+  margin-top: -5px;
   text-decoration: underline;
 }
 .deets.description  {
@@ -132,7 +132,7 @@ body {
 .boost.ben  {
   position: relative;
   margin-top: 10px;
-  margin-left: -110px;
+  margin-left: 80px;
 }
 .boost.saffjen  {
   position: relative;
@@ -142,22 +142,22 @@ body {
 .boost.case  {
   position: relative;
   margin-top: 10px;
-  margin-left: -110px;
+  margin-left: 80px;
 }
 #clickimages {
    position: absolute;
    font-size: 16px;
-   top: 1810px;
-   left: 350px;
+   top: 2110px;
+   left: 80px;
    font-style: italic;
 }
 div.boostprint  {
-  display: block;
+  /*display: block;*/
   box-sizing: border-box;
   position: absolute;
-  top: 1830px;
+  top: 1660px;
   width: 625px;
-  left: 350px;
+  left: 80px;
 }
 #gdp1 {
   position: relative;
