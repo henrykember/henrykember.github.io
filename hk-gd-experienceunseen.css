@@ -122,8 +122,8 @@ body {
   margin-left: 320px;
 }
 .gd iframe {
-  width: 640px;
-  height: 360px;
+  width: 720px;
+  height: 405px;
 }
 .gd.bush {
   position: relative;
@@ -132,43 +132,43 @@ body {
 }
 .gd.ferry {
   position: relative;
-  margin-top: 110px;
-  margin-left: -60px;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 .gd.city {
   position: relative;
-  margin-top: 110px;
+  margin-top: 15px;
   margin-left: 0px;
 }
 #clickimages {
    position: absolute;
    font-size: 16px;
-   top: 1480px;
-   left: 450px;
+   top: 1410px;
+   margin-left: 320px;
    font-style: italic;
 }
 div.gdprint  {
   display: block;
   box-sizing: border-box;
   position: absolute;
-  top: 1500px;
-  width: 400px;
-  left: 150px;
+  top: 1430px;
+  width: 500px;
+  margin-left: 320px;
 }
 #gdp1 {
   position: relative;
   top: 0px;
-  left: 300px;
+  left: 0px;
 }
 #gdp2 {
   position: relative;
-  top: 0px;
-  left: 425px;
+  top: 15px;
+  left: 0px;
 }
 #gdp3 {
   position: relative;
-  top: 0px;
-  left: 200px;
+  top: 15px;
+  left: 0px;
 }
 .venobox img  {
   width: 100%;
@@ -210,7 +210,7 @@ div.gdprint  {
 }*/
 .bottom  {
   position: absolute;
-  top: 3200px;
+  top: 3600px;
   left: 0px;
   width: 100%;
   height: 100px;

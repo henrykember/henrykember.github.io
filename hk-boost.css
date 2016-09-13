@@ -131,38 +131,38 @@ body {
 }
 .boost.ben  {
   position: relative;
-  margin-top: 10px;
-  margin-left: 80px;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 .boost.saffjen  {
   position: relative;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 0px;
 }
 .boost.case  {
   position: relative;
-  margin-top: 10px;
-  margin-left: 80px;
-}
-#clickimages {
-   position: absolute;
-   font-size: 16px;
-   top: 2110px;
-   left: 80px;
-   font-style: italic;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 div.boostprint  {
   /*display: block;*/
   box-sizing: border-box;
-  position: absolute;
-  top: 1660px;
+  position: relative;
+  top: 15px;
   width: 625px;
-  left: 80px;
+  left: 0px;
 }
 #gdp1 {
   position: relative;
   top: 0px;
   left: 300px;
+}
+#clickimages {
+   position: relative;
+   font-size: 16px;
+   top: 10px;
+   left: 0px;
+   font-style: italic;
 }
 /*#gdp2 {
   position: relative;

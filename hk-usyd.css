@@ -122,12 +122,12 @@ body {
 }
 .us.robocrop  {
   position: relative;
-  margin-top: 110px;
-  margin-left: -110px;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 .us.bioastro  {
   position: relative;
-  margin-top: 110px;
+  margin-top: 15px;
   margin-left: 0px;
 }
 .bottom  {
