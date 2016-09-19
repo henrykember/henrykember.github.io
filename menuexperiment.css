@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+  /*background-color: white;*/
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+div#content {
+	z-index: 300;
+    /*display: none;*/
+    }
+ 
+#loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+  background-color: white;
+  z-index: 1000;
+}
+.subtitles  {
+  position: relative;
+  display: inline-block;
+  list-style-type: none !important;
+  text-decoration: none;
+    line-height: 15px;
+    margin-top: -3px;
+  /*margin-top: 10px;
+  left: 0px;*/
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  /*z-index: 6;*/
+}
+#gdexperience  {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+#gdexp1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 2;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.rollover  {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 0px;
+  width: 227px;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 4;
+}
+.rolloverpic img  {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  object-fit: contain;
+   z-index: 3;
+  /*width: 200px !important;*/
+}
+#gdexperience:hover .rollover  {
+   opacity: 1;
+}
+#gdexptitle  {
+  top: 7px;
+  left: 23px;
+}

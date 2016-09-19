@@ -1,0 +1,813 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+  /*background-color: white;*/
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+div#content {
+	z-index: 300;
+    /*display: none;*/
+    }
+ 
+#loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+  background-color: white;
+  z-index: 1000;
+}
+
+#loading img  {
+	margin-left: 50vw;
+	margin-top: 50vh;
+	transform: translate(-100px, -100px);
+}
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.sidecontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+/*  border: 1px solid black;*/
+}
+.sidewrapper  {
+  width: 1000px;
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+#sideways  {
+  font-size: 44px;
+  margin-top: 280px;
+  margin-left: 850px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+}
+.workcontainer  {
+  position: absolute;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+.workwrapper  {
+ /* display: block;
+  top: 0;*/
+  width: 1200px;
+  /*height: 2400px;*/
+  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+/* The following affects every thumbnail on rollover */
+.rollover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  background-color: rgba(0,0,0,.35);
+  opacity: 0;
+  color: white;
+}
+.rollover img  {
+  display: block;
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
+.subtitles  {
+	position: relative;
+	display: inline-block;
+	list-style-type: none !important;
+	text-decoration: none;
+    line-height: 15px;
+    margin-top: -3px;
+	/*margin-top: 10px;
+	left: 0px;*/
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #000000;
+	/*z-index: 6;*/
+}
+/*The above affects every thumbnail on rollover*/
+#gdexperience  {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+#gdexp1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 2;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdexperience.rollover  {
+ display: block;
+  width: 200px;
+
+  position: relative;
+  top: -115;
+  left: 0;
+  /*display: flex;
+  justify-content: left;
+  background-color: rgba(0,0,0,.35);
+  opacity: 0;
+  color: white;
+ /* z-index: 8;*/
+}
+#gdexp1.rollover img {
+  display: block;
+  position: relative;
+  margin-top: 20;
+  margin-left: 0;
+  width: 200px;
+  z-index: 3;
+}
+#gdexperience:hover .rollover  {
+   opacity: 1;
+}
+#gdexptitle  {
+  top: 10px;
+  left: 20px;
+}
+#seafolly  {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 420px;
+}
+.seapic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#seafolly img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#seafolly:hover .rollover  {
+   opacity: 1;
+}
+#seatitle  {
+  top: 8px;
+  left: 0px;
+}
+#mixionary {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 880px;
+}
+#mixpic1  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixpic2  {
+  position: relative;
+  width: 150px;
+  margin-top: -273px;
+  margin-left: 60px;
+  z-index: 5;
+}
+#mixpic3  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 70px;
+  z-index: 4;
+}
+#mixpic4  {
+  position: relative;
+  width: 150px; 
+  margin-top: -200px;
+  margin-left: 80px;
+  z-index: 3;
+}
+#mixpic5  {
+  position: relative;
+  width: 150px;
+  margin-top: -200px;
+  margin-left: 90px;
+  z-index: 2;
+}
+#mixpic6  {
+  position: absolute;
+  width: 265px;
+  margin-top: -200px;
+  margin-left: -18px;
+  border: 1px solid #BABABA;
+  z-index: 1;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixionary:hover .rollover  {
+   opacity: 1;
+}
+#mixtitle  {
+  top: 35px;
+  left: 0px;
+}
+#boost  {
+  width: 250px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 455px;
+}
+#boostmary  {
+  width: 250px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
+#boostben  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 10px;
+  z-index: 6;
+}
+#boostsaff  {
+  position: relative;
+  width: 250px;
+  margin-top: -130px;
+  margin-left: 20px;
+   z-index: 5;
+}
+#boostprint1  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -10px;
+   z-index: 4;
+}
+#boostprint2  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -20px;
+   z-index: 3;
+}
+#boostprint3  {
+  width: 200px;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -30px;
+   z-index: 2;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#boost:hover .rollover  {
+   opacity: 1;
+}
+#boosttitle  {
+  top: 8px;
+  left: 0px;
+}
+#ikeapillow  {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 0px;
+}
+.ikeapic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#ikeatitle  {
+  top: 8px;
+  left: 0px;
+}
+#gdinterviews  {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 880px;
+}
+.gdintpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#gdinterviews img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdinterviews:hover .rollover  {
+   opacity: 1;
+}
+#gdinttitle  {
+  top: 10px;
+  left: 0px;
+}
+#subsub  {
+  position: absolute;
+  margin-top: 790px;
+  margin-left: 0px;
+}
+#subsubpic1 {
+  position: relative;
+  width: 200px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic2 {
+  position: relative;
+  width: 200px;
+  top: -152;
+  left: 10;
+  z-index: 5;
+  border: 1px solid #BABABA;
+}
+#subsubpic3 {
+  position: relative;
+  width: 200px;
+  top: -264;
+  left: 20;
+  z-index: 4;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic4 {
+  position: relative;
+  width: 200px;
+  top: -413;
+  left: 30;
+  z-index: 3;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic5 {
+  position: relative;
+  width: 200px;
+  top: -555;
+  left: 40;
+  z-index: 2;
+  /*border: 1px solid #BABABA;*/
+}
+#subsubpic6 {
+  position: relative;
+  width: 200px;
+  top: -670;
+  left: 50;
+  z-index: 1;
+  /*border: 1px solid #BABABA;*/
+}
+#subsub img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#subsub:hover .rollover  {
+   opacity: 1;
+}
+#subsubtitle  {
+  top: -565px;
+  left: 0px;
+}
+#telstra  {
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 880px;
+}
+.telpic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#teltitle  {
+  top: 10px;
+  left: 0px;
+}
+#sicklove  {
+  position: absolute;
+  margin-top: 1560px;
+  margin-left: 460px;
+}
+.sickpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#sicklove img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#sicklove:hover .rollover  {
+   opacity: 1;
+}
+#tf2  {
+  position: absolute;
+  margin-top: 1045px;
+  margin-left: 0px;
+}
+#tf2pic1  {
+  position: relative;
+  width: 160px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#tf2pic2  {
+  position: relative;
+  width: 160px;
+  margin-top: -216px;
+  margin-left: 10px;
+  z-index: 3;
+}
+#tf2pic3  {
+  position: relative;
+  width: 160px;
+  margin-top: -214px;
+  margin-left: 20px;
+  z-index: 2;
+}
+#tf2pic4  {
+  position: absolute;
+  width: 160px;
+  margin-top: -215px;
+  margin-left: 30px;
+  z-index: 1;
+}
+#tf2 img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#tf2:hover .rollover  {
+   opacity: 1;
+}
+#tftitle  {
+  top: 20;
+  left: 30;
+}
+#sicklove  {
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 400px;
+}
+.sickpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#sicklove img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#sicklove:hover .rollover  {
+   opacity: 1;
+}
+#sicktitle  {
+  top: 10px;
+  left: 0px;
+}
+#paypal  {
+  width: 200px;
+  position: absolute;
+  margin-top: 1240px;
+  margin-left: 928px;
+}
+#ppwind  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 1px solid #BABABA;
+  z-index: 7;
+}
+#ppoverseas  {
+  position: relative;
+  width: 200px;
+  margin-top: -160px;
+  margin-left: -9px;
+  z-index: 6;
+}
+#ppchain  {
+  position: relative;
+  width: 200px;
+  margin-top: -158px;
+  margin-left: -20px;
+  border: 1px solid #BABABA;
+  z-index: 5;
+}
+#ppfan  {
+  position: relative;
+  width: 200px;
+  margin-top: -160px;
+  margin-left: -28px;
+  z-index: 4;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#paypal:hover .rollover  {
+   opacity: 1;
+}
+#paytitle  {
+  top: 30px;
+  left: 0px;
+}
+#adsmydadsays  {
+  position: absolute;
+  margin-top: 1610;
+  margin-left: 920;
+}
+#amds1  {
+  position: relative;
+  width: 150px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+#amds2  {
+  position: relative;
+  width: 150px;
+  top: -202;
+  left: -10;
+  z-index: 4;
+}
+#amds3  {
+  position: relative;
+  width: 200px;
+  top: -405;
+  left: -20;
+  z-index: 3;
+}
+#amds4  {
+  position: relative;
+  width: 200px;
+  top: -536;
+  left: -30;
+  z-index: 2;
+}
+#amds5  {
+  position: relative;
+  width: 200px;
+  top: -670;
+  left: -40;
+  z-index: 1;
+}
+#adsmydadsays img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #A8A8A8;
+}
+#adsmydadsays:hover .rollover  {
+   opacity: 1;
+}
+#dadtitle  {
+  top: -628px;
+  left: -10px;
+}
+#housework  {
+  position: absolute;
+  margin-top: 1140px;
+  margin-left: 485px;
+  /*border: 1px solid #A8A8A8;*/
+}
+.housepic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#housework img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#housework:hover .rollover  {
+   opacity: 1;
+}
+#housetitle  {
+  top: 10;
+  left: 0;
+}
+#usyd  {
+  position: absolute;
+  list-style-type: none;
+  width: 250px;
+  margin-top: 1420px;
+  margin-left: 0px;
+}
+#usydpic1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 5;
+}
+#usydpic2  {
+  position: relative;
+  width: 250px;
+  margin-top: -150px;
+  margin-left: 10px;
+  z-index: 4;
+}
+#usydpic3  {
+  position: relative;
+  width: 250px;
+  margin-top: -150px;
+  margin-left: 20px;
+  z-index: 3;
+}
+#usyd img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#usyd:hover .rollover  {
+  opacity: 1;
+}
+#usydtitle  {
+  top: 26;
+  left: 0;
+}
+#gdseeing  {
+  position: absolute;
+  margin-top: 1670px;
+  margin-left: 0px;
+  z-index: 3;
+}
+.gdseepic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#gdseeing img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdseeing:hover .rollover  {
+   opacity: 1;
+}
+#gdseetitle {
+  top: 10;
+  left: 0;
+}
+#lap  {
+  position: absolute;
+  margin-top: 1450px;
+  margin-left: 455px;
+}
+.lappic  {
+  position: relative;
+  width: 250px;
+   top: 0;
+   left: 0;
+}
+#lap img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#lap:hover .rollover  {
+   opacity: 1;
+}
+#laptitle  {
+  top: 10;
+  left: 0;
+}
+/*Placeholder for archive*/
+#archive  {
+  width: 140px;
+  position: absolute;
+  margin-top: 1680px;
+  margin-left: 480px;
+}
+#archive img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#archive:hover .rollover  {
+   opacity: 1;
+}
+#archivetitle  {
+	top: 8;
+	left: 0;
+}
+.bottom  {
+  position: absolute;
+  top: 2100px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+/*for old macbook pros like my personal laptop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .sidewrapper  {
+      max-width: 800px;
+    }
+    .workwrapper  {
+     /* display: block;
+      top: 0;*/
+      width: 1000px;
+      /*height: 2400px;*/
+      /*border: 1px solid black;*/
+      margin-left: auto;
+      margin-right: auto;
+    }
+   /* Styles for Desktops */
+}
+
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)  { 
+      #mixionary {
+      position: absolute;
+      margin-top: 220px;
+      margin-left: 880px;
+}
+}
