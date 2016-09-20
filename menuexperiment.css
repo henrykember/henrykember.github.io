@@ -38,6 +38,13 @@ div#content {
   color: #000000;
   /*z-index: 6;*/
 }
+.rolloverpic img  {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  object-fit: contain;
+   z-index: 3;
+}
 #gdexperience  {
   position: absolute;
   margin-top: 200px;
@@ -55,7 +62,7 @@ div#content {
   width: 100%;
   object-fit: contain;
 }
-.rollover  {
+.gdrollover  {
   position: absolute;
   margin-top: -150px;
   margin-left: 0px;
@@ -64,18 +71,180 @@ div#content {
   opacity: 0;
   z-index: 4;
 }
-.rolloverpic img  {
-  position: relative;
-  margin-top: 0;
-  margin-left: 0;
-  object-fit: contain;
-   z-index: 3;
-  /*width: 200px !important;*/
-}
-#gdexperience:hover .rollover  {
+#gdexperience:hover .gdrollover  {
    opacity: 1;
 }
 #gdexptitle  {
   top: 7px;
   left: 23px;
+}
+#mixionary {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 880px;
+}
+#mixpic1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixtitle  {
+  top: 15px;
+  left: 0px;
+}
+#boost  {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 455px;
+}
+#boostgif  {
+  width: 273px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.boostrollover  {
+  position: absolute;
+  margin-top: -174px;
+  margin-left: 28px;
+  width: 227px;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 4;
+}
+#boost:hover .boostrollover  {
+   opacity: 1;
+}
+#boosttitle  {
+  top: 8px;
+  left: 0px;
+}
+#subsub  {
+  position: absolute;
+  margin-top: 790px;
+  margin-left: 0px;
+}
+#subsubpic {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  /*border: 1px solid #BABABA;*/
+}
+#subsub img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#subsub:hover .subrollover  {
+   opacity: 1;
+}
+#subsubtitle  {
+  top: 10px;
+  left: 0px;
+}
+#tf2  {
+  position: absolute;
+  margin-top: 1045px;
+  margin-left: 0px;
+}
+#tf2pic  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#tf2 img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#tf2:hover .rollover  {
+   opacity: 1;
+}
+#tftitle  {
+  top: 10;
+  left: 30;
+}
+#usyd  {
+  position: absolute;
+  list-style-type: none;
+  margin-top: 1420px;
+  margin-left: 0px;
+}
+#usydgif  {
+  position: relative;
+  width: 242px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#usyd img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.usydrollover  {
+  position: absolute;
+  margin-top: -128px;
+  margin-left: 0px;
+  width: 227px;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 4;
+}
+#usyd:hover .usydrollover  {
+  opacity: 1;
+}
+#usydtitle  {
+  top: 26;
+  left: 0;
+}
+#paypal  {
+  position: absolute;
+  margin-top: 1240px;
+  margin-left: 828px;
+}
+#ppgif  {
+  position: relative;
+  width: 222px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.pprollover  {
+  position: absolute;
+  margin-top: -145px;
+  margin-left: 29px;
+  width: 193px;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 4;
+}
+#paypal:hover .pprollover  {
+   opacity: 1;
+}
+#paytitle  {
+  top: 5px;
+  left: 30px;
 }

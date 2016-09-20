@@ -150,34 +150,29 @@ div#content {
   width: 100%;
   object-fit: contain;
 }
-#gdexperience.rollover  {
- display: block;
-  width: 200px;
-
-  position: relative;
-  top: -115;
-  left: 0;
-  /*display: flex;
-  justify-content: left;
-  background-color: rgba(0,0,0,.35);
+.gdrollover  {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 0px;
+  width: 227px;
+  background-color: rgba(0,0,0,.8);
   opacity: 0;
-  color: white;
- /* z-index: 8;*/
+  z-index: 4;
 }
-#gdexp1.rollover img {
-  display: block;
+.rolloverpic img  {
   position: relative;
-  margin-top: 20;
+  margin-top: 0;
   margin-left: 0;
-  width: 200px;
-  z-index: 3;
+  object-fit: contain;
+   z-index: 3;
+  /*width: 200px !important;*/
 }
-#gdexperience:hover .rollover  {
+#gdexperience:hover .gdrollover  {
    opacity: 1;
 }
 #gdexptitle  {
-  top: 10px;
-  left: 20px;
+  top: 7px;
+  left: 23px;
 }
 #seafolly  {
   position: absolute;
@@ -209,57 +204,18 @@ div#content {
 }
 #mixpic1  {
   position: relative;
-  width: 200px;
+  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 6;
-}
-#mixpic2  {
-  position: relative;
-  width: 150px;
-  margin-top: -273px;
-  margin-left: 60px;
-  z-index: 5;
-}
-#mixpic3  {
-  position: relative;
-  width: 150px;
-  margin-top: -200px;
-  margin-left: 70px;
-  z-index: 4;
-}
-#mixpic4  {
-  position: relative;
-  width: 150px; 
-  margin-top: -200px;
-  margin-left: 80px;
-  z-index: 3;
-}
-#mixpic5  {
-  position: relative;
-  width: 150px;
-  margin-top: -200px;
-  margin-left: 90px;
-  z-index: 2;
-}
-#mixpic6  {
-  position: absolute;
-  width: 265px;
-  margin-top: -200px;
-  margin-left: -18px;
-  border: 1px solid #BABABA;
-  z-index: 1;
 }
 #mixionary img {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#mixionary:hover .rollover  {
-   opacity: 1;
-}
 #mixtitle  {
-  top: 35px;
+  top: 10px;
   left: 0px;
 }
 #boost  {
