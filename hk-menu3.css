@@ -89,7 +89,7 @@ div#content {
 .workwrapper  {
  /* display: block;
   top: 0;*/
-  width: 1200px;
+  width: 1250px;
   /*height: 2400px;*/
   /*border: 1px solid black;*/
   margin-left: auto;
@@ -810,7 +810,7 @@ div#content {
   text-align: center;
   line-height: 20px;
 }
-/*for old macbook pros like my personal laptop */
+for old macbook pros like my personal laptop 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .sidewrapper  {
       max-width: 800px;
@@ -836,4 +836,4 @@ div#content {
       margin-top: 220px;
       margin-left: 880px;
 }
-}
+
