@@ -26,9 +26,11 @@ div#content {
 }
 
 #loading img  {
+  width: 80px;
+  height: 80px;
 	margin-left: 50vw;
 	margin-top: 50vh;
-	transform: translate(-100px, -100px);
+	transform: translate(-40px, -40px);
 }
 .menucontainer  {
   position: fixed;
