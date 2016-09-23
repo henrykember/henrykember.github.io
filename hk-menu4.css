@@ -401,7 +401,7 @@ div#content {
 #sicklove  {
   position: absolute;
   margin-top: 820px;
-  margin-left: 420px;
+  margin-left: 410px;
 }
 .sickpic  {
   position: relative;
@@ -481,7 +481,7 @@ div#content {
 #housework  {
   position: absolute;
   margin-top: 1140px;
-  margin-left: 445px;
+  margin-left: 455px;
   /*border: 1px solid #A8A8A8;*/
 }
 .housepic  {
@@ -563,7 +563,7 @@ div#content {
 #lap  {
   position: absolute;
   margin-top: 1450px;
-  margin-left: 460px;
+  margin-left: 430px;
 }
 .lappic  {
   position: relative;
@@ -587,8 +587,8 @@ div#content {
 #archive  {
   width: 140px;
   position: absolute;
-  margin-top: 1680px;
-  margin-left: 480px;
+  margin-top: 1730px;
+  margin-left: 500px;
 }
 #archive img  {
   display: block;
