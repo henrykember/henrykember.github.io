@@ -90,7 +90,7 @@ div#content {
 .workwrapper  {
  /* display: block;
   top: 0;*/
-  width: 1250px;
+  max-width: 1250px;
   /*height: 2400px;*/
   /*border: 1px solid black;*/
   margin-left: auto;
@@ -106,7 +106,7 @@ div#content {
   left: 0;
   display: flex;
   justify-content: left;
-  background-color: rgba(0,0,0,.35);
+  /*background-color: rgba(0,0,0,.35);*/
   opacity: 0;
   color: white;
 }
@@ -163,7 +163,7 @@ div#content {
   margin-top: -150px;
   margin-left: 0px;
   width: 227px;
-  background-color: rgba(0,0,0,.8);
+  /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
 }
@@ -223,7 +223,7 @@ div#content {
   object-fit: contain;
 }
 #mixtitle  {
-  top: 15px;
+  top: 7px;
   left: 0px;
 }
 #boost  {
@@ -248,7 +248,7 @@ div#content {
   margin-top: -174px;
   margin-left: 28px;
   width: 227px;
-  background-color: rgba(0,0,0,.8);
+  /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
 }
@@ -256,7 +256,7 @@ div#content {
    opacity: 1;
 }
 #boosttitle  {
-  top: 8px;
+  top: 7px;
   left: 0px;
 }
 #ikeapillow  {
@@ -279,7 +279,7 @@ div#content {
    opacity: 1;
 }
 #ikeatitle  {
-  top: 8px;
+  top: 7px;
   left: 0px;
 }
 #gdinterviews  {
@@ -302,7 +302,7 @@ div#content {
    opacity: 1;
 }
 #gdinttitle  {
-  top: 10px;
+  top: 7px;
   left: 0px;
 }
 #subsub  {
@@ -327,7 +327,7 @@ div#content {
    opacity: 1;
 }
 #subsubtitle  {
-  top: 10px;
+  top: 7px;
   left: 0px;
 }
 #telstra  {
@@ -350,7 +350,7 @@ div#content {
    opacity: 1;
 }
 #teltitle  {
-  top: 10px;
+  top: 7px;
   left: 0px;
 }
 #sicklove  {
@@ -393,7 +393,7 @@ div#content {
    opacity: 1;
 }
 #tftitle  {
-  top: 10;
+  top: 7;
   left: 30;
 }
 #sicklove  {
@@ -416,13 +416,13 @@ div#content {
    opacity: 1;
 }
 #sicktitle  {
-  top: 10px;
+  top: 7px;
   left: 0px;
 }
 #paypal  {
   position: absolute;
   margin-top: 1240px;
-  margin-left: 828px;
+  margin-left: 908px;
 }
 #ppgif  {
   position: relative;
@@ -449,62 +449,33 @@ div#content {
    opacity: 1;
 }
 #paytitle  {
-  top: 5px;
+  top: 7px;
   left: 30px;
 }
 #adsmydadsays  {
   position: absolute;
   margin-top: 1610;
-  margin-left: 920;
+  margin-left: 910;
 }
-#amds1  {
+#amdsgif {
   position: relative;
-  width: 150px;
+  width: 220px;
   top: 0;
   left: 0;
   z-index: 5;
-}
-#amds2  {
-  position: relative;
-  width: 150px;
-  top: -202;
-  left: -10;
-  z-index: 4;
-}
-#amds3  {
-  position: relative;
-  width: 200px;
-  top: -405;
-  left: -20;
-  z-index: 3;
-}
-#amds4  {
-  position: relative;
-  width: 200px;
-  top: -536;
-  left: -30;
-  z-index: 2;
-}
-#amds5  {
-  position: relative;
-  width: 200px;
-  top: -670;
-  left: -40;
-  z-index: 1;
 }
 #adsmydadsays img  {
   display: block;
   width: 100%;
   object-fit: contain;
-  border: 1px solid #A8A8A8;
-}
-#adsmydadsays:hover .rollover  {
-   opacity: 1;
 }
 #dadtitle  {
-  top: -628px;
-  left: -10px;
+  top: 7px;
+  left: 35px;
 }
+/*#adsmydadsays:hover .rollover  {
+   opacity: 1;
+}*/
 #housework  {
   position: absolute;
   margin-top: 1140px;
@@ -526,7 +497,7 @@ div#content {
    opacity: 1;
 }
 #housetitle  {
-  top: 10;
+  top: 7;
   left: 0;
 }
 #usyd  {
@@ -560,7 +531,7 @@ div#content {
   opacity: 1;
 }
 #usydtitle  {
-  top: 26;
+  top: 7;
   left: 0;
 }
 #gdseeing  {
@@ -584,7 +555,7 @@ div#content {
    opacity: 1;
 }
 #gdseetitle {
-  top: 10;
+  top: 7;
   left: 0;
 }
 #lap  {
@@ -607,7 +578,7 @@ div#content {
    opacity: 1;
 }
 #laptitle  {
-  top: 10;
+  top: 7;
   left: 0;
 }
 /*Placeholder for archive*/
@@ -626,7 +597,7 @@ div#content {
    opacity: 1;
 }
 #archivetitle  {
-	top: 8;
+	top: 7;
 	left: 0;
 }
 .bottom  {
@@ -640,20 +611,20 @@ div#content {
   line-height: 20px;
 }
 /*for old macbook pros like my personal laptop */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+/*@media screen and (min-width: 1025px) and (max-width: 1280px) {
     .sidewrapper  {
       max-width: 600px;
     }
     .workwrapper  {
-     /* display: block;
-      top: 0;*/
+      display: block;
+      top: 0;
       max-width: 1150px;
       min-width: 700px;
-      /*height: 2400px;*/
-      /*border: 1px solid black;*/
+      height: 2400px;
+      border: 1px solid black;
       margin-left: 0px;
-      /*margin-right: auto;*/
-    }
+      margin-right: auto;
+    }*/
    /* Styles for Desktops */
 }
 
