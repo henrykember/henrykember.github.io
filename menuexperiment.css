@@ -9,13 +9,38 @@ body {
   font-family: 'Roboto';
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
-div#content {
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:80px;
+    height:80px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(loading.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-40px 0 0 -40px; /* is width and height divided by two */
+}
+/*/*/*div#content {
 	z-index: 300;
     /*display: none;*/
     }
  
-#loading {
+/*#loading {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -23,7 +48,7 @@ div#content {
 	height: 100vh;
   background-color: white;
   z-index: 1000;
-}
+}*/
 .subtitles  {
   position: relative;
   display: inline-block;

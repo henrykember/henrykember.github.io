@@ -1,97 +1,79 @@
-"use strict"
+'use strict'
 
 
 $(document).ready(function() {
-	// $('#preloader').fadeOut('slow',function(){$(this).remove();});
-	// 	startup();
-	// function turnoffpreloader(){
-		
-	// }
 
-	// setTimeout(turnoffpreloader, 2000);
+	$(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow');
 
- // var minimumShowLoadingTimeReached = false;
- //    setTimeout(function() {minimumShowLoadingTimeReached = true;}, 5000);
-
- //    function preloader() {
- //      if (minimumShowLoadingTimeReached) {
- //          showContent();
- //      } else {
- //          setTimeout(function() {
- //            preloader();
- //          }, 500);
- //      }
- //    }
-
- //    function showContent(){
- //        document.getElementById("loading").style.display = "none";
- //        document.getElementById("content").style.display = "block";
- //    }
- //    window.onload = preloader;
-
-    function hideloader() {
-	$('#loading').fadeOut('slow',function(){$(this).remove();});
-	}
-
-	setTimeout(hideloader, 1500);
-});
+            $('body').delay(350).css({'overflow':'visible'});
+     });
 
 
-var startup = function ()  {
+//     function hideloader() {
+// 	$('#loading').fadeOut('slow',function(){$(this).remove();});
+// 	}
+
+// 	setTimeout(hideloader, 1500);
+// });
+
 	var fivetonine = $("#fivetonine");
-	var ninetofive = $("#ninetofive");
-	var all = $("#all");
-	var business = $(".business");
-	var casual = $(".casual");
+		var ninetofive = $("#ninetofive");
+		var all = $("#all");
+		var business = $(".business");
+		var casual = $(".casual");
 		// console.log("hi");
+  
 
-	fivetonine.on('click', function ()  {	
-	console.log("hi");	
-		business.hide(200);
-		casual.show(200);
-		// casual.toggle(200);
-	});
 
-	fivetonine.off('click', function ()  {
+		fivetonine.on('click', function ()  {	
 		console.log("hi");	
-		business.show(200);
-		casual.show(200);
-		// casual.toggle(200);
-	});
+			business.hide(200);
+			casual.show(200);
+			// casual.toggle(200);
+		});
+
+		fivetonine.off('click', function ()  {
+			console.log("hi");	
+			business.show(200);
+			casual.show(200);
+			// casual.toggle(200);
+		});
+		
+		ninetofive.on('click', function ()  {
+			// console.log("hi");
+			// casual.toggle(200);
+			// business.toggle(200);
+			business.show(200);
+			casual.hide(200);
+		});
+
+		ninetofive.off('click', function ()  {
+			// console.log("hi");
+			// casual.toggle(200);
+			// business.toggle(200);
+			business.show(200);
+			casual.show(200);
+		});
+
+		all.on('click', function ()  {
+			// console.log("hi");
+			// casual.toggle(200);
+			// business.toggle(200);
+			business.show(200);
+			casual.show(200);
+		});
+
+		all.off('click', function ()  {
+			// console.log("hi");
+			// casual.toggle(200);
+			// business.toggle(200);
+			business.show(200);
+			casual.show(200);
+		});
 	
-	ninetofive.on('click', function ()  {
-		// console.log("hi");
-		// casual.toggle(200);
-		// business.toggle(200);
-		business.show(200);
-		casual.hide(200);
-	});
-
-	ninetofive.off('click', function ()  {
-		// console.log("hi");
-		// casual.toggle(200);
-		// business.toggle(200);
-		business.show(200);
-		casual.show(200);
-	});
-
-	all.on('click', function ()  {
-		// console.log("hi");
-		// casual.toggle(200);
-		// business.toggle(200);
-		business.show(200);
-		casual.show(200);
-	});
-
-	all.off('click', function ()  {
-		// console.log("hi");
-		// casual.toggle(200);
-		// business.toggle(200);
-		business.show(200);
-		casual.show(200);
-	});
-};
-
+});
 
 
 
