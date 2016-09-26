@@ -11,6 +11,28 @@ body {
   padding: 0;
   /*background-color: red;*/
 }
+/*div#content {
+	z-index: 300;
+    /*display: none;*/
+  /*  }*/
+ 
+/*#loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+  background-color: white;
+  z-index: 1000;
+}
+
+#loading img  {
+  width: 80px;
+  height: 80px;
+	margin-left: 50vw;
+	margin-top: 50vh;
+	transform: translate(-40px, -40px);
+}*/
 #preloader {
     position:fixed;
     top:0;
@@ -196,7 +218,7 @@ body {
 #seafolly  {
   position: absolute;
   margin-top: 130px;
-  margin-left: 440px;
+  margin-left: 420px;
 }
 .seapic  {
   position: relative;
@@ -240,7 +262,7 @@ body {
 #boost  {
   position: absolute;
   margin-top: 450px;
-  margin-left: 440px;
+  margin-left: 455px;
 }
 #boostgif  {
   width: 273px;
@@ -366,9 +388,8 @@ body {
 }
 #sicklove  {
   position: absolute;
-  /*margin-top: 1560px;*/
-  /*margin-left: 540px;*/
-  /*border: 1px solid black;*/
+  margin-top: 1560px;
+  margin-left: 460px;
 }
 .sickpic  {
   position: relative;
@@ -411,7 +432,7 @@ body {
 #sicklove  {
   position: absolute;
   margin-top: 820px;
-  margin-left: 440px;
+  margin-left: 410px;
 }
 .sickpic  {
   position: relative;
@@ -434,7 +455,7 @@ body {
 #paypal  {
   position: absolute;
   margin-top: 1240px;
-  margin-left: 880px;
+  margin-left: 908px;
 }
 #ppgif  {
   position: relative;
@@ -467,7 +488,7 @@ body {
 #adsmydadsays  {
   position: absolute;
   margin-top: 1610;
-  margin-left: 880;
+  margin-left: 910;
 }
 #amdsgif {
   position: relative;
@@ -491,7 +512,7 @@ body {
 #housework  {
   position: absolute;
   margin-top: 1140px;
-  margin-left: 440px;
+  margin-left: 455px;
   /*border: 1px solid #A8A8A8;*/
 }
 .housepic  {
@@ -573,7 +594,7 @@ body {
 #lap  {
   position: absolute;
   margin-top: 1450px;
-  margin-left: 440px;
+  margin-left: 430px;
 }
 .lappic  {
   position: relative;
