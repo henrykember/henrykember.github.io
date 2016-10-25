@@ -95,11 +95,14 @@ a  {
   font-size: 80px;
   color: black;
 }
+/*#email i  {
+	width: 70px;
+}*/
 #linkedin img  {
-  height: 60px;
+  height: 77px;
 }
 #facebook img  {
-  height: 60px;
+  height: 83px;
 }
 .bottom  {
   position: absolute;
