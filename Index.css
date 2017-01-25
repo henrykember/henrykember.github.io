@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
@@ -61,6 +61,7 @@ span  {
   box-sizing: border-box;
   height: 150px;
   width: 812px;
+  font-weight: medium;
 }
   #accept  {
     display: block;
@@ -72,7 +73,7 @@ span  {
     width: 90px;
     padding: 8px;
     margin-top: 0px;
-    border: 2px solid black;
+    border: 3px solid black;
   }
 #decline  {
   display: block;
@@ -85,13 +86,13 @@ span  {
   padding: 8px;
   margin-top: 13px;
   margin-left: 30px;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 #accept:hover  {
   background: url("./P_Rodney_Dangerfield_tiny.jpg");
   background-size: 140px 44px;
 }
 #decline:hover  {
-  background: url("http://i.imgur.com/DQsuZnL.png");
+  background: url("./bluetexture.png");
 }
 

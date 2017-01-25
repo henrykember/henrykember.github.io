@@ -3,14 +3,12 @@
     <meta charset="utf-8" />
     <title>HK | Tony Ferguson</title>
     <link rel="stylesheet" type="text/css" href="./reset.css"/>
-     <link rel="stylesheet" href="./Hbjqs.css">
-    <link rel="stylesheet" type="text/css" href="./hk-mixionary.css"/>
-    <script
-        src="https://code.jquery.com/jquery-3.1.0.min.js"
-        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
-        crossorigin="anonymous"></script>
-     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="./Hbjqs-1.3.min.js"></script>
+    <!--  <link rel="stylesheet" href="./Hbjqs.css"> -->
+      <link rel="stylesheet" type="text/css" href="venobox/venobox.css">
+    <link rel="stylesheet" type="text/css" href="./hk-mixionary-ss.css"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <script type="text/javascript" src="venobox/venoboxtest.js"></script>
     <script src="https://use.fontawesome.com/dabf123cfb.js"></script>
   </head>
   <body>
@@ -36,7 +34,7 @@
          <div id="details">
             <div class="deets title">Diageo</div>
             <div class="deets description">Mixionary<br>Posters</div>
-            <div class="deets blurb">To launch Diageo's Mixionary cocktail website, we created a series of posters screenprinted by hand: each a graphic recipe for a single cocktail. These were displayed at a launch event, and the posters were offered for sale. (More details in the awards board below.) 
+            <div class="deets blurb">To launch Diageo's Mixionary cocktail website, we created a series of posters screenprinted by hand: each a graphic recipe for a single cocktail. These were exhibited at a launch event, and the posters were offered for sale. (Click thumbnails for slideshow.) 
             </div>
           </div>
       </div>
@@ -44,28 +42,28 @@
 
     <div class="workcontainer">
       <div class="workwrapper">
-          <div id="container">
-      <!--  Outer wrapper for presentation only, this can be anything you like -->
-             <div id="banner-fade">
-              <ul class="bjqs">
-                <li><img src="images/mixionary/mixionary-medium/Bloody-Mary-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/GinTonic-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/Cosmopolitan-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/Tom-Collins-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/Vodka-Martini-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/La-Primavera-med.jpg"></li>
-                <li><img src="images/mixionary/mixionary-medium/Agave-Margarita-med.jpg"></li>
-              </ul>
-        <!-- end Basic jQuery Slider -->
-             </div>
-          </div>
-          <div id="mixboard">
-            <img src="images/mixionary/mixionary-medium/MixionaryPromoActivation-med.jpg">
-          </div>
-        </div>
-    </div>
+              <!-- <div id="clickimages">< click images for slideshow ></div> -->
+              <div class="gallery-wrap mixionary">
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/Bloody Mary Poster.jpg"><img src="images/mixionary/mixionary-medium/Bloody-Mary-med.jpg"/></a>
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/Agave Margarita Poster.jpg"><img src="images/mixionary/mixionary-medium/Agave-Margarita-med.jpg"/></a>
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/GinTonic Poster.jpg"><img src="images/mixionary/mixionary-medium/GinTonic-med.jpg"/></a>
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/Cosmopolitan Poster.jpg"><img src="images/mixionary/mixionary-medium/Cosmopolitan-med.jpg"/></a>  
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/La Primavera Poster.jpg"><img src="images/mixionary/mixionary-medium/La-Primavera-med.jpg"/></a>  
+                <a class="venobox mixpic" data-gall="myGallery" href="images/mixionary/Vodka Martini Poster.jpg"><img src="images/mixionary/mixionary-medium/Vodka-Martini-med.jpg"/></a>  
+                <a class="venobox" data-gall="myGallery" href="images/mixionary/Tom Collins Poster.jpg"><!-- <img id="mixpic7" src="images/mixionary/mixionary-medium/AGinTonic-med.jpg"/> --></a>    
+           <!--    </div> -->
+             <!--  <div class="mixpubshots"> -->
+               <img id="mixpub1" src="images/mixionary/gallery1_1024.jpg"/>
+               <img id="mixpub2" src="images/mixionary/gallery2_1024.jpg"/>
+              <!--  <img id="mixpub2" src="images/mixionary/side-by-side_1024.jpg"/> -->
+               <img id="mixpub3" src="images/mixionary/MixionaryPromoActivation.jpg"/>
+              </div>
 
+      </div>
+    </div>
     <div class="bottom"><i class="fa fa-copyright" aria-hidden="true"></i> Henry Kember 2016</div>
+
+    
       
     <script class="secret-source">
         jQuery(document).ready(function($) {

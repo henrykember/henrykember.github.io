@@ -74,12 +74,12 @@ a  {
   right: 260px;
   left: 250px;
   min-width: 450px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .cv  {
   display: block;
   font-size: 20px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   line-height: 25px;
 }
 .cv span  {
@@ -94,31 +94,31 @@ a  {
   font-size: 20px;
 }
 .cv a:hover  {
-  text-decoration:;
+  text-decoration: none;
 }
-.cv.education {
+.education {
   width: 450px;
   right: 70px;
 /*  border: 1px solid black;*/
 }
-.cv.employment {
+.employment {
   float: right;
-  padding-top: 20px;
-  padding-right: 0px;
-  width: 450px;
-}
-.containertest  {
-  position: absolute;
-  margin-top: 470px;
-  margin-left: 250px;
-  width: 450px;
-  height: 300px;
-  /*border: 1px solid black;*/
-}
-.cv.another {
   padding-top: 50px;
   padding-right: 0px;
   width: 450px;
+  /*height: 500px;*/
+  border: 1px solid black;
+}
+.other {
+  /*position: absolute;
+  margin-top: 300px;*/
+  float: left;
+  padding-top: 50px;
+  padding-right: 0px;
+  width: 450px;
+  height: 450px;
+  right: 70px;
+  border: 1px solid black;
 }
 .bottom  {
   position: absolute;
