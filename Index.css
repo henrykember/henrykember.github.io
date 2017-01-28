@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
 
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
@@ -42,7 +42,7 @@ body  {
      line-width: 6px;
      border: 0px solid black;
      width: 660px;
-     margin-top: 124px;
+     margin-top: 126px;
      margin-left: 50px;
      padding-right: 13px;
      height: 340px;
@@ -55,13 +55,13 @@ span  {
 }
 #buttons {
   position: absolute;
-  margin-top: 480px;
+  margin-top: 479px;
   margin-left: 50px;
   display: block;
   box-sizing: border-box;
   height: 150px;
   width: 812px;
-  font-weight: medium;
+  font-weight: 500;
 }
   #accept  {
     display: block;
