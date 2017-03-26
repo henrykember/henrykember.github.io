@@ -195,26 +195,26 @@ body {
   top: 7px;
   left: 23px;
 }
-#ikeapillow  {
+#hands  {
   position: absolute;
   margin-top: 500px;
   margin-left: 0px;
 }
-.ikeapic  {
+.handspic  {
   position: relative;
   width: 250px;
   top: 0px;
   left: 0px;
 }
-#ikeapillow img  {
+#hands img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#ikeapillow:hover .rollover  {
+#hands:hover .rollover  {
    opacity: 1;
 }
-#ikeatitle  {
+#handstitle  {
   top: 7px;
   left: 0px;
 }
@@ -275,7 +275,7 @@ body {
 }
 #usydgif  {
   position: relative;
-  width: 242px;
+  width: 250px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 3;
@@ -287,9 +287,9 @@ body {
 }
 .usydrollover  {
   position: absolute;
-  margin-top: -128px;
+  margin-top: -132px;
   margin-left: 0px;
-  width: 227px;
+  width: 234px;
   background-color: rgba(0,0,0,.8);
   opacity: 0;
   z-index: 4;
@@ -301,27 +301,27 @@ body {
   top: 7;
   left: 0;
 }
-#gdseeing  {
+#cuervo  {
   position: absolute;
   margin-top: 1700px;
   margin-left: 0px;
   z-index: 3;
 }
-.gdseepic  {
+#cuervogif  {
   position: relative;
   width: 250px;
   top: 0;
   left: 0;
 }
-#gdseeing img  {
+#cuervo img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#gdseeing:hover .rollover  {
+#cuervo:hover .rollover  {
    opacity: 1;
 }
-#gdseetitle {
+#cuervotitle {
   top: 7;
   left: 0;
 }
