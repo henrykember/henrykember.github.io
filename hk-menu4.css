@@ -243,7 +243,30 @@ body {
   top: 7px;
   left: 0px;
 }
-#tf2  {
+#ikeapillow  {
+  position: absolute;
+  margin-top: 1060px;
+  margin-left: 0px;
+}
+.ikeapic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#ikeatitle  {
+  top: 7px;
+  left: 0px;
+}
+/*#tf2  {
   position: absolute;
   margin-top: 1060px;
   margin-left: 0px;
@@ -266,11 +289,44 @@ body {
 #tftitle  {
   top: 7;
   left: 30;
+}*/
+#paypal  {
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 0px;
+}
+#ppgif  {
+  position: relative;
+  width: 222px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.pprollover  {
+  position: absolute;
+  margin-top: -145px;
+  margin-left: 29px;
+  width: 193px;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  z-index: 4;
+}
+#paypal:hover .pprollover  {
+   opacity: 1;
+}
+#paytitle  {
+  top: 7px;
+  left: 30px;
 }
 #usyd  {
   position: absolute;
   list-style-type: none;
-  margin-top: 1435px;
+  margin-top: 1610px;
   margin-left: 0px;
 }
 #usydgif  {
@@ -298,30 +354,6 @@ body {
   opacity: 1;
 }
 #usydtitle  {
-  top: 7;
-  left: 0;
-}
-#cuervo  {
-  position: absolute;
-  margin-top: 1700px;
-  margin-left: 0px;
-  z-index: 3;
-}
-#cuervogif  {
-  position: relative;
-  width: 250px;
-  top: 0;
-  left: 0;
-}
-#cuervo img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#cuervo:hover .rollover  {
-   opacity: 1;
-}
-#cuervotitle {
   top: 7;
   left: 0;
 }
@@ -538,38 +570,39 @@ body {
   top: 7px;
   left: 0px;
 }
-#paypal  {
+#cuervo  {
   position: absolute;
   margin-top: 1240px;
-  margin-left: 0px;
-}
-#ppgif  {
-  position: relative;
-  width: 222px;
-  margin-top: 0px;
-  margin-left: 0px;
   z-index: 3;
 }
-#paypal img  {
+#cuervogif  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#cuervo img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-.pprollover  {
+.cuervorollover  {
   position: absolute;
-  margin-top: -145px;
-  margin-left: 29px;
-  width: 193px;
-  background-color: rgba(0,0,0,.8);
+  margin-top: -151px;
+  margin-left: 24px;
+  width: 225px;
+  background-color: rgba(0,0,0,2);
+/*  border: 1px solid blue;*/
+    box-sizing: border-box;
   opacity: 0;
   z-index: 4;
 }
-#paypal:hover .pprollover  {
-   opacity: 1;
+#cuervo:hover .cuervorollover  {
+  opacity: 1;
 }
-#paytitle  {
-  top: 7px;
-  left: 30px;
+#cuervotitle {
+  top: 7;
+  left: 0;
 }
 #adsmydadsays  {
   position: absolute;
