@@ -96,7 +96,7 @@ body {
 }
 .deets.blurb  {
   margin-top: 11px;
-  width: 210px;
+  width: 190px;
   font-size: 14px;
   line-height: 21px;
   font-style: italic;
@@ -132,9 +132,19 @@ body {
   margin-top: 0px;
   margin-left: 320px;
 } 
+.sf.case {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 320px;
+} 
+.panama {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 320px;
+} 
 .bottom  {
   position: absolute;
-  top: 900px;
+  top: 1400px;
   left: 0px;
   width: 100%;
   height: 100px;
