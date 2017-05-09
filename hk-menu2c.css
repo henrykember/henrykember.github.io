@@ -50,7 +50,7 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-  margin: 20px 70px;
+  margin: 20px 120px;
   /*border: 1px solid black;*/
 }
 .menuitems a  {
@@ -73,7 +73,7 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   max-width: 1300px;
-  min-width: 400px;
+  min-width: 425px;
   margin-top: 280px;
   /*padding-right: 50px;*/
 }
@@ -90,8 +90,8 @@ body {
 }
 .outer-container  {
 	z-index: 100;
-	margin-left: 130px;
-	margin-right: 130px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 .flex-container {
     display: flex;
@@ -102,7 +102,7 @@ body {
     /*background-color: lightgrey;*/
 }
 .flex-item {
-    min-width: 250px;
+    min-width: 400px;
     margin-left: 50px;
     margin-right: 50px;
     /*border: 1px solid black;*/
@@ -145,55 +145,58 @@ body {
     margin-top: -3px;
 	/*margin-top: 10px;
 	left: 0px;*/
-	font-size: 10px;
+	font-size: 13px;
 	text-transform: uppercase;
 	color: #000000;
 	/*z-index: 6;*/
 }
 /*The above affects every thumbnail on rollover*/
 /*Items in Flex-item 1*/
-#gdexperience  {
+
+#seafolly  {
   position: absolute;
-  margin-top: 200px;
+  margin-top: 130px;
   margin-left: 0px;
-  margin-bottom: 200px;
-  height: 500px;
 }
-#gdexp1  {
+.seapic  {
   position: relative;
-  width: 250px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 2;
+  width: 425px;
+  top: 0px;
+  left: 0px;
 }
-#gdexperience img {
+#seafolly img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-.gdrollover  {
-  position: absolute;
-  margin-top: -150px;
-  margin-left: 0px;
-  width: 227px;
-  /*background-color: rgba(0,0,0,.8);*/
-  opacity: 0;
-  z-index: 4;
-}
-.rolloverpic img  {
-  position: relative;
-  margin-top: 0;
-  margin-left: 0;
-  object-fit: contain;
-   z-index: 3;
-  /*width: 200px !important;*/
-}
-#gdexperience:hover .gdrollover  {
+#seafolly:hover .rollover  {
    opacity: 1;
 }
-#gdexptitle  {
+#seatitle  {
+  top: 8px;
+  left: 0px;
+}
+
+#mixionary {
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 0px;
+}
+#mixpic1  {
+  position: relative;
+  width: 425px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixtitle  {
   top: 7px;
-  left: 23px;
+  left: 0px;
 }
 #hands  {
   position: absolute;
@@ -202,7 +205,7 @@ body {
 }
 .handspic  {
   position: relative;
-  width: 250px;
+  width: 425px;
   top: 0px;
   left: 0px;
 }
@@ -218,39 +221,15 @@ body {
   top: 7px;
   left: 0px;
 }
-#subsub  {
-  position: absolute;
-  margin-top: 755px;
-  margin-left: 0px;
-}
-#subsubpic {
-  position: relative;
-  width: 240px;
-  top: 0;
-  left: 0;
-  z-index: 6;
-  /*border: 1px solid #BABABA;*/
-}
-#subsub img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#subsub:hover .subrollover  {
-   opacity: 1;
-}
-#subsubtitle  {
-  top: 7px;
-  left: 0px;
-}
+
 #ikeapillow  {
   position: absolute;
-  margin-top: 1060px;
+  margin-top: 1400px;
   margin-left: 0px;
 }
 .ikeapic  {
   position: relative;
-  width: 250px;
+  width: 425px;
   top: 0px;
   left: 0px;
 }
@@ -266,6 +245,56 @@ body {
   top: 7px;
   left: 0px;
 }
+#sicklove  {
+  position: absolute;
+  margin-top: 1820px;
+  margin-left: 0px;
+}
+.sickpic  {
+  position: relative;
+  width: 425px;
+  top: 0px;
+  left: 0px;
+}
+#sicklove img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#sicklove:hover .rollover  {
+   opacity: 1;
+}
+#sicktitle  {
+  top: 7px;
+  left: 0px;
+}
+
+/*#subsub  {
+  position: absolute;
+  margin-top: 755px;
+  margin-left: 0px;
+}
+#subsubpic {
+  position: relative;
+  width: 240px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  border: 1px solid #BABABA;
+}
+#subsub img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#subsub:hover .subrollover  {
+   opacity: 1;
+}
+#subsubtitle  {
+  top: 7px;
+  left: 0px;
+}*/
+
 /*#tf2  {
   position: absolute;
   margin-top: 1060px;
@@ -290,7 +319,7 @@ body {
   top: 7;
   left: 30;
 }*/
-#paypal  {
+/*#paypal  {
   position: absolute;
   margin-top: 1300px;
   margin-left: 0px;
@@ -312,7 +341,6 @@ body {
   margin-top: -180px;
   margin-left: 0px;
   width: 230px;
-  /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
 }
@@ -322,16 +350,16 @@ body {
 #paytitle  {
   top: 7px;
   left: 30px;
-}
+}*/
 #usyd  {
   position: absolute;
   list-style-type: none;
-  margin-top: 1610px;
+  margin-top: 2110px;
   margin-left: 0px;
 }
 #usydgif  {
   position: relative;
-  width: 250px;
+  width: 425px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 3;
@@ -357,36 +385,57 @@ body {
   left: 0;
 }
 /*Items in flex-item 2*/
-#seafolly  {
+
+#gdexperience  {
   position: absolute;
-  margin-top: 130px;
+  margin-top: 230px;
   margin-left: 0px;
+  margin-bottom: 200px;
+  height: 500px;
 }
-.seapic  {
+#gdexp1  {
   position: relative;
-  width: 250px;
-  top: 0px;
-  left: 0px;
+  width: 425px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 2;
 }
-#seafolly img  {
+#gdexperience img {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#seafolly:hover .rollover  {
+.gdrollover  {
+  position: absolute;
+  margin-top: -241px;
+  margin-left: 0px;
+  width: 363px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+.rolloverpic img  {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  object-fit: contain;
+   z-index: 3;
+  /*width: 200px !important;*/
+}
+#gdexperience:hover .gdrollover  {
    opacity: 1;
 }
-#seatitle  {
-  top: 8px;
-  left: 0px;
+#gdexptitle  {
+  top: 7px;
+  left: 36px;
 }
 #boost  {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 650px;
   margin-left: 0px;
 }
 #boostgif  {
-  width: 273px;
+  width: 425px;
   position: relative;
   top: 0px;
   left: 0px;
@@ -399,9 +448,9 @@ body {
 }
 .boostrollover  {
   position: absolute;
-  margin-top: -174px;
-  margin-left: 28px;
-  width: 227px;
+  margin-top: -280px;
+  margin-left: 44px;
+  width: 363px;
   /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
@@ -413,29 +462,56 @@ body {
   top: 7px;
   left: 0px;
 }
-#sicklove  {
+
+#gdinterviews  {
   position: absolute;
-  margin-top: 820px;
+  margin-top: 1050px;
   margin-left: 0px;
 }
-.sickpic  {
+.gdintpic  {
   position: relative;
-  width: 250px;
+  width: 425px;
   top: 0px;
   left: 0px;
 }
-#sicklove img  {
+#gdinterviews img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-#sicklove:hover .rollover  {
+#gdinterviews:hover .rollover  {
    opacity: 1;
 }
-#sicktitle  {
+#gdinttitle  {
   top: 7px;
   left: 0px;
 }
+
+#telstra  {
+  position: absolute;
+  margin-top: 1450px;
+  margin-left: 0px;
+}
+.telpic  {
+  position: relative;
+  width: 425px;
+  top: 0;
+  left: 0;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#teltitle  {
+  top: 7px;
+  left: 0px;
+}
+
+
 #housework  {
   position: absolute;
   margin-top: 1140px;
@@ -502,73 +578,8 @@ body {
 	left: 0;
 }
 /*Items in flex-item 3*/
-#mixionary {
-  position: absolute;
-  margin-top: 220px;
-  margin-left: 0px;
-}
-#mixpic1  {
-  position: relative;
-  width: 250px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 6;
-}
-#mixionary img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#mixtitle  {
-  top: 7px;
-  left: 0px;
-}
-#gdinterviews  {
-  position: absolute;
-  margin-top: 650px;
-  margin-left: 0px;
-}
-.gdintpic  {
-  position: relative;
-  width: 250px;
-  top: 0px;
-  left: 0px;
-}
-#gdinterviews img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#gdinterviews:hover .rollover  {
-   opacity: 1;
-}
-#gdinttitle  {
-  top: 7px;
-  left: 0px;
-}
-#telstra  {
-  position: absolute;
-  margin-top: 950px;
-  margin-left: 0px;
-}
-.telpic  {
-  position: relative;
-  width: 250px;
-  top: 0;
-  left: 0;
-}
-#telstra img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#telstra:hover .rollover  {
-   opacity: 1;
-}
-#teltitle  {
-  top: 7px;
-  left: 0px;
-}
+
+
 #cuervo  {
   position: absolute;
   margin-top: 1240px;
