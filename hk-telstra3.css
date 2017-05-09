@@ -134,25 +134,25 @@ body {
 }
 .telstra.pics  {
   position: absolute;
-  margin-top: 565px;
+  margin-top: 555px;
   margin-left: 320px;
   width: 650px;
 }
 .pic.one  {
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 00px;
   width: 600px;
 }
 .pic.two  {
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 0px;
   width: 600px;
 }
 .pic.three  {
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 0px;
   width: 400px;
 }
