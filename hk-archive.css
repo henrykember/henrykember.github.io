@@ -221,7 +221,7 @@ div.archiveprint  {
   margin-bottom: 10px;
 }
 .radio  {
-  position: absolute;
+  position: relative;
   top: 5070px;
   left: 320px;
 }
