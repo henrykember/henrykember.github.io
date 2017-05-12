@@ -1,0 +1,639 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            /*width: 22px;*/
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  /*background-color: red;*/
+}
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999; /* makes sure it stays on top */
+}
+
+#status {
+    /*width:80px;
+    height:80px;*/
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    /*background-image:url(loading2.gif);  path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-40px 0 0 -40px; /* is width and height divided by two */
+}
+#status img  {
+   width:80px;
+  height:80px;
+  
+}
+/*/*/*div#content {
+  z-index: 300;
+    /*display: none;*/
+    }
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.logowrapper  {
+  position: fixed;
+  width: 100%;
+}
+.logocontainer  {
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 1300px;
+  min-width: 400px;
+  margin-top: 280px;
+  /*padding-right: 50px;*/
+}
+#logo {
+  float: right;
+  margin-right: -100px;
+  font-size: 44px;
+  width: 350px;
+    height: 90px;
+    padding: 20px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+    transform: rotate(90deg);
+}
+.outer-container  {
+	z-index: 100;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 50px;
+    /*background-color: lightgrey;*/
+}
+.flex-item {
+    min-width: 285px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*border: 1px solid black;*/
+}
+.rollover {
+  /*display: block;*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  /*background-color: rgba(0,0,0,.35);*/
+  opacity: 0;
+  color: white;
+}
+.rollover img  {
+  display: block;
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
+.rolloverpic img  {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  object-fit: contain;
+   z-index: 3;
+}
+.subtitles  {
+	position: relative;
+	display: inline-block;
+	list-style-type: none !important;
+	text-decoration: none;
+    line-height: 15px;
+    margin-top: -3px;
+	/*margin-top: 10px;
+	left: 0px;*/
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #000000;
+	/*z-index: 6;*/
+}
+/*The above affects every thumbnail on rollover*/
+/*Items in Flex-item 1*/
+#gdexperience  {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 0px;
+  margin-bottom: 200px;
+  height: 500px;
+}
+#gdexp1  {
+  position: relative;
+  width: 285px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 2;
+}
+#gdexperience img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.gdrollover  {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 0px;
+  width: 259px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+.rolloverpic img  {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  object-fit: contain;
+   z-index: 3;
+  /*width: 200px !important;*/
+}
+#gdexperience:hover .gdrollover  {
+   opacity: 1;
+}
+#gdexptitle  {
+  top: 7px;
+  left: 23px;
+}
+#hands  {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 0px;
+}
+.handspic  {
+  position: relative;
+  width: 285px;
+  top: 0px;
+  left: 0px;
+}
+#hands img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#hands:hover .rollover  {
+   opacity: 1;
+}
+#handstitle  {
+  top: 7px;
+  left: 0px;
+}
+#subsub  {
+  position: absolute;
+  margin-top: 755px;
+  margin-left: 0px;
+}
+#subsubpic {
+  position: relative;
+  width: 240px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  /*border: 1px solid #BABABA;*/
+}
+#subsub img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#subsub:hover .subrollover  {
+   opacity: 1;
+}
+#subsubtitle  {
+  top: 7px;
+  left: 0px;
+}
+#ikeapillow  {
+  position: absolute;
+  margin-top: 1060px;
+  margin-left: 0px;
+}
+.ikeapic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#ikeapillow img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#ikeapillow:hover .rollover  {
+   opacity: 1;
+}
+#ikeatitle  {
+  top: 7px;
+  left: 0px;
+}
+/*#tf2  {
+  position: absolute;
+  margin-top: 1060px;
+  margin-left: 0px;
+}
+#tf2pic  {
+  position: relative;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 4;
+}
+#tf2 img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#tf2:hover .rollover  {
+   opacity: 1;
+}
+#tftitle  {
+  top: 7;
+  left: 30;
+}*/
+#paypal  {
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 0px;
+}
+#ppgif  {
+  position: relative;
+  width: 230px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.pprollover  {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 0px;
+  width: 230px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+#paypal:hover .pprollover  {
+   opacity: 1;
+}
+#paytitle  {
+  top: 7px;
+  left: 30px;
+}
+#usyd  {
+  position: absolute;
+  list-style-type: none;
+  margin-top: 1610px;
+  margin-left: 0px;
+}
+#usydgif  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#usyd img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.usydrollover  {
+  position: absolute;
+  margin-top: -151px;
+  margin-left: 0px;
+  width: 250px;
+  opacity: 0;
+  z-index: 4;
+}
+#usyd:hover .usydrollover  {
+  opacity: 1;
+}
+#usydtitle  {
+  top: 7;
+  left: 0;
+}
+/*Items in flex-item 2*/
+#seafolly  {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 0px;
+}
+.seapic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#seafolly img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#seafolly:hover .rollover  {
+   opacity: 1;
+}
+#seatitle  {
+  top: 8px;
+  left: 0px;
+}
+#boost  {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 0px;
+}
+#boostgif  {
+  width: 273px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.boostrollover  {
+  position: absolute;
+  margin-top: -174px;
+  margin-left: 28px;
+  width: 227px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+#boost:hover .boostrollover  {
+   opacity: 1;
+}
+#boosttitle  {
+  top: 7px;
+  left: 0px;
+}
+#sicklove  {
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 0px;
+}
+.sickpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#sicklove img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#sicklove:hover .rollover  {
+   opacity: 1;
+}
+#sicktitle  {
+  top: 7px;
+  left: 0px;
+}
+#housework  {
+  position: absolute;
+  margin-top: 1140px;
+  margin-left: 0px;
+  /*border: 1px solid #A8A8A8;*/
+}
+.housepic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#housework img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#housework:hover .rollover  {
+   opacity: 1;
+}
+#housetitle  {
+  top: 7;
+  left: 0;
+}
+#lap  {
+  position: absolute;
+  margin-top: 1450px;
+  margin-left: 0px;
+}
+.lappic  {
+  position: relative;
+  width: 250px;
+   top: 0;
+   left: 0;
+}
+#lap img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#lap:hover .rollover  {
+   opacity: 1;
+}
+#laptitle  {
+  top: 7;
+  left: 0;
+}
+#archive  {
+  width: 280px;
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 0px;
+}
+#archive img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#archive:hover .rollover  {
+   opacity: 1;
+}
+#archivetitle  {
+	top: 7;
+	left: 0;
+}
+/*Items in flex-item 3*/
+#mixionary {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 0px;
+}
+#mixpic1  {
+  position: relative;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixionary img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#mixtitle  {
+  top: 7px;
+  left: 0px;
+}
+#gdinterviews  {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 0px;
+}
+.gdintpic  {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+}
+#gdinterviews img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#gdinterviews:hover .rollover  {
+   opacity: 1;
+}
+#gdinttitle  {
+  top: 7px;
+  left: 0px;
+}
+#telstra  {
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 0px;
+}
+.telpic  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#teltitle  {
+  top: 7px;
+  left: 0px;
+}
+#cuervo  {
+  position: absolute;
+  margin-top: 1240px;
+  z-index: 3;
+}
+#cuervogif  {
+  position: relative;
+  width: 250px;
+  top: 0;
+  left: 0;
+}
+#cuervo img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.cuervorollover  {
+  position: absolute;
+  margin-top: -151px;
+  margin-left: 0px;
+  width: 250px;
+/*  border: 1px solid blue;*/
+/*  box-sizing: border-box;*/
+  opacity: 0;
+  z-index: 4;
+}
+#cuervo:hover .cuervorollover  {
+  opacity: 1;
+}
+#cuervotitle {
+  top: 7;
+  left: 0;
+}
+#adsmydadsays  {
+  position: absolute;
+  margin-top: 1610;
+  margin-left: 0;
+}
+#amdsgif {
+  position: relative;
+  width: 240px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+#adsmydadsays img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#dadtitle  {
+  top: 7px;
+  left: 35px;
+}
+/*#adsmydadsays:hover .rollover  {
+   opacity: 1;
+}*/
+/*Placeholder for archive*/
+.bottom  {
+  position: absolute;
+  top: 2243px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
