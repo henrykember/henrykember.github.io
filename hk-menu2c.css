@@ -160,7 +160,7 @@ body {
 }
 .seapic  {
   position: relative;
-  width: 425px;
+  width: 625px;
   top: 0px;
   left: 0px;
 }
@@ -184,7 +184,7 @@ body {
 }
 #mixpic1  {
   position: relative;
-  width: 425px;
+  width: 725px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 6;
@@ -200,12 +200,12 @@ body {
 }
 #hands  {
   position: absolute;
-  margin-top: 500px;
+  margin-top: 800px;
   margin-left: 0px;
 }
 .handspic  {
   position: relative;
-  width: 425px;
+  width: 725px;
   top: 0px;
   left: 0px;
 }
@@ -366,14 +366,14 @@ body {
 
 #gdexperience  {
   position: absolute;
-  margin-top: 230px;
-  margin-left: 0px;
+  margin-top: 530px;
+  margin-left: -100px;
   margin-bottom: 200px;
   height: 500px;
 }
 #gdexp1  {
   position: relative;
-  width: 425px;
+  width: 625px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 2;
