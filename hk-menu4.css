@@ -297,7 +297,7 @@ body {
 }
 #ppgif  {
   position: relative;
-  width: 260px;
+  width: 300px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 3;
@@ -309,9 +309,9 @@ body {
 }
 .pprollover  {
   position: absolute;
-  margin-top: -203px;
+  margin-top: -232.5px;
   margin-left: 0px;
-  width: 260px;
+  width: 300px;
   /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
@@ -349,7 +349,7 @@ body {
 }
 #boost  {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 460px;
   margin-left: 0px;
 }
 #boostgif  {
@@ -382,7 +382,7 @@ body {
 }
 #sicklove  {
   position: absolute;
-  margin-top: 830px;
+  margin-top: 820px;
   margin-left: 0px;
 }
 .sickpic  {
@@ -429,7 +429,7 @@ body {
 }
 #lap  {
   position: absolute;
-  margin-top: 1480px;
+  margin-top: 1515px;
   margin-left: 0px;
 }
 .lappic  {
@@ -453,7 +453,7 @@ body {
 #archive  {
   width: 320px;
   position: absolute;
-  margin-top: 1730px;
+  margin-top: 1790px;
   margin-left: 0px;
 }
 #archive img  {
@@ -538,7 +538,7 @@ body {
 }
 #cuervo  {
   position: absolute;
-  margin-top: 1340px;
+  margin-top: 1355px;
   z-index: 3;
 }
 #cuervogif  {
@@ -596,7 +596,7 @@ body {
 #usyd  {
   position: absolute;
   list-style-type: none;
-  margin-top: 1670px;
+  margin-top: 1685px;
   margin-left: 0px;
 }
 #usydgif  {
