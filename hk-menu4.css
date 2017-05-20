@@ -513,32 +513,10 @@ body {
   top: 7px;
   left: 0px;
 }
-#telstra  {
-  position: absolute;
-  margin-top: 1030px;
-  margin-left: 0px;
-}
-.telpic  {
-  position: relative;
-  width: 320px;
-  top: 0;
-  left: 0;
-}
-#telstra img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#telstra:hover .rollover  {
-   opacity: 1;
-}
-#teltitle  {
-  top: 7px;
-  left: 0px;
-}
 #cuervo  {
   position: absolute;
-  margin-top: 1355px;
+/*  margin-top: 1355px;*/
+margin-top: 1030px;
   z-index: 3;
 }
 #cuervogif  {
@@ -568,6 +546,29 @@ body {
 #cuervotitle {
   top: 7;
   left: 0;
+}
+#telstra  {
+  position: absolute;
+  margin-top: 1365px;
+  margin-left: 0px;
+}
+.telpic  {
+  position: relative;
+  width: 320px;
+  top: 0;
+  left: 0;
+}
+#telstra img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#telstra:hover .rollover  {
+   opacity: 1;
+}
+#teltitle  {
+  top: 7px;
+  left: 0px;
 }
 /*#adsmydadsays  {
   position: absolute;
