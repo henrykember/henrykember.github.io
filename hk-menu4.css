@@ -393,7 +393,7 @@ body {
 }
 #sicklove img  {
   display: block;
-  width: 319.5px;
+  width: 320px;
   object-fit: contain;
 }
 #sicklove:hover .rollover  {
