@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+
+           
+}
+
+body  {
+  font-family: 'Roboto';
+}
+#container  {
+  position: absolute;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+#woody {
+   position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    /*background-image:url(loading2.gif);  path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-65px 0 0 -130px; /* is width and height divided by two */
+}
