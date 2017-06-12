@@ -208,8 +208,8 @@ body {
 }
 #hands img  {
   display: block;
-  width: 319.5px;
-  object-fit: contain;
+  width: 320px;
+  /*object-fit: contain;*/
 }
 #hands:hover .rollover  {
    opacity: 1;
