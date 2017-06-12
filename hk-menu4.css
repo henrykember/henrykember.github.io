@@ -208,7 +208,7 @@ body {
 }
 #hands img  {
   display: block;
-  width: 320px;
+  width: 319.5px;
   object-fit: contain;
 }
 #hands:hover .rollover  {
