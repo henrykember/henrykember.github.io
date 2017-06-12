@@ -208,7 +208,7 @@ body {
 }
 #hands img  {
   display: block;
-  width: 100%;
+  width: 320px;
   object-fit: contain;
 }
 #hands:hover .rollover  {
@@ -256,7 +256,7 @@ body {
 }
 #ikeapillow img  {
   display: block;
-  width: 100%;
+  width: 320px;
   object-fit: contain;
 }
 #ikeapillow:hover .rollover  {
