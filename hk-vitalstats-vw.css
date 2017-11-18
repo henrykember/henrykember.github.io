@@ -2,7 +2,7 @@
 
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
-            width: 22px;
+            width: 26px;
   background-color: FFFFFF;
 }
 body {
@@ -26,20 +26,41 @@ a  {
   list-style-type: none;
   text-decoration: underline;
   color: black;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1.3vw;
+  line-height: 7%;
   font-weight: 400;
   cursor: pointer;
 }
 .menuitems a:hover  {
   font-style: italic;
 }
+.logocontainer {
+  position: fixed;
+  top: 280;
+  right: -65;
+  left: 300;
+  width: 65%;
+  /*padding-left: 300px;*/
+/*  border: 1px solid black;*/
+}
+#sideways  {
+  float: right;
+  font-size: 44px;
+  width: 350px;
+  height: 90px;
+  padding: 20px;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+  color: black;
+  border: 5px solid black;
+  z-index: 0;
+}
 .details  {
   position: fixed;
   margin-top: 150px;
   margin-left: 50px;
   width: 240px;
-  font-size: 58px;
+  font-size: 3.8vw;
   font-weight: 400;
   text-decoration: underline;
 
@@ -52,20 +73,20 @@ a  {
   top: 150px;
   right: 260px;
   left: 250px;
-  min-width: 450px;
-  max-width: 1300px;
+  min-width: 50%;
+  max-width: 80%;
   /*border: 1px solid black;*/
 }
 .cv  {
   display: block;
-  font-size: 20px;
+  font-size: 2vw;
   /*border: 1px solid black;*/
-  line-height: 25px;
+  line-height: 3vw;
 }
 .cv span  {
   font-style: italic;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2.5vw;
   text-decoration: underline;
 }
 .cv a  {
@@ -86,7 +107,6 @@ a  {
   padding-top: 40px;
   padding-right: 0px;
   width: 450px;
-/*  border: 1px solid black;*/
 }
 .containertest  {
   position: absolute;
@@ -97,7 +117,7 @@ a  {
   /*border: 1px solid black;*/
 }
 .cv.other {
-  padding-top: 110px;
+  padding-top: 80px;
   padding-right: 0px;
   width: 450px;
 }

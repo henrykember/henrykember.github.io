@@ -112,3 +112,48 @@ a  {
   line-height: 20px;
 }
 
+@media only screen and (min-width: 375px)
+and (max-width: 667px) {
+    body {
+        background-color: lightblue;
+    }
+    .menu {
+        margin: 5px 10px;
+        /*border: 1px solid black;*/
+  }
+  a {
+    font-size: 10px;
+  }
+  .details  {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 180px;
+  font-size: 38px;
+  font-weight: 400;
+  text-decoration: underline;
+  }
+  .vitalstats  {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  left: 20px;
+  min-width: 150px;
+  max-width: 500px;
+  /*border: 1px solid black;*/
+  }
+  .cv   {
+  font-size: 10px;
+  line-height: 12px;
+  }
+  .cv span  {
+  font-size: 20px;
+  }
+  .cv.other a {
+    font-size: 10px;
+  }
+  .cv.employment {
+  width: 250px;  
+  }
+
+}
