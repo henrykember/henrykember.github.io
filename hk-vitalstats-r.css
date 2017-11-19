@@ -88,12 +88,12 @@ a  {
   width: 450px;
 /*  border: 1px solid black;*/
 }
-.containertest  {
+.othercontainer  {
   position: absolute;
   margin-top: 470px;
   margin-left: 250px;
   width: 450px;
-  height: 300px;
+  /*height: 300px;*/
   /*border: 1px solid black;*/
 }
 .cv.other {
@@ -126,34 +126,38 @@ and (max-width: 667px) {
   }
   .details  {
   position: fixed;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 20px;
   width: 180px;
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 400;
-  text-decoration: underline;
   }
   .vitalstats  {
   position: absolute;
-  top: 200px;
+  top: 80px;
   right: 20px;
-  left: 20px;
+  left: 130px;
   min-width: 150px;
   max-width: 500px;
   /*border: 1px solid black;*/
   }
   .cv   {
   font-size: 10px;
-  line-height: 12px;
+  line-height: 13px;
   }
   .cv span  {
   font-size: 20px;
   }
+  .cv.other {
+  width: 200px; 
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 50px; 
+  border: 1px solid black;
+  line-height: 13px;
+  }
   .cv.other a {
     font-size: 10px;
-  }
-  .cv.employment {
-  width: 250px;  
   }
 
 }
