@@ -88,9 +88,12 @@ a  {
   width: 450px;
 /*  border: 1px solid black;*/
 }
+.refs  {
+font-style: italic;
+}
 .othercontainer  {
   position: absolute;
-  margin-top: 470px;
+  margin-top: 500px;
   margin-left: 250px;
   width: 450px;
   /*height: 300px;*/
@@ -114,12 +117,12 @@ a  {
 
 @media only screen and (min-width: 375px)
 and (max-width: 667px) {
-    body {
-        background-color: lightblue;
-    }
-    .menu {
-        margin: 5px 10px;
-        /*border: 1px solid black;*/
+  body {
+  /*background-color: lightblue;*/
+  }
+  .menu {
+    margin: 5px 10px;
+  /*border: 1px solid black;*/
   }
   a {
     font-size: 10px;
@@ -137,7 +140,7 @@ and (max-width: 667px) {
   top: 80px;
   right: 20px;
   left: 130px;
-  min-width: 150px;
+  min-width: 240px;
   max-width: 500px;
   /*border: 1px solid black;*/
   }
@@ -148,15 +151,35 @@ and (max-width: 667px) {
   .cv span  {
   font-size: 20px;
   }
+  .cv.employment  {
+  padding-top: 25px;
+  width: 240px;
+  padding-left: 130px;
+  }
+  .othercontainer  {
+  margin-top: 220px;
+  margin-left: 130px;
+  font-size: 10px;
+  /*line-height: 5px;*/
+  }
   .cv.other {
-  width: 200px; 
-  margin-top: 10px;
-  margin-left: 0px;
-  height: 50px; 
-  border: 1px solid black;
+  position: relative;
+  font-size: 10px;
   line-height: 13px;
+  width: 200px; 
+  padding-top: 110px;
+  padding-left: 0px;
+  /*height: 0px; */
+  /*border: 1px solid black;*/
+  
   }
   .cv.other a {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .bottom  {
+    top: 500px;
     font-size: 10px;
   }
 
