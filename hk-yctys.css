@@ -113,11 +113,16 @@ body {
   width: 700px;
   height: 700px;
   margin-left: 320px;
-  border: 0px solid black;
+  /*border: 1px solid black;*/
 }
 #banner-fade  {
   margin-left: auto;
   margin-right: auto;
+  width: 800px;
+}
+.bjqs  {
+  /*border: 1px solid black;*/
+  width: 1000px;
 }
 .bjqs-controls .bjqs-prev a {
   margin-left: -50px;
@@ -149,4 +154,21 @@ body {
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}
+@media (min-width: 1400px) { 
+    #container  {
+  /*box-sizing: border-box;
+  position: absolute;
+  margin-top: 150px;*/
+  width: 940px;
+  height: 940px;
+  /*margin-left: 320px;
+  border: 0px solid black;*/
+}
+.bjqs {
+  width: 700px;
+}
+    .bottom  {
+      margin-top: 129px;
+    }
 }

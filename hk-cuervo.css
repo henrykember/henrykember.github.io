@@ -114,6 +114,8 @@ body {
 .cuervo iframe {
   width: 720px;
   height: 405px;
+/*  width: 100%;
+  height: 100%;*/
 }
 .cuervo.photocopier  {
   position: relative;
@@ -131,13 +133,23 @@ body {
   margin-left: 0px;
 }
 .bottom  {
-  position: absolute;
+  position: relative;
   margin-top: 1600px;
-  margin-left: 340px;
+    /*margin-top: 600px;*/
+    margin-left: 340px;
   line-height: 20px;
   width: 400px;
   height: 30px;
   border: 0px solid black;
   padding: 60px;
   text-align: center;
+}
+@media (min-width: 1400px) { 
+    .cuervo iframe {
+      width: 950px;
+      height: 534px; }
+    .bottom  {
+      margin-top: 2002px;
+    }
+}
 }
