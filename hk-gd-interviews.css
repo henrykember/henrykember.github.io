@@ -141,6 +141,9 @@ body {
   line-height: 20px;
 }
 @media (min-width: 1400px) { 
+     .workwrapper  {
+      width: 1300px;
+    }
     .gd iframe {
       width: 950px;
       height: 534px; }

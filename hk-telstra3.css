@@ -137,6 +137,7 @@ body {
   margin-top: 555px;
   margin-left: 320px;
   width: 650px;
+  /*border: 1px solid black;*/
 }
 .pic.one  {
   position: relative;
@@ -169,4 +170,28 @@ body {
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}
+@media (min-width: 1400px) { 
+     .workwrapper  {
+      width: 1300px;
+    }
+    .telstra iframe {
+    width: 950px;
+    height: 534px;
+    }
+    .telstra.pics  {
+      margin-top: 681px;
+    }
+    .pic.one  {
+      width: 792px;
+    }
+    .pic.two  {
+      width: 792px;
+    }
+    .pic.three  {
+      width: 528px;
+    }
+    .bottom  {
+      margin-top: 551px;
+     }
 }

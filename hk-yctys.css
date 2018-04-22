@@ -155,20 +155,18 @@ body {
   text-align: center;
   line-height: 20px;
 }
-@media (min-width: 1400px) { 
+/*@media (min-width: 1400px) { 
     #container  {
-  /*box-sizing: border-box;
-  position: absolute;
-  margin-top: 150px;*/
   width: 940px;
   height: 940px;
-  /*margin-left: 320px;
-  border: 0px solid black;*/
+  margin-left: 320px;
+  border: 0px solid black;
 }
-.bjqs {
-  width: 700px;
+.secret-source  {
+  height      : 473;
+  width       : 840;
 }
     .bottom  {
       margin-top: 129px;
     }
-}
+}*/
