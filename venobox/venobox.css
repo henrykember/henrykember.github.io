@@ -327,3 +327,14 @@
     width: 100%;
     height: auto;
 }
+@media (min-width: 1400px) { 
+  .vbox-container{
+    position: relative;
+    background: #000;
+    /*width: 100%;*/
+    width: 1100px;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    padding: 0 15px;
+}
+}

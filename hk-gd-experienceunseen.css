@@ -218,3 +218,13 @@ div.gdprint  {
   text-align: center;
   line-height: 20px;
 }
+@media (min-width: 1400px) { 
+     div.gdprint  {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1430px;
+  width: 720px;
+  margin-left: 320px;
+}
+}
