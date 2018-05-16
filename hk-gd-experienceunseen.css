@@ -219,12 +219,21 @@ div.gdprint  {
   line-height: 20px;
 }
 @media (min-width: 1400px) { 
-     div.gdprint  {
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  top: 1430px;
-  width: 720px;
-  margin-left: 320px;
-}
+  .gd iframe {
+    width: 950px;
+    height: 534px;
+  }
+  #clickimages {
+   top: 1797px;
+  }
+  div.gdprint  {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1817px;
+    width: 720px;
+    margin-left: 320px;
+  }
+    .bottom  {
+      margin-top: 1289px;
 }
