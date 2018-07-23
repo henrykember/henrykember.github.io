@@ -8,6 +8,9 @@ body {
   font-family: 'Roboto';
   margin: 0;
   padding: 0;
+/*  width: 80%;*/
+  /*margin-left: 10%;*/
+  /*margin-right: 10%;*/
   /*background-color: red;*/
 }
 #preloader {
@@ -52,6 +55,7 @@ body {
   justify-content: space-around;
   margin: 20px 70px;
   /*border: 1px solid black;*/
+/*  background-color: red;*/
 }
 .menuitems a  {
   list-style-type: none;
@@ -97,12 +101,12 @@ body {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
-    width: 100%;
-    margin-right: 50px;
+    width: 90%;
+    /*margin-right: 50px;*/
     /*background-color: lightgrey;*/
 }
 .flex-item {
-    min-width: 320px;
+    min-width: 300px;
     margin-left: 27px;
     margin-right: 27px;
     /*border: 1px solid black;*/
@@ -195,26 +199,26 @@ body {
   top: 7px;
   left: 23px;
 }
-#hands  {
+#exhibitionist  {
   position: absolute;
   margin-top: 600px;
   margin-left: 0px;
 }
-.handspic  {
+.exhibishpic  {
   position: relative;
   width: 320px;
   top: 0px;
   left: 0px;
 }
-#hands img  {
+#exhibitionist img  {
   display: block;
   width: 320px;
   /*object-fit: contain;*/
 }
-#hands:hover .rollover  {
+#exhibitionist:hover .rollover  {
    opacity: 1;
 }
-#handstitle  {
+#exhibishtitle  {
   top: 7px;
   left: 0px;
 }
@@ -243,53 +247,29 @@ body {
   top: 7px;
   left: 0px;
 }
-#ikeapillow  {
+#bytheinfinite  {
   position: absolute;
   margin-top: 1290px;
   margin-left: 0px;
 }
-.ikeapic  {
+.infinitepic  {
   position: relative;
   width: 320px;
   top: 0px;
   left: 0px;
 }
-#ikeapillow img  {
+#bytheinfinite img  {
   display: block;
   width: 320px;
   object-fit: contain;
 }
-#ikeapillow:hover .rollover  {
+#bytheinfinite:hover .rollover  {
    opacity: 1;
 }
-#ikeatitle  {
+#infinitetitle  {
   top: 7px;
   left: 0px;
 }
-/*#tf2  {
-  position: absolute;
-  margin-top: 1060px;
-  margin-left: 0px;
-}
-#tf2pic  {
-  position: relative;
-  width: 200px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 4;
-}
-#tf2 img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#tf2:hover .rollover  {
-   opacity: 1;
-}
-#tftitle  {
-  top: 7;
-  left: 30;
-}*/
 #paypal  {
   position: absolute;
   margin-top: 1600px;
@@ -427,6 +407,29 @@ body {
   top: 7;
   left: 0;
 }
+#ikea  {
+  position: absolute;
+  margin-top: 1515px;
+  margin-left: 0px;
+}
+.ikeapic  {
+  position: relative;
+  width: 320px;
+   top: 0;
+   left: 0;
+}
+#ikea img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#lap:hover .rollover  {
+   opacity: 1;
+}
+#ikeatitle  {
+  top: 7;
+  left: 0;
+}
 #lap  {
   position: absolute;
   margin-top: 1515px;
@@ -515,8 +518,7 @@ body {
 }
 #cuervo  {
   position: absolute;
-/*  margin-top: 1355px;*/
-margin-top: 1030px;
+  margin-top: 1030px;
   z-index: 3;
 }
 #cuervogif  {
@@ -637,4 +639,182 @@ margin-top: 1030px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+.flex-item {
+    min-width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    /*border: 1px solid black;*/
+}
+.outer-container  {
+	z-index: 100;
+	margin-left: 80px;
+	margin-right: 280px;
+}
+#seafolly  {
+  	margin-top: 140px;
+  	margin-left: -180px;
+}
+#mixionary  {
+	margin-top: 190px;
+	margin-left: 60px;
+}
+#gdexperience  {
+  	margin-top: 425px;
+  	margin-left: 20px;
+}
+#boost  {
+  	margin-top: 630px;
+  	margin-left: 260px;
+}
+#exhibitionist  {
+ 	margin-top: 740px;
+  	margin-left: 20px;
+}
+#sicklove  {
+  	margin-top: 930px;
+  	margin-left: 260px;
+}
+#subsub  {
+ 	margin-top: 1020px;
+ 	margin-left: 20px;
+}
+#gdinterviews  {
+  	margin-top: 1200px;
+  	margin-left: 60px;
+}
+#bytheinfinite {
+  	margin-top: 1350px;
+  	margin-left: 20px;
+}
+#cuervo  {
+  	margin-top: 1480px;
+  	margin-left: 60px;
+}
+#paypal  {
+  	margin-top: 1630px;
+  	margin-left: 0px; 
+}
+#housework  {
+  	margin-top: 1970px;
+  	margin-left: -170px;
+}
+#telstra  {
+  	margin-top: 1790px;
+  	margin-left: 60px;
+}
+#lap  {
+ 	margin-top: 2250px;
+  	margin-left: -170px;
+}
+#usyd  {
+	margin-top: 2080px;
+	margin-left: 60px;
+}
+#archive  {
+	margin-top: 2330px;
+	margin-left: 260px;
+}
+.bottom  {
+	top: 2750px;
+}
+.subtitles  {
+	font-size: 13px;
+}
+}
+@media only screen 
+  and (min-device-width: 500px) 
+    and (max-device-width: 1025px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+/*.menu  {
+	  background-color: red;
+}*/
+.flex-item {
+    min-width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    /*border: 1px solid black;*/
+}
+.outer-container  {
+	z-index: 100;
+	margin-left: 80px;
+	margin-right: 280px;
+}
+#seafolly  {
+  	margin-top: 140px;
+  	margin-left: -40px;
+}
+#mixionary  {
+	margin-top: 240px;
+	margin-left: 150px;
+}
+#gdexperience  {
+  	margin-top: 365px;
+  	margin-left: -30px;
+}
+#boost  {
+  	margin-top: 640px;
+  	margin-left: -130px;
+}
+#gdinterviews  {
+  	margin-top: 710px;
+  	margin-left: 70px;
+}
+#exhibitionist  {
+ 	margin-top: 900px;
+  	margin-left: 10px;
+}
+#sicklove  {
+  	margin-top: 950px;
+  	margin-left: 210px;
+}
+#subsub  {
+ 	margin-top: 1120px;
+ 	margin-left: -20px;
+}
+#cuervo  {
+  	margin-top: 1220px;
+  	margin-left: 100px;
+}
+#paypal  {
+  	margin-top: 1630px;
+  	margin-left: -20px; 
+}
+#housework  {
+  	margin-top: 1390px;
+  	margin-left: -160px;
+}
+#telstra  {
+  	margin-top: 1470px;
+  	margin-left: 35px;
+}
+#bytheinfinite {
+  	margin-top: 1730px;
+  	margin-left: 470px;
+}
+#lap  {
+ 	margin-top: 1920px;
+  	margin-left: -160px;
+}
+#usyd  {
+	margin-top: 2020px;
+	margin-left: 140px;
+}
+#archive  {
+	margin-top: 2130px;
+	margin-left: 50px;
+}
+.bottom  {
+	top: 2700px;
+}
 }

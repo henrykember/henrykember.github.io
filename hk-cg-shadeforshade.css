@@ -1,0 +1,145 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+  background-color: FFFFFF;
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  hyphens: manual;
+}
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+/*  margin: 20px 70px;*/
+ margin: calc(10px + 1vw) calc(7.5px + 0vw);
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: calc(8px + 0.8vw);
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.deetscontainer  {
+  position: absolute;
+  top: calc(25px + 6vw);
+  left: calc(5px + 4vw);
+  width: calc(60px + 13vw);
+  z-index: 0;
+  /*border: 1px solid black;*/
+}
+.deets.title  {
+ /* opacity: 1;*/
+  position: relative;
+  font-size: calc(10px + 5vw);
+  font-weight: 400;
+  text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
+}
+.deets.category  {
+  margin-top: calc(2px + 0.5vw);
+  /*margin-top: calc(2px + 11.7vw);*/
+  font-size: calc(4px + 2.3vw);
+  text-transform: uppercase;
+  font-style: italic;
+}
+.deets.blurb  {
+  margin-top: calc(2px + 0.4vw);
+  font-size: calc(8px + 0.5vw);
+  line-height: calc(6px + 1.1vw);
+  font-style: italic;
+}
+.workcontainer  {
+  position: absolute;
+  top: calc(25px + 6vw);
+  left: calc(75px + 20vw);
+}
+.vidcontainer {
+  position: relative;
+  /*border: 1px solid black;*/
+  margin-bottom: 4vw;
+  width: calc(65vw);
+}
+.vidwrapper {
+  /*border: 1px solid black;*/
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.vidwrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bottom  {
+  position: absolute;
+  top: calc(10px + 60vw);
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+.deetscontainer  {
+  top: calc(50px + 12vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+/*.deetstitlemob {
+  opacity: 1;
+}*/
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+  font-size: calc(6px + 0.4vw);
+  line-height: calc(4px + 1vw);
+}
+.workcontainer  {
+  position: relative;
+  margin-top: calc(145px + 0.5vw);
+  left: 7vw;
+}
+.vidcontainer {
+  width: 84vw;
+}
+.bottom  {
+ top: 120vw;
+}
