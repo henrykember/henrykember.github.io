@@ -20,13 +20,13 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-  margin: 20px 70px;
-  /*border: 1px solid black;*/
+/*  margin: 20px 70px;*/
+ margin: calc(10px + 1vw) calc(7.5px + 0vw);
 }
 .menuitems a  {
   list-style-type: none;
   color: black;
-  font-size: 16px;
+  font-size: calc(8px + 0.8vw);
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
@@ -34,107 +34,65 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
-/*#sideways  {
-  position: fixed;
-  font-size: 44px;
-  margin-top: 280px;
-  margin-left: 900px;
-  width: 350px;
-  height: 90px;
-  padding: 20px;
-  transform: translate(-50%, -100%);
-  transform: rotate(90deg);
-  color: black;
-  border: 5px solid black;
-  z-index: 0;
-}*/
 .deetscontainer  {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
   z-index: 0;
-  /*border: 1px solid black;*/
-}
-.deetswrapper  {
-  width: 1400px;
-  border: 1px solid black;
-  margin-top: -5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#details  {
-  float: left;
-  display: block;
-  margin-top: -5px;
-  box-sizing: border-box;
-  margin-top: 150px;
-  margin-left: 80px;
-  width: 250px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: -6px;
-  font-size: 50px;
+  top: -0.57vw;
+  position: relative;
+  font-size: calc(10px + 5vw);
   font-weight: 400;
   text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
 }
-.deets.description  {
-  margin-top: 11px;
-  font-size: 32px;
+.deets.category  {
+  margin-top: calc(2px + 0.5vw);
+  /*margin-top: calc(2px + 11.7vw);*/
+  font-size: calc(4px + 2.3vw);
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 11px;
-  width: 210px;
-  font-size: 14px;
-  line-height: 21px;
+  margin-top: calc(2px + 0.4vw);
+  font-size: calc(8px + 0.5vw);
+  line-height: calc(6px + 1.1vw);
   font-style: italic;
 }
 .workcontainer  {
   position: absolute;
-  top: 0;
-  width: 100%;
+  top: calc(25px + 8vw);
+  /*left: calc(75px + 24vw);*/
+  right: calc(15px + 5vw);
   /*border: 1px solid black;*/
 }
-.workwrapper  {
- /* display: block;
-  top: 0;*/
-  width: 1250px;
-  /*height: 2400px;*/
+.vidcontainer {
+  position: relative;
   /*border: 1px solid black;*/
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 4vw;
+  width: 63vw;
 }
-#cuervo  {
+.vidwrapper {
+  /*border: 1px solid black;*/
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.vidwrapper iframe {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 320px;
-}
-.cuervo iframe {
-  width: 720px;
-  height: 405px;
-/*  width: 100%;
-  height: 100%;*/
-}
-.cuervo.photocopier  {
-  position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.cuervo.concall  {
-  position: relative;
-  margin-top: 15px;
-  margin-left: 0px;
-}
-.cuervo.drip  {
-  position: relative;
-  margin-top: 15px;
-  margin-left: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .bottom  {
   position: absolute;
-  top: 1600px;
+  top: 140vw;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -142,16 +100,58 @@ body {
   text-align: center;
   line-height: 20px;
 }
-@media (min-width: 1400px) { 
-     .workwrapper  {
-      width: 1300px;
-    }
-    .cuervo iframe {
-      width: 950px;
-      height: 534px; 
-    }
-    .bottom  {
-      margin-top: 400px;
-    }
+@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+.deetscontainer  {
+  top: calc(50px + 12vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+  font-size: calc(6px + 0.4vw);
+  line-height: calc(4px + 1vw);
+  width: 50vw;
+}
+.workcontainer  {
+  position: relative;
+  margin-top: calc(145px + 0.5vw);
+  left: 7vw;
+}
+.vidcontainer {
+  width: 84vw;
+}
+.bottom  {
+ top: 220vw;
+}
+}
+@media only screen 
+  and (min-device-width: 300px) 
+    and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+.deetscontainer  {
+  top: calc(25px + 5vw);
+}
+.workcontainer  {
+  top: calc(25px + 5vw);
 }
 }

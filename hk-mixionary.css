@@ -34,135 +34,126 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
-/*#sideways  {
-  position: fixed;
-  font-size: 44px;
-  margin-top: 280px;
-  margin-left: 900px;
-  width: 350px;
-  height: 90px;
-  padding: 20px;
-  transform: translate(-50%, -100%);
-  transform: rotate(90deg);
-  color: black;
-  border: 5px solid black;
-  z-index: 0;
-}*/
 .deetscontainer  {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
   z-index: 0;
-  /*border: 1px solid black;*/
-}
-.deetswrapper  {
-  width: 1400px;
-  /*border: 1px solid black;*/
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#details  {
-  float: left;
-  display: block;
-  margin-top: -5px;
-  box-sizing: border-box;
-  margin-top: 150px;
-  margin-left: 80px;
-  width: 250px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: -6px;
-  font-size: 50px;
+  top: -0.57vw;
+  position: relative;
+  font-size: calc(10px + 5vw);
   font-weight: 400;
   text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
 }
-.deets.description  {
-  margin-top: 12px;
-  font-size: 32px;
+.deets.category  {
+  margin-top: calc(2px + 0.5vw);
+  /*margin-top: calc(2px + 11.7vw);*/
+  font-size: calc(4px + 2.3vw);
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 11px;
-  width: 210px;
-  font-size: 14px;
-  line-height: 21px;
+  margin-top: calc(2px + 0.4vw);
+  font-size: calc(8px + 0.5vw);
+  line-height: calc(6px + 1.1vw);
   font-style: italic;
 }
 .workcontainer  {
   position: absolute;
-  top: 0;
-  width: 100%;
+  top: calc(25px + 8vw);
+  /*left: calc(75px + 24vw);*/
+  right: calc(15px + 5vw);
   /*border: 1px solid black;*/
+  width: 65vw;
 }
-.workwrapper  {
- /* display: block;
-  top: 0;*/
-  width: 1250px;
-  /*height: 2400px;*/
-  /*border: 1px solid black;*/
-  margin-left: auto;
-  margin-right: auto;
-}
-/*#clickimages {
-   position: absolute;
-   font-size: 16px;
-   margin-top: 200px;
-   margin-left: 320px;
-   font-style: italic;
-}*/
 div.mixionary  {
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  top: 150px;
-  width: 700px;
-  margin-left: 370px;
-  /*border: 1px solid black;*/
+  position: relative;
+  top: 0vw;
+  width: 65vw;
 }
 .mixpic {
+  display: inline-block;
+ /* position: relative; */
   float: left;
-  /*top: 0px;
-  left: 0px;*/
-  margin-right: 15px;
-  width: 200px;
-  /*border: 1px solid black;*/
-}
-.mixpic img  {
-  width: 100%;
+  margin-right: 1.1vw;
+  /*border: 1px solid #A8A8A8;*/
 }
 .venobox img  {
-  width: 100%;
-  margin-bottom: 10px;
+  width: 31.6%;
+  margin-bottom: 2vw;
+  /*border: 1px solid red;*/
 }
-#mixpub1  {
-  margin-top: 20px;
-  width: 630px;
+.mixpub  {
+  margin-top: 2vw;
+  width: 50vw;
   border: 0px solid black;
 }
-#mixpub2  {
-  margin-top: 20px;
-  width: 630px;
-  border: 0px solid black;
-}
-#mixpub3  {
-  box-sizing: border-box;
-  margin-top: 20px;
-  width: 630px;
+#awardboard  {
   border: 1px solid #A8A8A8;
-}
-#mixboard img  {
-  width: 100%;
 }
 .bottom  {
   position: absolute;
-  top: 2650px;
+  top: 220vw;
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+.deetscontainer  {
+  top: calc(50px + 12vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+  font-size: calc(6px + 0.4vw);
+  line-height: calc(4px + 1vw);
+  width: 50vw;
+}
+.workcontainer  {
+  position: relative;
+  margin-top: calc(145px + 0.5vw);
+  width: 86vw;
+  left: 7vw;
+}
+div.mixionary {
+  width: 86vw;
+}
+.mixpub  {
+  width: 86vw;
+}
+.venobox img  {
+  width: 47%;
+  margin-bottom: 2vw;
+}
+.bottom  {
+   top: 480vw;
+}
 }

@@ -3,7 +3,7 @@
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
             width: 22px;
-  background-color: FFFFFF;
+    background-color: FFFFFF;
 }
 body {
   font-family: 'Roboto';
@@ -20,13 +20,13 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-/*  margin: 20px 70px;*/
- margin: calc(10px + 1vw) calc(7.5px + 0vw);
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
 }
 .menuitems a  {
   list-style-type: none;
   color: black;
-  font-size: calc(8px + 0.8vw);
+  font-size: 16px;
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
@@ -45,7 +45,7 @@ body {
 .deets.title  {
   top: -0.57vw;
   position: relative;
-  font-size: calc(10px + 5vw);
+  font-size: calc(9px + 4vw);
   font-weight: 400;
   text-decoration: underline;
   /*width: calc(50px + 7vw);*/
@@ -70,29 +70,34 @@ body {
   /*left: calc(75px + 24vw);*/
   right: calc(15px + 5vw);
   /*border: 1px solid black;*/
+  width: 65vw;
 }
-.vidcontainer {
+div.subsub  {
   position: relative;
-  /*border: 1px solid black;*/
-  margin-bottom: 4vw;
+  top: 0vw;
   width: 63vw;
 }
-.vidwrapper {
-  /*border: 1px solid black;*/
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+#clickimages {
+   position: relative;
+   font-size: 16px;
+   /*top: 0px;*/
+   bottom: 1vw;
+   font-style: italic;
+   z-index: 1000;
 }
-.vidwrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.subpic {
+  position: relative; 
+  left: 0vw;
+  /*margin-bottom: 5vw;*/
+}
+.venobox img  {
   width: 100%;
-  height: 100%;
+  margin-bottom: 2vw;
+  /*border: 1px solid red;*/
 }
 .bottom  {
   position: absolute;
-  top: 180vw;
+  top: 470vw;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -106,7 +111,6 @@ body {
 /*  and (max-device-width: 480px)
 */  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-
 .deetscontainer  {
   top: calc(50px + 12vw);
   position: relative;
@@ -134,24 +138,20 @@ body {
 .workcontainer  {
   position: relative;
   margin-top: calc(145px + 0.5vw);
+  width: 92vw;
   left: 7vw;
 }
-.vidcontainer {
-  width: 84vw;
+div.subsub {
+  width: 86vw;
+}
+.mixpub  {
+  width: 86vw;
+}
+.venobox img  {
+  width: 100%;
+  margin-bottom: 2vw;
 }
 .bottom  {
- top: 260vw;
-}
-}
-@media only screen 
-  and (min-device-width: 300px) 
-    and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-.deetscontainer  {
-  top: calc(25px + 5vw);
-}
-.workcontainer  {
-  top: calc(25px + 5vw);
+   top: 660vw;
 }
 }

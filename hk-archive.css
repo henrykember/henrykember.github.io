@@ -19,13 +19,13 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-  margin: 20px 70px;
-  /*border: 1px solid black;*/
+/*  margin: 20px 70px;*/
+ margin: calc(10px + 1vw) calc(7.5px + 0vw);
 }
 .menuitems a  {
   list-style-type: none;
   color: black;
-  font-size: 16px;
+  font-size: calc(8px + 0.8vw);
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
@@ -33,265 +33,86 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
-.sidecontainer  {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 0;
-  /*border: 1px solid black;*/
-}
-.sidewrapper  {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  /*border: 1px solid black;*/
-}
-#sideways  {
-  font-size: 44px;
-  margin-top: 330px;
-  margin-left: 900px;
-  width: 460px;
-  height: 90px;
-  padding: 20px;
-  transform: translate(-50%, -100%);
-  transform: rotate(90deg);
-  color: black;
-  border: 5px solid black;
-}
 .deetscontainer  {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
   z-index: 0;
-  /*border: 1px solid black;*/
-}
-.deetswrapper  {
-  width: 1400px;
-  /*border: 1px solid black;*/
-  margin-left: auto;
-  margin-right: auto;
-}
-#details  {
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  margin-top: 150px;
-  margin-left: 80px;
-  width: 250px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: -6px;
-  font-size: 50px;
+  top: -0.57vw;
+  position: relative;
+  font-size: calc(10px + 5vw);
   font-weight: 400;
   text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
 }
-.deets.description  {
-  margin-top: 11px;
-  font-size: 32px;
+.deets.category  {
+  margin-top: calc(2px + 0.5vw);
+  /*margin-top: calc(2px + 11.7vw);*/
+  font-size: calc(4px + 2.3vw);
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 11px;
-  width: 200px;
-  font-size: 14px;
-  line-height: 21px;
+  margin-top: calc(2px + 0.4vw);
+  font-size: calc(8px + 0.5vw);
+  line-height: calc(6px + 1.1vw);
   font-style: italic;
-  /*border: 1px solid black;*/
 }
 .workcontainer  {
   position: absolute;
-  top: 0;
-  width: 100%;
+  top: calc(25px + 8vw);
+  /*left: calc(75px + 24vw);*/
+  right: calc(15px + 5vw);
   /*border: 1px solid black;*/
 }
-.workwrapper  {
- /* display: block;
-  top: 0;*/
-  width: 1250px;
-  /*height: 2400px;*/
+.vidcontainer {
+  position: relative;
   /*border: 1px solid black;*/
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 4vw;
+  width: 63vw;
 }
-#archivefilm {
+.vidwrapper {
+  /*border: 1px solid black;*/
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.vidwrapper iframe {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 320px;
-}
-#archivefilm iframe {
-  width: 720px;
-  height: 405px;
-}
-.gd.seeing  {
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.ub.skater {
-  position: relative;
-  margin-top: 15px;
-  margin-left: 0px;
-}
-.ub.actress  {
-  position: relative;
-  margin-top: 15px;
-  margin-left: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #clickimages {
-   position: absolute;
-   top: 1410px;
-   margin-left: 320px;
+   position: relative;
    font-size: 16px;
+   bottom: 1vw;
    font-style: italic;
 }
-div.archiveprint  {
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  top: 1415px;
-  margin-left: 320px;
-  width: 640px;
-  /*border: 1px solid black;*/
-}
-#blackfri {
+.print  {
   position: relative;
-  top: 15px;
-  left: 0px;
-  width: 400px;
+  margin-bottom: 2vw;
+  width: 63vw;
 }
-#tf2energy {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  right: 15px;
-  width: 300px;
-  /*border: 1px solid #A8A8A8;*/
+.print img {
+  width: 45%;
 }
-#tf2muscle {
-  position: relative;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  width: 300px;
-  border: 1px solid #DBDBDB;
-  box-sizing: border-box;
+#bf  {
+  margin-right: 10vh;
 }
-#tf2mood {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  right: 15px;
-  width: 300px;
-}
-#tf2hair {
-  position: relative;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  width: 300px;
-  /*border: 1px solid #A8A8A8;*/
-}
-#ikea1 {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  width: 500px;
-  /*border: 1px solid #A8A8A8;*/
-}
-#ikea2 {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  width: 500px;
-  /*border: 1px solid #A8A8A8;*/
-}
-#ikea3 {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  width: 500px;
-  /*border: 1px solid #A8A8A8;*/
-}
-#ikea4 {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  width: 500px;
-  /*border: 1px solid #A8A8A8;*/
-}
-.venobox img  {
-  width: 100%;
-  margin-bottom: 10px;
-}
-.radio  {
-  position: relative;
-  top: 5070px;
-  left: 320px;
-}
-#ht15s  {
-  position: relative;
-  margin-top: 20px;
-}
-#vday  {
-  position: relative;
-  margin-top: 20px;
-}
-/*css for slideshow
-#container  {
-  box-sizing: border-box;
-  position: absolute;
-  margin-top: 1810px;
-  width: 700px;
-  height: 700px;
-  margin-left: 275px;
-  border: 0px solid black;
-}
-#banner-fade  {
-  margin-left: auto;
-  margin-right: auto;
-}
-.bjqs-controls .bjqs-prev a {
-  margin-left: -50px;
-  list-style-type: none;
-  text-decoration: none;
-  color: #000000;
-  font-size: 40px;
-}
-.bjqs-controls .bjqs-next a {
-  margin-right: -50px;
-  list-style-type: none;
-  text-decoration: none;
-  color: #000000;
-  font-size: 40px;
-}
-.bjqs-markers.h-centered a  {
-  list-style-type: none;
-  text-decoration: none;
-  color: #000000;
-  font-size: 30px;
-  line-height: 35px;
-}
-css for slideshow*/
 .bottom  {
   position: absolute;
-  top: 5500px;
+  top: calc(10px + 60vw);
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
-}
-@media (min-width: 1400px) { 
-  #archivefilm iframe {
-  width: 950px;
-  height: 534px;
-}
-div.archiveprint  {
-top: 1802px;
-}
-.bottom  {
-  margin-top: 551px;
- }
 }

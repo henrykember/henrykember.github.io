@@ -34,61 +34,34 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
-/*#sideways  {
-  position: fixed;
-  font-size: 44px;
-  margin-top: 280px;
-  margin-left: 900px;
-  width: 350px;
-  height: 90px;
-  padding: 20px;
-  transform: translate(-50%, -100%);
-  transform: rotate(90deg);
-  color: black;
-  border: 5px solid black;
-  z-index: 0;
-}*/
 .deetscontainer  {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
   z-index: 0;
-  /*border: 1px solid black;*/
-}
-.deetswrapper  {
-  width: 1400px;
-  /*border: 1px solid black;*/
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#details  {
-  float: left;
-  display: block;
-  margin-top: 0px;
-  box-sizing: border-box;
-  margin-top: 150px;
-  margin-left: 80px;
-  width: 250px;
   /*border: 1px solid black;*/
 }
 .deets.title  {
-  margin-top: -6px;
-  font-size: 50px;
+  top: -0.57vw;
+  position: relative;
+  font-size: calc(10px + 5vw);
   font-weight: 400;
   text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
 }
-.deets.description  {
-  margin-top: 11px;
-  font-size: 32px;
+.deets.category  {
+  margin-top: calc(2px + 0.5vw);
+  /*margin-top: calc(2px + 11.7vw);*/
+  font-size: calc(4px + 2.3vw);
   text-transform: uppercase;
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: 11px;
-  width: 210px;
-  font-size: 14px;
-  line-height: 21px;
+  margin-top: calc(2px + 0.4vw);
+  font-size: calc(8px + 0.5vw);
+  line-height: calc(6px + 1.1vw);
   font-style: italic;
 }
 .workcontainer  {
@@ -97,23 +70,14 @@ body {
   width: 100%;
   /*border: 1px solid black;*/
 }
-.workwrapper  {
- /* display: block;
-  top: 0;*/
-  width: 1250px;
-  /*height: 2400px;*/
-  /*border: 1px solid black;*/
-  margin-left: auto;
-  margin-right: auto;
-}
 #container  {
   box-sizing: border-box;
   position: absolute;
   margin-top: 150px;
-  width: 700px;
-  height: 700px;
+  width: 60vw;
+  height: px;
   margin-left: 320px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 #banner-fade  {
   margin-left: auto;

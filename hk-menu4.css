@@ -102,7 +102,7 @@ body {
     justify-content: space-around;
     box-sizing: border-box;
     width: 90%;
-    /*margin-right: 50px;*/
+    margin-left: 45px;
     /*background-color: lightgrey;*/
 }
 .flex-item {
@@ -156,9 +156,173 @@ body {
 }
 /*The above affects every thumbnail on rollover*/
 /*Items in Flex-item 1*/
-#gdexperience  {
+
+#boost  {
   position: absolute;
   margin-top: 245px;
+  /*margin-top: 460px;*/
+  margin-left: 0px;
+}
+#boostgif  {
+  width: 320px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+#boost img  {
+  display: block;
+  width: 100%;
+/*  object-fit: contain;*/
+}
+.boostrollover  {
+  position: absolute;
+  margin-top: -204px;
+  margin-left: 31px;
+  width: 267px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+#boost:hover .boostrollover  {
+   opacity: 1;
+}
+#boosttitle  {
+  top: 7px;
+  left: 0px;
+}
+#bytheinfinite  {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 0px;
+}
+.infinitepic  {
+  position: relative;
+  width: 320px;
+  top: 0px;
+  left: 0px;
+}
+#bytheinfinite img  {
+  display: block;
+  width: 320px;
+  object-fit: contain;
+}
+#bytheinfinite:hover .rollover  {
+   opacity: 1;
+}
+#infinitetitle  {
+  top: 7px;
+  left: 0px;
+}
+#subsub  {
+  position: absolute;
+  margin-top: 930px;
+  margin-left: 0px;
+}
+#subsubpic {
+  position: relative;
+  width: 305px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  /*border: 1px solid #BABABA;*/
+}
+#subsub img  {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+#subsub:hover .subrollover  {
+   opacity: 1;
+}
+#subsubtitle  {
+  top: 7px;
+  left: 0px;
+}
+#sicklove  {
+  position: absolute;
+  margin-top: 1290px;
+  margin-left: 0px;
+}
+.sickpic  {
+  position: relative;
+  width: 320px;
+  top: 0px;
+  left: 0px;
+}
+#sicklove img  {
+  display: block;
+  width: 320px;
+  /*object-fit: contain;*/
+}
+#sicklove:hover .rollover  {
+   opacity: 1;
+}
+#sicktitle  {
+  top: 7px;
+  left: 0px;
+}
+#paypal  {
+  position: absolute;
+  margin-top: 1600px;
+  margin-left: 0px;
+}
+#ppgif  {
+  position: relative;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 3;
+}
+#paypal img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.pprollover  {
+  position: absolute;
+  margin-top: -232.5px;
+  margin-left: 0px;
+  width: 300px;
+  /*background-color: rgba(0,0,0,.8);*/
+  opacity: 0;
+  z-index: 4;
+}
+#paypal:hover .pprollover  {
+   opacity: 1;
+}
+#paytitle  {
+  top: 7px;
+  left: 30px;
+}
+/*Items in flex-item 2*/
+
+#exhibitionist  {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 0px;
+}
+.exhibishpic  {
+  position: relative;
+  width: 320px;
+  top: 0px;
+  left: 0px;
+}
+#exhibitionist img  {
+  display: block;
+  width: 320px;
+  /*object-fit: contain;*/
+}
+#exhibitionist:hover .rollover  {
+   opacity: 1;
+}
+#exhibishtitle  {
+  top: 7px;
+  left: 0px;
+}
+#gdexperience  {
+  position: absolute;
+  margin-top: 460px;
   margin-left: 0px;
   margin-bottom: 200px;
   /*height: 500px;*/
@@ -199,114 +363,9 @@ body {
   top: 7px;
   left: 23px;
 }
-#exhibitionist  {
-  position: absolute;
-  margin-top: 600px;
-  margin-left: 0px;
-}
-.exhibishpic  {
-  position: relative;
-  width: 320px;
-  top: 0px;
-  left: 0px;
-}
-#exhibitionist img  {
-  display: block;
-  width: 320px;
-  /*object-fit: contain;*/
-}
-#exhibitionist:hover .rollover  {
-   opacity: 1;
-}
-#exhibishtitle  {
-  top: 7px;
-  left: 0px;
-}
-#subsub  {
-  position: absolute;
-  margin-top: 930px;
-  margin-left: 0px;
-}
-#subsubpic {
-  position: relative;
-  width: 305px;
-  top: 0;
-  left: 0;
-  z-index: 6;
-  /*border: 1px solid #BABABA;*/
-}
-#subsub img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#subsub:hover .subrollover  {
-   opacity: 1;
-}
-#subsubtitle  {
-  top: 7px;
-  left: 0px;
-}
-#bytheinfinite  {
-  position: absolute;
-  margin-top: 1290px;
-  margin-left: 0px;
-}
-.infinitepic  {
-  position: relative;
-  width: 320px;
-  top: 0px;
-  left: 0px;
-}
-#bytheinfinite img  {
-  display: block;
-  width: 320px;
-  object-fit: contain;
-}
-#bytheinfinite:hover .rollover  {
-   opacity: 1;
-}
-#infinitetitle  {
-  top: 7px;
-  left: 0px;
-}
-#paypal  {
-  position: absolute;
-  margin-top: 1600px;
-  margin-left: 0px;
-}
-#ppgif  {
-  position: relative;
-  width: 300px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 3;
-}
-#paypal img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-.pprollover  {
-  position: absolute;
-  margin-top: -232.5px;
-  margin-left: 0px;
-  width: 300px;
-  /*background-color: rgba(0,0,0,.8);*/
-  opacity: 0;
-  z-index: 4;
-}
-#paypal:hover .pprollover  {
-   opacity: 1;
-}
-#paytitle  {
-  top: 7px;
-  left: 30px;
-}
-/*Items in flex-item 2*/
 #seafolly  {
   position: absolute;
-  margin-top: 130px;
+  margin-top: 820px;
   margin-left: 0px;
 }
 .seapic  {
@@ -325,62 +384,6 @@ body {
 }
 #seatitle  {
   top: 8px;
-  left: 0px;
-}
-#boost  {
-  position: absolute;
-  margin-top: 460px;
-  margin-left: 0px;
-}
-#boostgif  {
-  width: 320px;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
-#boost img  {
-  display: block;
-  width: 100%;
-/*  object-fit: contain;*/
-}
-.boostrollover  {
-  position: absolute;
-  margin-top: -204px;
-  margin-left: 31px;
-  width: 267px;
-  /*background-color: rgba(0,0,0,.8);*/
-  opacity: 0;
-  z-index: 4;
-}
-#boost:hover .boostrollover  {
-   opacity: 1;
-}
-#boosttitle  {
-  top: 7px;
-  left: 0px;
-}
-#sicklove  {
-  position: absolute;
-  margin-top: 820px;
-  margin-left: 0px;
-}
-.sickpic  {
-  position: relative;
-  width: 320px;
-  top: 0px;
-  left: 0px;
-}
-#sicklove img  {
-  display: block;
-  width: 320px;
-  /*object-fit: contain;*/
-}
-#sicklove:hover .rollover  {
-   opacity: 1;
-}
-#sicktitle  {
-  top: 7px;
   left: 0px;
 }
 #housework  {
@@ -647,7 +650,9 @@ body {
 /*  and (max-device-width: 480px)
 */  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-
+.flex-container {
+    margin-left: 10px;
+  }
 .flex-item {
     min-width: 150px;
     margin-left: 7px;
@@ -659,72 +664,76 @@ body {
 	margin-left: 80px;
 	margin-right: 280px;
 }
+#exhibitionist  {
+    margin-top: 140px;
+    margin-left: -170px;
+}
 #seafolly  {
-  	margin-top: 140px;
-  	margin-left: -180px;
+  	margin-top: 940px;
+    margin-left: 245px;
 }
 #mixionary  {
 	margin-top: 190px;
 	margin-left: 60px;
 }
 #gdexperience  {
-  	margin-top: 425px;
-  	margin-left: 20px;
+    margin-top: 630px;
+    margin-left: 245px;
 }
 #boost  {
-  	margin-top: 630px;
-  	margin-left: 260px;
-}
-#exhibitionist  {
- 	margin-top: 740px;
+  	margin-top: 445px;
   	margin-left: 20px;
-}
-#sicklove  {
-  	margin-top: 930px;
-  	margin-left: 260px;
-}
-#subsub  {
- 	margin-top: 1020px;
- 	margin-left: 20px;
-}
-#gdinterviews  {
-  	margin-top: 1200px;
-  	margin-left: 60px;
 }
 #bytheinfinite {
-  	margin-top: 1350px;
-  	margin-left: 20px;
+    margin-top: 760px;
+    margin-left: 20px;
 }
-#cuervo  {
-  	margin-top: 1480px;
-  	margin-left: 60px;
+#sicklove  {
+    margin-top: 1060px;
+    margin-left: 20px;
+}
+#subsub  {
+  margin-top: 1360px;
+  margin-left: 20px;
 }
 #paypal  {
-  	margin-top: 1630px;
-  	margin-left: 0px; 
+    margin-top: 1700px;
+    margin-left: 20px; 
+}
+#gdinterviews  {
+  	margin-top: 1230px;
+  	margin-left: 60px;
+}
+#cuervo  {
+  	margin-top: 1510px;
+  	margin-left: 60px;
 }
 #housework  {
-  	margin-top: 1970px;
+  	margin-top: 2040px;
   	margin-left: -170px;
 }
 #telstra  {
-  	margin-top: 1790px;
+  	margin-top: 1830px;
   	margin-left: 60px;
 }
 #lap  {
- 	margin-top: 2250px;
+ 	margin-top: 2350px;
   	margin-left: -170px;
 }
+#ikea  {
+  margin-top: 2300px;
+  margin-left: 60px;
+}
 #usyd  {
-	margin-top: 2080px;
+	margin-top: 2130px;
 	margin-left: 60px;
 }
 #archive  {
-	margin-top: 2330px;
+	margin-top: 2430px;
 	margin-left: 260px;
 }
 .bottom  {
-	top: 2750px;
+	top: 2850px;
 }
 .subtitles  {
 	font-size: 13px;
@@ -732,13 +741,13 @@ body {
 }
 @media only screen 
   and (min-device-width: 500px) 
-    and (max-device-width: 1025px)
+    and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-/*.menu  {
-	  background-color: red;
-}*/
+.flex-container {
+    margin-left: 10px;
+  }
 .flex-item {
     min-width: 150px;
     margin-left: 7px;
@@ -746,75 +755,82 @@ body {
     /*border: 1px solid black;*/
 }
 .outer-container  {
-	z-index: 100;
-	margin-left: 80px;
-	margin-right: 280px;
-}
-#seafolly  {
-  	margin-top: 140px;
-  	margin-left: -40px;
-}
-#mixionary  {
-	margin-top: 240px;
-	margin-left: 150px;
-}
-#gdexperience  {
-  	margin-top: 365px;
-  	margin-left: -30px;
-}
-#boost  {
-  	margin-top: 640px;
-  	margin-left: -130px;
-}
-#gdinterviews  {
-  	margin-top: 710px;
-  	margin-left: 70px;
+  z-index: 100;
+  margin-left: 80px;
+  margin-right: 280px;
 }
 #exhibitionist  {
- 	margin-top: 900px;
-  	margin-left: 10px;
+    margin-top: 140px;
+    margin-left: -170px;
 }
-#sicklove  {
-  	margin-top: 950px;
-  	margin-left: 210px;
+#seafolly  {
+    margin-top: 940px;
+    margin-left: 245px;
 }
-#subsub  {
- 	margin-top: 1120px;
- 	margin-left: -20px;
+#mixionary  {
+  margin-top: 190px;
+  margin-left: 60px;
 }
-#cuervo  {
-  	margin-top: 1220px;
-  	margin-left: 100px;
+#gdexperience  {
+    margin-top: 630px;
+    margin-left: 245px;
 }
-#paypal  {
-  	margin-top: 1630px;
-  	margin-left: -20px; 
-}
-#housework  {
-  	margin-top: 1390px;
-  	margin-left: -160px;
-}
-#telstra  {
-  	margin-top: 1470px;
-  	margin-left: 35px;
+#boost  {
+    margin-top: 445px;
+    margin-left: 20px;
 }
 #bytheinfinite {
-  	margin-top: 1730px;
-  	margin-left: 470px;
+    margin-top: 760px;
+    margin-left: 20px;
+}
+#sicklove  {
+    margin-top: 1060px;
+    margin-left: 20px;
+}
+#subsub  {
+  margin-top: 1360px;
+  margin-left: 20px;
+}
+#paypal  {
+    margin-top: 1700px;
+    margin-left: 20px; 
+}
+#gdinterviews  {
+    margin-top: 1230px;
+    margin-left: 60px;
+}
+#cuervo  {
+    margin-top: 1510px;
+    margin-left: 60px;
+}
+#housework  {
+    margin-top: 2040px;
+    margin-left: -170px;
+}
+#telstra  {
+    margin-top: 1830px;
+    margin-left: 60px;
 }
 #lap  {
- 	margin-top: 1920px;
-  	margin-left: -160px;
+  margin-top: 2350px;
+    margin-left: -170px;
+}
+#ikea  {
+  margin-top: 2300px;
+  margin-left: 60px;
 }
 #usyd  {
-	margin-top: 2020px;
-	margin-left: 140px;
+  margin-top: 2130px;
+  margin-left: 60px;
 }
 #archive  {
-	margin-top: 2130px;
-	margin-left: 50px;
+  margin-top: 2430px;
+  margin-left: 260px;
 }
 .bottom  {
-	top: 2700px;
+  top: 2850px;
+}
+.subtitles  {
+  font-size: 13px;
 }
 }

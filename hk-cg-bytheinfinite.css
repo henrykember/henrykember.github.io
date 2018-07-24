@@ -37,14 +37,14 @@ body {
 }
 .deetscontainer  {
   position: absolute;
-  top: calc(25px + 6vw);
-  left: calc(5px + 4vw);
-  width: calc(60px + 13vw);
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
   z-index: 0;
   /*border: 1px solid black;*/
 }
 .deets.title  {
- /* opacity: 1;*/
+  top: -0.57vw;
   position: relative;
   font-size: calc(10px + 5vw);
   font-weight: 400;
@@ -67,14 +67,16 @@ body {
 }
 .workcontainer  {
   position: absolute;
-  top: calc(25px + 6vw);
-  left: calc(75px + 20vw);
+  top: calc(25px + 8vw);
+  /*left: calc(75px + 24vw);*/
+  right: calc(15px + 5vw);
+  /*border: 1px solid black;*/
 }
 .vidcontainer {
   position: relative;
   /*border: 1px solid black;*/
   margin-bottom: 4vw;
-  width: calc(65vw);
+  width: 63vw;
 }
 .vidwrapper {
   /*border: 1px solid black;*/
@@ -131,6 +133,7 @@ body {
   margin-top: calc(4px + 0.5vw);
   font-size: calc(6px + 0.4vw);
   line-height: calc(4px + 1vw);
+  width: 50vw;
 }
 .workcontainer  {
   position: relative;
@@ -142,4 +145,17 @@ body {
 }
 .bottom  {
  top: 120vw;
+}
+}
+@media only screen 
+  and (min-device-width: 500px) 
+    and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+.deetscontainer  {
+  top: calc(25px + 5vw);
+}
+.workcontainer  {
+  top: calc(25px + 5vw);
+}
 }
