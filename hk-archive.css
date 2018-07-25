@@ -94,6 +94,7 @@ body {
    font-size: 16px;
    bottom: 1vw;
    font-style: italic;
+   width: 100px;
 }
 .print  {
   position: relative;
@@ -105,14 +106,76 @@ body {
 }
 #bf  {
   margin-right: 10vh;
+  width: 70%;
+}
+#muscle  {
+  box-sizing: border-box;
+  border: 1px solid #ABABAB;
 }
 .bottom  {
   position: absolute;
-  top: calc(10px + 60vw);
+  top: calc(10px + 340vw);
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+.deetscontainer  {
+  top: calc(50px + 12vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+  font-size: calc(6px + 0.4vw);
+  line-height: calc(4px + 1vw);
+  width: 50vw;
+}
+.workcontainer  {
+  position: relative;
+  margin-top: calc(145px + 0.5vw);
+  left: 7vw;
+}
+.vidcontainer {
+  width: 84vw;
+}
+/*.print img  {
+  width: 60%;
+}*/
+.bottom  {
+ top: 430vw;
+}
+}
+@media only screen 
+  and (min-device-width: 300px) 
+    and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+.deetscontainer  {
+  top: calc(25px + 5vw);
+}
+.workcontainer  {
+  top: calc(25px + 5vw);
+}
 }
