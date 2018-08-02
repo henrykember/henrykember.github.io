@@ -1,0 +1,45 @@
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.wrapper-with-intrinsic-ratio {
+	border: 1px solid black;
+	position: relative;
+	padding-bottom: 20%;
+	height: 0;
+	width: 30vw;
+}
+.element-to-stretch {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: teal;	
+}
+#containingBlock {
+	border: 1px solid black;
+	width: calc(80px + 55vw);
+}
+.videoWrapper {
+	border: 1px solid black;
+	position: relative;
+	padding-bottom: 56.25%;
+	/*padding-top: 25px;*/
+	height: 0;
+}
+
+/*object,
+embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
