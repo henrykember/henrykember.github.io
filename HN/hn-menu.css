@@ -17,9 +17,12 @@ body {
   animation-name: example;
   animation-duration: 30s;
   animation-iteration-count: infinite;
-  animation-play-state: running;
+/*  animation-play-state: running;*/
 }
-body .pause {
+.pause {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
   animation-play-state: paused;
 }
 @keyframes example {

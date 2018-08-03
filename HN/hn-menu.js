@@ -14,11 +14,11 @@ $(".close").on("click", function(){
 });
 
 $("#gdinttitle").on("click", function(){
-  $(".background").addClass(".pause"); 
+  $("body").addClass("pause"); 
 });
 
 $(".close").on("click", function(){
-  $(".background").removeClass(".pause");
+  $("body").removeClass("pause");
 });
 
 // $(".open").on("click", function(){
