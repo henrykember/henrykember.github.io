@@ -5,13 +5,22 @@ html  {
             /*width: 22px;*/
 }
 body {
+/*}
+.background  {
+  background-size: cover;*/
   font-family: 'Times';
   margin: 0;
   padding: 0;
+  /*width: 100%;
+  height: 100%;*/
   background-color:#b5a7f9;
   animation-name: example;
   animation-duration: 30s;
   animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+body .pause {
+  animation-play-state: paused;
 }
 @keyframes example {
     0%   {background-color:#ffcedd; left:0px; top:0px;}
@@ -91,7 +100,7 @@ img {
   width: 63vw;
 }
 .vidwrapper {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin-top: 30px;
   position: relative;
   padding-bottom: 56.25%;
@@ -116,7 +125,7 @@ img {
   background:pink;
   border:3px solid #666666;
   width:90%;
-  height:700px;
+  height:70vw;
   left: 5%;
   right: auto;
   transition: visibility 0s linear 800ms, opacity 900ms;
