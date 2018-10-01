@@ -63,7 +63,7 @@ a  {
   color: black;
 }
 #buttons {
-  position: relative;
+  position: absolute;
   margin-top: 505px;
   margin-left: 50px;
   display: block;
