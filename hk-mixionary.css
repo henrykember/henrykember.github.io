@@ -64,6 +64,16 @@ body {
   line-height: calc(6px + 1.1vw);
   font-style: italic;
 }
+.deets.press a {
+  list-style-type: none;
+  text-decoration: underline;
+  color: black;
+  /*font-style: italic;*/
+  line-height: calc(6px + 1.3vw);
+}
+.deets.press span  {
+  /*font-weight: 600;*/
+}
 .workcontainer  {
   position: absolute;
   top: calc(25px + 8vw);
