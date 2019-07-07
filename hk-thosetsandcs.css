@@ -22,11 +22,11 @@ body {
   margin: 20px 70px;
   /*border: 1px solid black;*/
 }
-a  {
+.menu a  {
   list-style-type: none;
   text-decoration: underline;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 27px;
   font-weight: 400;
   cursor: pointer;
@@ -83,6 +83,11 @@ a  {
 span  {
   font-size: 16px;
   text-transform: uppercase;
+}
+#copyframe a  {
+    list-style-type: none;
+    text-decoration: underline;
+    color: black;
 }
 .bottom  {
   margin-top: 50px;
