@@ -80,6 +80,7 @@ body {
   min-width: 400px;
   margin-top: 280px;
   /*padding-right: 50px;*/
+   /*border: 1px solid black;*/
 }
 #logo {
   float: right;
@@ -96,19 +97,21 @@ body {
 	z-index: 100;
 	margin-left: 80px;
 	margin-right: 80px;
+  /*border: 1px solid black;*/
 }
 .flex-container {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
     width: 90%;
-    margin-left: 45px;
-    /*background-color: lightgrey;*/
+    margin-left: 46px;
+    /*background-color: grey;*/
 }
 .flex-item {
-    min-width: 300px;
-    margin-left: 27px;
-    margin-right: 27px;
+    min-width: 290px;
+    margin-left: 40px;
+     margin-right: 40px;
+    /*margin-right: 27px;*/
     /*border: 1px solid black;*/
 }
 .rollover {
@@ -156,16 +159,38 @@ body {
 }
 /*The above affects every thumbnail on rollover*/
 /*Items in Flex-item 1*/
-
+#thorne  {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 0px;
+}
+.thornegif  {
+  position: relative;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+}
+#thorne img  {
+  display: block;
+  width: 300px;
+  object-fit: contain;
+}
+#thorne:hover .rollover  {
+   opacity: 1;
+}
+#thornetitle  {
+  top: 7px;
+  left: 0px;
+}
 #boost  {
   position: absolute;
-  margin-top: 600px;
+  margin-top: 650px;
   /*margin-top: 245px;*/
   /*margin-top: 460px;*/
   margin-left: 0px;
 }
 #boostgif  {
-  width: 320px;
+  width: 300px;
   position: relative;
   top: 0px;
   left: 0px;
@@ -178,9 +203,11 @@ body {
 }
 .boostrollover  {
   position: absolute;
-  margin-top: -204px;
+  /*margin-top: -204px;*/
+ margin-top: -191px;
   margin-left: 31px;
-  width: 267px;
+ /* width: 267px;*/
+   width: 248px;
   /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
@@ -199,13 +226,13 @@ body {
 }
 .infinitepic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0px;
   left: 0px;
 }
 #bytheinfinite img  {
   display: block;
-  width: 320px;
+  width: 300px;
   object-fit: contain;
 }
 #bytheinfinite:hover .rollover  {
@@ -217,12 +244,12 @@ body {
 }
 #subsub  {
   position: absolute;
-  margin-top: 1290px;
+  margin-top: 1250px;
   margin-left: 0px;
 }
 #subsubpic {
   position: relative;
-  width: 305px;
+  width: 300px;
   top: 0;
   left: 0;
   z-index: 6;
@@ -240,29 +267,6 @@ body {
   top: 7px;
   left: 0px;
 }
-/*#sicklove  {
-  position: absolute;
-  margin-top: 1290px;
-  margin-left: 0px;
-}
-.sickpic  {
-  position: relative;
-  width: 320px;
-  top: 0px;
-  left: 0px;
-}
-#sicklove img  {
-  display: block;
-  width: 320px;
-  object-fit: contain; *turn this off when activated*
-}
-#sicklove:hover .rollover  {
-   opacity: 1;
-}
-#sicktitle  {
-  top: 7px;
-  left: 0px;
-}*/
 #paypal  {
   position: absolute;
   margin-top: 1600px;
@@ -304,13 +308,14 @@ body {
 }
 .seapic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0px;
   left: 0px;
 }
 #seafolly img  {
   display: block;
-  width: 319.5px;
+/*  width: 319.5px;*/
+width: 300px;
   object-fit: contain;
 }
 #seafolly:hover .rollover  {
@@ -327,13 +332,13 @@ body {
 }
 .exhibishpic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0px;
   left: 0px;
 }
 #exhibitionist img  {
   display: block;
-  width: 320px;
+  width: 300px;
   /*object-fit: contain;*/
 }
 #exhibitionist:hover .rollover  {
@@ -351,7 +356,7 @@ body {
 }
 .housepic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0;
   left: 0;
 }
@@ -376,7 +381,7 @@ body {
 }
 #gdexp  {
   position: relative;
-  width: 320px;
+  width: 300px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 2;
@@ -410,29 +415,6 @@ body {
   top: 7px;
   left: 23px;
 }
-/*#ikea  {
-  position: absolute;
-  margin-top: 1515px;
-  margin-left: 0px;
-}
-.ikeapic  {
-  position: relative;
-  width: 320px;
-   top: 0;
-   left: 0;
-}
-#ikea img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#lap:hover .rollover  {
-   opacity: 1;
-}
-#ikeatitle  {
-  top: 7;
-  left: 0;
-}*/
 #lap  {
   position: absolute;
   margin-top: 1515px;
@@ -457,7 +439,7 @@ body {
   left: 0;
 }
 #archive  {
-  width: 320px;
+  width: 300px;
   position: absolute;
   margin-top: 1415px;
   margin-left: 0px;
@@ -482,7 +464,7 @@ body {
 }
 #mixpic1  {
   position: relative;
-  width: 320px;
+  width: 300px;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 6;
@@ -503,7 +485,7 @@ body {
 }
 .gdintpic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0px;
   left: 0px;
 }
@@ -526,7 +508,7 @@ body {
 }
 #cuervogif  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0;
   left: 0;
 }
@@ -559,7 +541,7 @@ body {
 }
 .telpic  {
   position: relative;
-  width: 320px;
+  width: 300px;
   top: 0;
   left: 0;
 }
@@ -575,67 +557,9 @@ body {
   top: 7px;
   left: 0px;
 }
-/*#adsmydadsays  {
-  position: absolute;
-  margin-top: 1610;
-  margin-left: 0;
-}
-#amdsgif {
-  position: relative;
-  width: 240px;
-  top: 0;
-  left: 0;
-  z-index: 5;
-}
-#adsmydadsays img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-#dadtitle  {
-  top: 7px;
-  left: 35px;
-}
-#adsmydadsays:hover .rollover  {
-   opacity: 1;
-}*/
-/*#usyd  {
-  position: absolute;
-  list-style-type: none;
-  margin-top: 1685px;
-  margin-left: 0px;
-}
-#usydgif  {
-  position: relative;
-  width: 320px;
-  margin-top: 0px;
-  margin-left: 0px;
-  z-index: 3;
-}
-#usyd img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-.usydrollover  {
-  position: absolute;
-  margin-top: -169px;
-  margin-left: 0px;
-  width: 300px;
-  opacity: 0;
-  z-index: 4;
-}
-#usyd:hover .usydrollover  {
-  opacity: 1;
-}
-#usydtitle  {
-  top: 7;
-  left: 0;
-}*/
-/*Placeholder for archive*/
 .bottom  {
   position: absolute;
-  top: 2243px;
+  top: 1843px;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -643,108 +567,7 @@ body {
   text-align: center;
   line-height: 20px;
 }
-
-@media only screen 
-  and (min-device-width: 320px) 
-    and (max-device-width: 1024px)
-/*  and (max-device-width: 480px)
-*/  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-.flex-container {
-    margin-left: 10px;
-  }
-.flex-item {
-    min-width: 150px;
-    margin-left: 7px;
-    margin-right: 7px;
-    /*border: 1px solid black;*/
-}
-.outer-container  {
-	z-index: 100;
-	margin-left: 80px;
-	margin-right: 280px;
-}
-#exhibitionist  {
-    margin-top: 140px;
-    margin-left: -170px;
-}
-#seafolly  {
-  	margin-top: 940px;
-    margin-left: 245px;
-}
-#mixionary  {
-	margin-top: 190px;
-	margin-left: 60px;
-}
-#gdexperience  {
-    margin-top: 630px;
-    margin-left: 245px;
-}
-#boost  {
-  	margin-top: 445px;
-  	margin-left: 20px;
-}
-#bytheinfinite {
-    margin-top: 760px;
-    margin-left: 20px;
-}
-#sicklove  {
-    margin-top: 1060px;
-    margin-left: 20px;
-}
-#subsub  {
-  margin-top: 1360px;
-  margin-left: 20px;
-}
-#paypal  {
-    margin-top: 1700px;
-    margin-left: 20px; 
-}
-#gdinterviews  {
-  	margin-top: 1230px;
-  	margin-left: 60px;
-}
-#cuervo  {
-  	margin-top: 1510px;
-  	margin-left: 60px;
-}
-#housework  {
-  	margin-top: 2040px;
-  	margin-left: -170px;
-}
-#telstra  {
-  	margin-top: 1830px;
-  	margin-left: 60px;
-}
-#lap  {
- 	margin-top: 2350px;
-  	margin-left: -170px;
-}
-#ikea  {
-  margin-top: 2300px;
-  margin-left: 60px;
-}
-#usyd  {
-	margin-top: 2130px;
-	margin-left: 60px;
-}
-#archive  {
-	margin-top: 2430px;
-	margin-left: 260px;
-}
-.bottom  {
-	top: 2850px;
-}
-.subtitles  {
-	font-size: 13px;
-}
-}
-@media only screen 
-  and (min-device-width: 500px) 
-    and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+@media (max-width: 1050px) {
 .flex-container {
     margin-left: 10px;
   }
@@ -759,8 +582,18 @@ body {
   margin-left: 80px;
   margin-right: 280px;
 }
-#exhibitionist  {
+#logo {
+  margin-right: -70px;
+  font-size: 32px;
+  width: 250px;
+  height: 60px;
+}
+#thorne  {
     margin-top: 140px;
+    margin-left: 20px;
+}
+#exhibitionist  {
+    margin-top: 540px;
     margin-left: -170px;
 }
 #seafolly  {
@@ -776,11 +609,11 @@ body {
     margin-left: 245px;
 }
 #boost  {
-    margin-top: 445px;
+    margin-top: 795px;
     margin-left: 20px;
 }
 #bytheinfinite {
-    margin-top: 760px;
+    margin-top: 1090px;
     margin-left: 20px;
 }
 #sicklove  {
@@ -804,7 +637,7 @@ body {
     margin-left: 60px;
 }
 #housework  {
-    margin-top: 2040px;
+    margin-top: 1690px;
     margin-left: -170px;
 }
 #telstra  {
@@ -824,11 +657,231 @@ body {
   margin-left: 60px;
 }
 #archive  {
-  margin-top: 2430px;
-  margin-left: 260px;
+  margin-top: 2030px;
+  /*margin-left: 260px;*/
 }
 .bottom  {
-  top: 2850px;
+  top: 2600px;
+}
+.subtitles  {
+  font-size: 13px;
+}
+
+
+
+@media only screen 
+  /*and (min-device-width: 320px) */
+    and (max-device-width: 1024px)
+/*  and (max-device-width: 480px)
+*/  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+.flex-container {
+    margin-left: 10px;
+  }
+.flex-item {
+    min-width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    /*border: 1px solid black;*/
+}
+.outer-container  {
+	z-index: 100;
+	margin-left: 80px;
+	margin-right: 280px;
+}
+#logo {
+  margin-right: -70px;
+  font-size: 32px;
+  width: 250px;
+  height: 60px;
+}
+#thorne  {
+    margin-top: 140px;
+    margin-left: 20px;
+}
+#exhibitionist  {
+    margin-top: 540px;
+    margin-left: -170px;
+}
+#seafolly  {
+  	margin-top: 940px;
+    margin-left: 245px;
+}
+#mixionary  {
+	margin-top: 190px;
+	margin-left: 60px;
+}
+#gdexperience  {
+    margin-top: 630px;
+    margin-left: 245px;
+}
+#boost  {
+  	margin-top: 795px;
+  	margin-left: 20px;
+}
+#bytheinfinite {
+    margin-top: 1090px;
+    margin-left: 20px;
+}
+#sicklove  {
+    margin-top: 1060px;
+    margin-left: 20px;
+}
+#subsub  {
+  margin-top: 1360px;
+  margin-left: 20px;
+}
+#paypal  {
+    margin-top: 1700px;
+    margin-left: 20px; 
+}
+#gdinterviews  {
+  	margin-top: 1230px;
+  	margin-left: 60px;
+}
+#cuervo  {
+  	margin-top: 1510px;
+  	margin-left: 60px;
+}
+#housework  {
+  	margin-top: 1690px;
+  	margin-left: -170px;
+}
+#telstra  {
+  	margin-top: 1830px;
+  	margin-left: 60px;
+}
+#lap  {
+ 	margin-top: 2350px;
+  	margin-left: -170px;
+}
+#ikea  {
+  margin-top: 2300px;
+  margin-left: 60px;
+}
+#usyd  {
+	margin-top: 2130px;
+	margin-left: 60px;
+}
+#archive  {
+	margin-top: 2030px;
+	/*margin-left: 260px;*/
+}
+.bottom  {
+	top: 2600px;
+}
+.subtitles  {
+	font-size: 13px;
+}
+}
+
+
+
+@media only screen 
+  and (min-device-width: 500px) 
+    and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+.flex-container {
+    margin-left: 10px;
+  }
+.flex-item {
+    min-width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    /*border: 1px solid black;*/
+}
+.outer-container  {
+  z-index: 100;
+  margin-left: 80px;
+  margin-right: 280px;
+}
+.logocontainer  {
+  margin-top: 200px;
+  /*padding-right: 50px;*/
+   /*border: 1px solid black;*/
+ }
+#logo {
+  margin-right: -70px;
+  font-size: 32px;
+  width: 250px;
+  height: 60px;
+  }
+#thorne  {
+    margin-top: 140px;
+    margin-left: 20px;
+}
+#exhibitionist  {
+    margin-top: 540px;
+    margin-left: -170px;
+}
+#seafolly  {
+    margin-top: 940px;
+    margin-left: 245px;
+}
+#mixionary  {
+  margin-top: 190px;
+  margin-left: 60px;
+}
+#gdexperience  {
+    margin-top: 630px;
+    margin-left: 245px;
+}
+#boost  {
+    margin-top: 795px;
+    margin-left: 20px;
+}
+#bytheinfinite {
+    margin-top: 1090px;
+    margin-left: 20px;
+}
+#sicklove  {
+    margin-top: 1060px;
+    margin-left: 20px;
+}
+#subsub  {
+  margin-top: 1360px;
+  margin-left: 20px;
+}
+#paypal  {
+    margin-top: 1700px;
+    margin-left: 20px; 
+}
+#gdinterviews  {
+    margin-top: 1230px;
+    margin-left: 60px;
+}
+#cuervo  {
+    margin-top: 1510px;
+    margin-left: 60px;
+}
+#housework  {
+    margin-top: 1690px;
+    margin-left: -170px;
+}
+#telstra  {
+    margin-top: 1830px;
+    margin-left: 60px;
+}
+#lap  {
+  margin-top: 2350px;
+    margin-left: -170px;
+}
+#ikea  {
+  margin-top: 2300px;
+  margin-left: 60px;
+}
+#usyd  {
+  margin-top: 2130px;
+  margin-left: 60px;
+}
+#archive  {
+  margin-top: 2030px;
+  /*margin-left: 260px;*/
+}
+.bottom  {
+  top: 2450px;
 }
 .subtitles  {
   font-size: 13px;
