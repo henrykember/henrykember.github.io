@@ -65,8 +65,8 @@ body {
   /*font-size: calc(8px + 0.6vw);
   line-height: calc(6px + 1.1vw);*/
    font-size: calc(5px + 0.5vw);
-  line-height: calc(3px + 1.1vw);
-  color: rgb(100, 100, 100);
+  line-height: calc(2px + 1.1vw);
+/*  color: rgb(100, 100, 100);*/
   /*font-style: italic;*/
 }
 .deets.press a {
@@ -105,6 +105,30 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.gifcontainer {
+	position: relative;
+	width: 63vw;
+	box-sizing: content-box;
+	display: flex;
+  	justify-content: space-between;
+	/*border: 1px solid black;*/
+}
+.gifwrapper img  {
+	position: relative;
+	width: 19vw;
+	/*margin-bottom: 10vw;*/
+}
+#respiratory  {
+	border-top: 1px solid black;
+	/*margin-right: 10px;*/
+}
+#circulatory {
+	border-top: 0.05px solid black;
+}
+#nervous  {
+	border-top: 1px solid black;
+}
 .pic  {
   position: relative;
   margin-bottom: 3vw;
@@ -127,14 +151,6 @@ body {
 }
 .images img {
   width: 45%;
-}
-#bf  {
-  margin-right: 10vh;
-  width: 70%;
-}
-#muscle  {
-  box-sizing: border-box;
-  border: 1px solid #ABABAB;
 }
 .bottom  {
   position: absolute;
