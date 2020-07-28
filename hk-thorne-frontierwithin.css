@@ -147,11 +147,8 @@ body {
 	width: 63vw;
 	box-sizing: content-box;
 	display: flex;
-  	justify-content: space-between;
-	/*border: 1px solid black;*/
-	position: relative;
- 	/*margin-bottom: 2vw;*/
-  	width: 63vw;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .selfiecontainer img {
 /*  position: relative;*/
