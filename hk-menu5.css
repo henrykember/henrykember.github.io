@@ -203,11 +203,9 @@ body {
 }
 .boostrollover  {
   position: absolute;
-  /*margin-top: -204px;*/
- margin-top: -191px;
-  margin-left: 31px;
- /* width: 267px;*/
-   width: 248px;
+  margin-top: -204px;
+  margin-left: 32px;
+  width: 266px;
   /*background-color: rgba(0,0,0,.8);*/
   opacity: 0;
   z-index: 4;
@@ -393,9 +391,9 @@ width: 320px;
 }
 .gdrollover  {
   position: absolute;
-  margin-top: -193.5px;
+  margin-top: -181px;
   margin-left: 0px;
-  width: 291px;
+  width: 272px;
   background-color: rgba(0,0,0,.8);
   opacity: 0;
   z-index: 4;
@@ -414,29 +412,6 @@ width: 320px;
 #gdexptitle  {
   top: 7px;
   left: 23px;
-}
-#lap  {
-  position: absolute;
-  margin-top: 1515px;
-  margin-left: 0px;
-}
-.lappic  {
-  position: relative;
-  width: 320px;
-   top: 0;
-   left: 0;
-}
-#lap img  {
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
-#lap:hover .rollover  {
-   opacity: 1;
-}
-#laptitle  {
-  top: 7;
-  left: 0;
 }
 #archive  {
   width: 300px;
@@ -519,9 +494,9 @@ width: 320px;
 }
 .cuervorollover  {
   position: absolute;
-  margin-top: -189px;
-  margin-left: 20px;
-  width: 300px;
+  margin-top: -177px;
+  margin-left: 19px;
+  width: 281px;
 /*  border: 1px solid blue;*/
 /*  box-sizing: border-box;*/
   opacity: 0;

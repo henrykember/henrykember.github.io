@@ -60,10 +60,13 @@ body {
   font-style: italic;
 }
 .deets.blurb  {
-  margin-top: calc(2px + 0.4vw);
-  font-size: calc(8px + 0.5vw);
-  line-height: calc(6px + 1.1vw);
-  font-style: italic;
+   margin-top: calc(2px + 0.4vw);
+  /*font-size: calc(8px + 0.6vw);
+  line-height: calc(6px + 1.1vw);*/
+   font-size: calc(6px + 0.5vw);
+  line-height: calc(2px + 1.3vw);
+/*  color: rgb(100, 100, 100);*/
+  /*font-style: italic;*/
 }
 .deets.press a {
   list-style-type: none;
