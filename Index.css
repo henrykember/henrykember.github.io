@@ -80,6 +80,7 @@ a  {
     text-align: center;
     color: black;
     width: 90px;
+    height: 20px;
     padding: 8px;
     margin-top: 0px;
     border: 3px solid black;
@@ -92,6 +93,7 @@ a  {
   text-align: center;
   color: black;
   width: 90px;
+  height: 20px;
   padding: 8px;
   margin-top: 13px;
   margin-left: 30px;
@@ -100,9 +102,12 @@ a  {
 #accept:hover  {
   background: url("./P_Rodney_Dangerfield_tiny.jpg");
   background-size: 140px 44px;
+  font-size: 0px;
 }
 #decline:hover  {
-  background: url("./bluetexture.png");
+  background: url("./tinygrace1.jpg");
+  background-size: 114px 36px;
+  font-size: 0px;
 }
 /*@media only screen 
   and (min-device-width: 300px) 
