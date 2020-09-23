@@ -3,7 +3,6 @@
 html  {
     cursor: url("./Fez-Medlrg.png"), auto;
             width: 22px;
-  background-color: FFFFFF;
 }
 body {
   font-family: 'Roboto';
@@ -59,7 +58,7 @@ body {
   font-style: italic;
 }
 .deets.blurb  {
-    margin-top: calc(2px + 0.4vw);
+  margin-top: calc(2px + 0.4vw);
   /*font-size: calc(8px + 0.6vw);
   line-height: calc(6px + 1.1vw);*/
    font-size: calc(6px + 0.5vw);
@@ -81,9 +80,9 @@ body {
   width: 63vw;
 }
 .vidwrapper {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 56.25%;
   height: 0;
 }
 .vidwrapper iframe {
@@ -93,17 +92,39 @@ body {
   width: 100%;
   height: 100%;
 }
+#clickimages {
+   position: relative;
+   font-size: 16px;
+   bottom: 1vw;
+   font-style: italic;
+   width: 100px;
+}
+.print  {
+  position: relative;
+  margin-bottom: 2vw;
+  width: 63vw;
+}
+.print img {
+  width: 45%;
+}
+#bf  {
+  margin-right: 10vh;
+  width: 70%;
+}
+#muscle  {
+  box-sizing: border-box;
+  border: 1px solid #ABABAB;
+}
 .bottom  {
   position: absolute;
-  top: 180vw;
+  top: calc(10px + 340vw);
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
-}
-@media only screen 
+}@media only screen 
   and (min-device-width: 320px) 
     and (max-device-width: 1024px)
 /*  and (max-device-width: 480px)
@@ -142,8 +163,11 @@ body {
 .vidcontainer {
   width: 84vw;
 }
+/*.print img  {
+  width: 60%;
+}*/
 .bottom  {
- top: 260vw;
+ top: 430vw;
 }
 }
 @media only screen 
