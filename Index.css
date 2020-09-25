@@ -116,17 +116,20 @@ a  {
   and (orientation: portrait) {
 
 #headerp  {
-  font-size: 45px;
+  font-size: 65px;
   margin-top: 100px;
 }
 
 #tsandcs  {
- font-size: 11px;
+ /*font-size: 11px;
  line-height: 15px;
- line-width: 5px;
- margin-top: 160px;
+ line-width: 5px;*/
+ font-size: 13px;
+ line-height: 19px;
+ line-width: 6px;
+ margin-top: 173px;
  margin-left: 60px;
- width: 600px;
+ width: 640px;
  padding-right: 40px;
  height: calc(40vh - 20px);
 }
@@ -134,7 +137,7 @@ span  {
 font-size: 13px;
 }
 #buttons  {
-  margin-top: calc(40vh + 150px);
+  margin-top: calc(41vh + 150px);
   margin-left: 60px;
 }
 
