@@ -110,20 +110,16 @@ a  {
 
 @media only screen 
   and (min-device-width: 300px) 
-    and (max-device-width: 896px)
+    and (max-device-width: 480px)
 /*  and (max-device-width: 480px)
-*/  and (-webkit-min-device-pixel-ratio: 2)
+*/  /*and (-webkit-min-device-pixel-ratio: 2)*/
   and (orientation: portrait) {
 
 #headerp  {
   font-size: 65px;
   margin-top: 100px;
 }
-
 #tsandcs  {
- /*font-size: 11px;
- line-height: 15px;
- line-width: 5px;*/
  font-size: 13px;
  line-height: 19px;
  line-width: 6px;
@@ -136,42 +132,36 @@ a  {
 span  {
 font-size: 13px;
 }
-#buttons  {
-  margin-top: calc(41vh + 150px);
+/*#buttons  {
+  margin-top: calc(31vh + 150px);
   margin-left: 60px;
-}
+}*/
 
 
-/*@media only screen 
-  and (min-device-width: 320px) 
-    and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {*/
 
 @media only screen 
   and (min-device-width: 300px) 
-    and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
+    and (max-device-width: 896px)
   and (orientation: landscape) {
 
 #tsandcs  {
   margin-top: 10px;
-  height: 10vh;
+  height: 100px;
   text-decoration-color: red;
 }
-
+/*
 #tsandcs  {
   width: 80vw;
   margin-left: 0vw;
-  height: 50vh;
+  height: 50vh;*/
 }
-#headerp  {
+/*#headerp  {
   margin-left: -4vw;
 }
 #buttons  {
   margin-top: 80vh;
   margin-left: 0vw;
-}
+}*/*/
 /*@media only screen 
   and (min-device-width: 200px) 
     and (max-device-width: 512px)

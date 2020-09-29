@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            /*width: 22px;*/
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+/*  width: 80%;*/
+  /*margin-left: 10%;*/
+  /*margin-right: 10%;*/
+  /*background-color: red;*/
+}
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999; /* makes sure it stays on top */
+}
+
+#status {
+    /*width:80px;
+    height:80px;*/
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    /*background-image:url(loading2.gif);  path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-40px 0 0 -40px; /* is width and height divided by two */
+}
+#status img  {
+   width:80px;
+  height:80px;
+  
+}
+/*/*/*div#content {
+  z-index: 300;
+    /*display: none;*/
+    }
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+  /*border: 1px solid black;*/
+/*  background-color: red;*/
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.logowrapper  {
+  position: fixed;
+  width: 100%;
+}
+.logocontainer  {
+  margin-left: 50px;
+  margin-right: 50px;
+  /*max-width: 1300px;*/
+  min-width: 400px;
+  margin-top: 280px;
+  /*padding-right: 50px;*/
+   /*border: 1px solid black;*/
+}
+#logo {
+  float: right;
+  margin-right: -100px;
+  font-size: 44px;
+  width: 350px;
+    height: 90px;
+    padding: 20px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+    transform: rotate(90deg);
+}
+.outer-container  {
+	z-index: 100;
+	margin-left: 50px;
+	margin-right: 50px;
+  /*border: 1px solid black;*/
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 46px;
+    background-color: grey;
+}
+.flex-item {
+    min-width: 320px;
+    margin-left: 33px;
+     margin-right: 33px;
+    /*margin-right: 27px;*/
+    /*border: 1px solid black;*/
+}
+
+
+
+#bytheinfinite  {
+  position: absolute;
+  margin-top: 980px;
+  margin-left: 50px;
+  width: 320px;
+}
+#bytheinfinite source  {
+  display: block;
+  width: 320px;
+  object-fit: contain;
+}
+/*#bytheinfinite:hover .rollover  {
+   opacity: 1;
+}
+#infinitetitle  {
+  top: 7px;
+  left: 0px;
+}*/

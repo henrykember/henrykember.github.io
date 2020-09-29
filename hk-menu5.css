@@ -233,6 +233,8 @@ body {
   display: block;
   width: 100%;
   object-fit: contain;
+/*  opacity: 0;*/
+  /*z-index: 4;*/
 }
 #bytheinfinite:hover .rollover  {
    opacity: 1;
@@ -241,6 +243,26 @@ body {
   top: 7px;
   left: 0px;
 }
+
+.exhibishpic  {
+  position: relative;
+  width: 320px;
+  top: 0px;
+  left: 0px;
+}
+#exhibitionist img  {
+  display: block;
+  width: 100%;
+  /*object-fit: contain;*/
+}
+#exhibitionist:hover .rollover  {
+   opacity: 1;
+}
+
+
+
+
+
 #subsub  {
   position: absolute;
   margin-top: 1290px;
@@ -496,9 +518,9 @@ width: 320px;
 }
 .cuervorollover  {
   position: absolute;
-  margin-top: -177px;
-  margin-left: 19px;
-  width: 281px;
+  margin-top: -189px;
+  margin-left: 20px;
+  width: 300px;
 /*  border: 1px solid blue;*/
 /*  box-sizing: border-box;*/
   opacity: 0;
