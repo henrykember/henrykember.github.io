@@ -114,19 +114,43 @@ body {
     /*margin-right: 27px;*/
     /*border: 1px solid black;*/
 }
+.subtitles  {
+  position: relative;
+  display: inline-block;
+  list-style-type: none !important;
+  text-decoration: none;
+    line-height: 15px;
+    margin-top: -3px;
+  /*margin-top: 10px;
+  left: 0px;*/
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  /*z-index: 6;*/
+}
 
-
+/*.infinitewrapper  {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 450px;
+}*/
 
 #bytheinfinite  {
   position: absolute;
-  margin-top: 980px;
-  margin-left: 50px;
-  width: 320px;
-}
-#bytheinfinite source  {
   display: block;
-  width: 320px;
   object-fit: contain;
+  overflow: hidden;
+  width: 320px;
+  height: 180px;
+  top: 200px;
+  left: 200px;
+  border: 6px solid black;
+ 
+}
+#bytheinifinite video  {
+  position: relative;
+  width: 320px;
+  
 }
 /*#bytheinfinite:hover .rollover  {
    opacity: 1;
