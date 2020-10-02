@@ -139,17 +139,30 @@ body {
   position: absolute;
   display: block;
   object-fit: contain;
-  overflow: hidden;
-  width: 320px;
-  height: 180px;
+/*  width: 320px;
+  height: 180px;*/
   top: 200px;
   left: 200px;
-  border: 6px solid black;
+  /*border: 1px solid black;*/
  
 }
-#bytheinifinite video  {
+.infinitebg  {
   position: relative;
-  width: 320px;
+  top: 0;
+  left: 0;
+}
+.infinitevid  {
+/*  position: relative;
+  top: -405px;
+  left: 60px;*/
+   position: absolute;
+  top:0;
+  left: 60px;
+}
+.bytheinifinite video  {
+  /*position: absolute;*/
+/*  margin-top: -220px
+  margin-left: -20px;*/
   
 }
 /*#bytheinfinite:hover .rollover  {
