@@ -135,36 +135,32 @@ body {
   margin-left: 450px;
 }*/
 
-#bytheinfinite  {
+#boost  {
   position: absolute;
   display: block;
   object-fit: contain;
-/*  width: 320px;
-  height: 180px;*/
-  top: 200px;
-  left: 200px;
-  /*border: 1px solid black;*/
- 
+  top: 150px;
+  left: 100px; 
 }
-.infinitebg  {
+.boostbg  {
   position: relative;
   top: 0;
   left: 0;
 }
-.infinitevid  {
-/*  position: relative;
-  top: -405px;
-  left: 60px;*/
-   position: absolute;
+.boostbg img {
+  width: 30vw;
+}
+.boostvid  {
+  position: absolute;
   top:0;
-  left: 60px;
+  left: 2.84vw;
 }
-.bytheinifinite video  {
-  /*position: absolute;*/
-/*  margin-top: -220px
-  margin-left: -20px;*/
+.boostvid video  {
+  width: 25.29vw;
+}
+
   
-}
+
 /*#bytheinfinite:hover .rollover  {
    opacity: 1;
 }
