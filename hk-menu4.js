@@ -10,15 +10,7 @@ $(document).ready(function() {
             $('body').delay(350).css({'overflow':'visible'});
      });
 
-
-//     function hideloader() {
-// 	$('#loading').fadeOut('slow',function(){$(this).remove();});
-// 	}
-
-// 	setTimeout(hideloader, 1500);
-// });
-
-	var fivetonine = $("#fivetonine");
+		var fivetonine = $("#fivetonine");
 		var ninetofive = $("#ninetofive");
 		var all = $("#all");
 		var business = $(".business");
@@ -26,16 +18,17 @@ $(document).ready(function() {
 		// console.log("hi");
   
 
-
 		fivetonine.on('click', function ()  {	
 		console.log("hi");	
-			business.hide(200);
 			casual.show(200);
-			// casual.toggle(200);
+			business.hide(200);
+			$("a#subsub").css("margin-top", "200px"); 
+			$("a#housework").css("margin-top", "160px");
+			$("a#sicklove").css("margin-top", "600px");
 		});
 
 		fivetonine.off('click', function ()  {
-			console.log("hi");	
+			// console.log("hi");	
 			business.show(200);
 			casual.show(200);
 			// casual.toggle(200);
@@ -43,11 +36,14 @@ $(document).ready(function() {
 		
 		ninetofive.on('click', function ()  {
 			// console.log("hi");
-			// casual.toggle(200);
-			// business.toggle(200);
 			business.show(200);
 			casual.hide(200);
+			$("a#archive").css("margin-top", "500px");
+			$("a#subsub").css("margin-top", "930px");
+			$("a#housework").css("margin-top", "1170px");
+			$("a#sicklove").css("margin-top", "1290px");
 		});
+	
 
 		ninetofive.off('click', function ()  {
 			// console.log("hi");
@@ -59,10 +55,12 @@ $(document).ready(function() {
 
 		all.on('click', function ()  {
 			// console.log("hi");
-			// casual.toggle(200);
-			// business.toggle(200);
 			business.show(200);
 			casual.show(200);
+			$("a#subsub").css("margin-top", "930px !important");
+			$("a#housework").css("margin-top", "1170px");
+			$("a#archive").css("margin-top", "1790px");
+			$("a#sicklove").css("margin-top", "1290px");
 		});
 
 		all.off('click', function ()  {
@@ -73,15 +71,17 @@ $(document).ready(function() {
 			casual.show(200);
 		});
 	
-var figure = $(".playvid").hover( hoverVideo, hideVideo );
+// var figure = $(".playvid").hover( hoverVideo, hideVideo );
 
-function hoverVideo(e) {  
-    $('video', this).get(0).play(); 
-}
+// function hoverVideo(e) {  
+//     $('video', this).get(0).play(); 
+// }
 
-function hideVideo(e) {
-    $('video', this).get(0).pause(); 
-}
+// function hideVideo(e) {
+//     $('video', this).get(0).pause(); 
+// }
+
+});
 
 // var figure = $(".playvid").hover( hoverVideo, hideVideo );
 
@@ -93,27 +93,24 @@ function hideVideo(e) {
 //     $('video', this).get(0).play(); 
 // }
 
-fivetonine.on('click', function ()  {
-	$("a#subsub").css("margin-top", "200px"); 
-	$("a#houseworkwrapper").css("top", "200px");
-	$("a#houseworkwrapper").css("top", "200px");
-});
+// fivetonine.on('click', function ()  {
+// 	$("a#subsub").css("margin-top", "200px"); 
+// 	$("a#housework").css("margin-top", "160px");
+// 	$("a#sicklove").css("margin-top", "400px");
+// });
 
-ninetofive.on('click', function ()  {
-	// $("a#telstrawrapper").css("margin-top", "160px");
-	$("a#archive").css("margin-top", "500px");
-	$("a#subsub").css("margin-top", "930px");
-	$("a#houseworkwrapper").css("margin-top", "1170px");
-});
+// ninetofive.on('click', function ()  {
+// 	// $("a#telstrawrapper").css("margin-top", "160px");
+// 	$("a#archive").css("margin-top", "500px");
+// 	$("a#subsub").css("margin-top", "930px");
+// 	$("a#housework").css("margin-top", "1170px");
+// 	$("a#sicklove").css("margin-top", "1290px");
+// });
 
-all.on('click', function ()  {
-	$("a#subsub").css("margin-top", "930px");
-	$("a#houseworkwrapper").css("margin-top", "1170px");
-	$("a#archive").css("margin-top", "1790px");
+// all.on('click', function ()  {
 
-});
 
-});
+
 
 
 

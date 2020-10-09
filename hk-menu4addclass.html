@@ -5,9 +5,9 @@
     <meta name="pinterest" content="nopin"/>
     <title>Henry Kember | Menu</title>
     <link rel="stylesheet" type="text/css" href="./reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./hk-menu4.css"/>
+    <link rel="stylesheet" type="text/css" href="./hk-menu4addclass.css"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="hk-menu4.js"></script>
+    <script type="text/javascript" src="hk-menu4addclass.js"></script>
     <script src="https://use.fontawesome.com/dabf123cfb.js"></script>
   </head>
   <body>
@@ -18,8 +18,8 @@
       <div class="menucontainer">
 	      <ul class="menu">
 	        <li class="menuitems" id="all"><a>All</a></li>
-	        <li class="menuitems" id="ninetofive"><a>9-5</a></li>
-	        <li class="menuitems" id="fivetonine"><a>5-9</a></li>
+	        <li class="menuitems" id="nine-five"><a>9-5</a></li>
+	        <li class="menuitems" id="five-nine"><a>5-9</a></li>
 	        <li class="menuitems" id="bluntobjects"><a href="./hk-bluntobjects.html">Blunt Objects</a></li>
 	        <li class="menuitems" id="vitalstats"><a href="./hk-vitalstats.html">Vital Stats</a></li>
 	        <li class="menuitems" id="pictures"><a href="https://au.pinterest.com/henrykember/" target="blank">Pictures</a></li>
@@ -37,82 +37,88 @@
   </div>
 
    <div class="outer-container">
-	 <div class="flex-container">
-	  		
-	  		<div class="flex-item 1">
+	 <div id="linkscontainer" class="flex-container all">
+
+	  <div class="flex-item 1">
 		   
-		    <a class="business" id="boost" href="./hk-boost.html">
-        	<div id="boostgif">
-          		<img src="images/boost/boost-layered.gif">
+		 <!-- <a class="business" href="./hk-boost.html"> 
+        	<div id="boost">
+        	 	<div id="boostgif">
+          			<img src="images/boost/boost-layered.gif">
+        		</div>
+        		<div class="boostrollover">
+          			<img class="rolloverpic" src="images/boost/boost-photocopier.jpg">
+        		</div>
+        		<div class="subtitles" id="boosttitle">boost mobile : stay living</div>
         	</div>
-        	<div class="boostrollover">
-          		<img class="rolloverpic" src="images/boost/boost-photocopier.jpg">
-        	</div>
-        	<div class="subtitles" id="boosttitle">boost mobile : stay living</div>
-      	 </a>
+      	</a> -->
 
-	      <a class="business" id="bytheinfinite" href="./hk-cg-bytheinfinite.html">
-	      	<div class="infinitepic">
-	            <img src="images/cg-tbm/CG-TBMCropped320.gif">
-	            <img class="rollover" src="images/cg-tbm/CG-TBMCroppedStill.png">
-	            <div class="rollover">
-	             <!--  <span>IKEA<br><spam id="title"
-	               Talking <br>Pillow<br>
-	               In-store/Stunt</span> -->
-	              </span>
-	            </div>
-	      </div>
-	      <div class="subtitles" id="infinitetitle">Covergirl : By the Infinite</div>
-	    </a>
-		  
-	       
-	  <!--      <a class="business" id="hands" href="./hk-1800.html">
-		      <div class="handspic">
-		            <img src="images/1800/1800-Piano1Slowersml.gif">
-		            <img class="rollover" src="images/1800/1800-PianoStill.gif">
-		            <div class="rollover">
-		            </div>
+      	
+	     <a class="business" id="thornewrapper" href="./hk-thorne-frontierwithin.html">
+			<div id="thorne" class="playvid">
+				<div class="thornebg">
+					<img src="images/thorne/thorne-grid.png">
+				</div>
+				<div class="thornevid">
+		     	   <video loop preload="auto" muted>
+		           	 <source src="images/thorne/thorne-cliplite.mp4" type="video/mp4">
+		        	</video>  
+		    	</div>
+		    	<div class="subtitles" id="thornetitle">Thorne : The Frontier Within</div>
+		 	</div> 	
+		 </a>
+
+	      <a class="business" href="./hk-cg-bytheinfinite.html">
+	      	<div id="bytheinfinite">
+		      	<div class="infinitepic">
+		            <img src="images/cg-tbm/CG-TBMCropped320.gif">
+		            <img class="rollover" src="images/cg-tbm/CG-TBMCroppedStill.png">
+		         </div>
+		         <div class="rollover">		       
 		      </div>
-		      <div class="subtitles" id="handstitle">1800 : Just Refined Enough</div>
-		   </a> -->
+		      <div class="subtitles" id="infinitetitle">Covergirl : By the Infinite</div>
+		    </div>
+	    </a>
 
-
-
-		   <a class="casual" id="subsub" href="./hk-subsub.html">
-	        <div id="subsubpic">
-	          <img src="images/subsub/subsub-layered500x369.gif">
-	        </div>
-	        <div class="subrollover"></div>
-	         <div class="subtitles" id="subsubtitle">substitute suburb : personal project</div>
+		   <a class="casual" href="./hk-subsub.html">
+		      <div id="subsub">
+			        <div id="subsubpic">
+			          <img src="images/subsub/subsub-layered500x369.gif">
+			        </div>
+			        <div class="subrollover"></div>
+			         <div class="subtitles" id="subsubtitle">substitute suburb : personal project</div>
+			   </div>
 	       </a>
  		
- 		<a class="casual" id="sicklove" href="./hk-sicklove.html">
-	      	<div class="sickpic">
-	        	<img src="images/sicklove/sicklove-underarmslo(300x176).gif">
-	        	<img class="rollover" src="images/sicklove/sicklove-underarmstill(640x375).jpg">
-	        	<div class="rollover">
-	         <!--  <span>SICKLOVE<br>
-	           Short Film<br>
-	          </span> -->
-	        	</div>
-	      	</div>
-	      	<div class="subtitles" id="sicktitle">sicklove : short film</div>
+ 		<a class="casual" href="./hk-sicklove.html">
+ 			<div id="sicklove">
+		      	<div class="sickpic">
+		        	<img src="images/sicklove/sicklove-underarmslo(300x176).gif">
+		        	<img class="rollover" src="images/sicklove/sicklove-underarmstill(640x375).jpg">
+		        	<div class="rollover">
+		        	</div>
+		      	</div>
+		      	<div class="subtitles" id="sicktitle">sicklove : short film</div>
+	      </div>
 	     </a>
 
 
 
- 		<a class="business" id="paypal" href="./hk-htt.html">
-        	<div id="ppgif">
-          		<img src="images/paypal/PAYPAL-HTT(600x465).gif">
-        	</div>
-        	<div class="pprollover">
-          		<img class="rolloverpic" src="images/paypal/PAYPAL-HTT(600x465)Still.jpg">
-        	</div>
-        	<div class="subtitles" id="paytitle">paypal : instagram films</div>
-      	 </a>
-	  </div>
+ 		<a class="business" href="./hk-htt.html">
+ 			<div id="paypal">
+	        	<div id="ppgif">
+	          		<img src="images/paypal/PAYPAL-HTT(600x465).gif">
+	        	</div>
+	        	<div class="pprollover">
+	          		<img class="rolloverpic" src="images/paypal/PAYPAL-HTT(600x465)Still.jpg">
+	        	</div>
+	        	<div class="subtitles" id="paytitle">paypal : instagram films</div>
+	      	</div>
+       </a>
 
-	 																 <div class="flex-item 2">
+	 </div>
+
+	<div class="flex-item 2">
 
 	  	   <a class="business" id="exhibitionist" href="./hk-cg-shadeforshade.html">
 		      <div class="exhibishpic">
@@ -126,7 +132,7 @@
 
 	  	   
 	    
-	     <a class="business" id="gdexperience" href="./hk-gd-experienceunseen.html">
+	     <a id="gdexperience" href="./hk-gd-experienceunseen.html">
 	        <div id="gdexp">
 	          <img src="images/gdexperience/GuideDogs_BushLayeredAllLrg-slow0.06.gif">
 	        </div>
@@ -136,7 +142,7 @@
 	        <div class="subtitles" id="gdexptitle">guide dogs nsw : experience unseen</div>
 	       </a>
 
-	      <a class="business" id="seafolly" href="./hk-seafolly.html">
+	      <a class="all" id="seafolly" href="./hk-seafolly.html">
 	         <div class="seapic">
 	          	<img src="images/seafolly/SeafollyOverlaplrg.gif">
 	       		<img class="rollover" src="images/seafolly/Seafolly-overlapstill.jpg">
@@ -149,7 +155,7 @@
 	      <div class="subtitles" id="seatitle">seafolly x panama : stay forever</div>
 	     </a>  
 
-	      <a class="casual" id="housework" href="./hk-housework.html">
+	      <a class="all" id="housework" href="./hk-housework.html">
 	      	<div class="housepic">
 	       	 	<img src="images/housework/Housework(09282016).gif">
 	        	<img class="rollover" src="images/housework/Housework(09282016)still.gif">
@@ -163,7 +169,7 @@
 	      <div class="subtitles" id="housetitle">housework : perfomance art</div>
 	     </a>
 	    
-	     <a class="business" id="lap" href="./hk-lap.html">
+	     <a class="all" id="lap" href="./hk-lap.html">
 	      <div class="lappic">
 	        <img src="images/ikea/ikea-cinemagraph3.gif">
 	        <img class="rollover" src="images/ikea/ikea-cinemagraph3-still.jpg">
@@ -177,7 +183,7 @@
 	      <div class="subtitles" id="laptitle">Ikea : Talking Pillows</div>
 	     </a>
 
-	     <a class="business" id="archive" href="hk-archive.html">
+	     <a class="all" id="archive" href="hk-archive.html">
 	    	<div class="archivepic">
 	        	<img src="images/archive/WorkArchive-Layered.gif">
 	        <!-- <img class="rollover" src="images/lap/Lap-Still.png">
@@ -194,14 +200,14 @@
 
 	 															<div class="flex-item 3">
 
-	 	<a class="business" id="mixionary" href="./hk-mixionary.html">
+	 	<a class="all" id="mixionary" href="./hk-mixionary.html">
         	<div id="mixpic1">
           		<img src="images/mixionary/Mixionary-stackedLrg.gif">    
         	</div>
          	<div class="rollover"></div>
         	<div class="subtitles" id="mixtitle">diageo : mixionary</div>
       	</a>
-      	<a class="business" id="gdinterviews" href="hk-gd-interviews.html">
+      	<a class="all" id="gdinterviews" href="hk-gd-interviews.html">
 	      <div class="gdintpic">
 	        <img src="images/gdinterviews/GD-xtrashort-slow2.gif">
 	        <img class="rollover" src="images/gdinterviews/GD-nod-xtrashort-still.jpg">
@@ -212,11 +218,11 @@
 	      </div>
 	      <div class="subtitles" id="gdinttitle">guide dogs nsw : interviews</div>
 	     </a>
-	     <a class="business" id="cuervo"  href="./hk-cuervo.html">
+	     <a class="all" id="cuervo"  href="./hk-cuervo.html">
 	      	<div id="cuervogif">
 	        	<img src="images/Cuervo/CUERVO-PhotocopierTomorrow(320x189).gif">
 	        	</div>
-	        <div class="cuervorollover">
+	        	<div class="cuervorollover">
 	        	<img class="rolloverpic" src="./images/Cuervo/CUERVO-PhotocopierTomorrowStill.jpg">
 	        	<!-- <div class="rollover">
 	          <span>GUIDE DOGS<br>NSW<br>
@@ -225,7 +231,7 @@
 	      	</div>
 	     	<div class="subtitles" id="cuervotitle">Jose Cuervo : Tomorrow is Overrated</div>
 	       </a>
-	     <a class="business" id="telstra" href="./hk-telstra3.html">
+	     <a class="all" id="telstra" href="./hk-telstra3.html">
 	    	<div class="telpic">
 	        	<img src="http://i.imgur.com/HSHEa9n.gif">
 	        	<img class="rollover" src="./images/telstra/TelstraAir-still.jpg">
@@ -245,7 +251,7 @@
 	      	<div class="amdsrollover"></div>
 	      	<div class="subtitles" id="dadtitle">ads my dad says</div>
 	     </a> -->
-	     <a class="business" id="usyd" href="./hk-usyd.html">
+	     <a class="all" id="usyd" href="./hk-usyd.html">
         	<div id="usydgif">
           		<img src="images/usyd/USYD-JellyBeanlayers(320x189).gif">
         	</div>
@@ -261,5 +267,7 @@
 </body>
 
 </html>
+
+	 	<!-- I also thought there might be a problem with having classes with the same name as variables (i.e. "all" or "ninetofive") so I went with "whole", "business" and "casual" -->
 
 	 
