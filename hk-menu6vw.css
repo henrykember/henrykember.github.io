@@ -288,19 +288,8 @@ body {
   margin-top: 160px;
   left: 10vw;
 }
-/*#subsub  {
-  position: absolute;
-  margin-top: calc(160px + 139vw);
-  display: block;
-  object-fit: contain;
-  left: 10vw; 
-}
-#subsubpic {
-  position: relative;
+#subsubpic img  {
   width: 36vw;
-}*/
-#subsub img  {
-  width: 36w;
 }
 #subsubtitle  {
   top: 0.6vw;
