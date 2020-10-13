@@ -435,7 +435,7 @@ body {
 #gdinttitle  {
   top: 20.82vw;
 }
-#cuervowrapper  {
+/*#cuervowrapper  {
   position: absolute;
   margin-top: calc(260px + 151vw);
 }
@@ -452,6 +452,37 @@ body {
 }
 #cuervotitle  {
   top: 21.9vw;
+}*/
+#cuervo  {
+  position: absolute;
+  top: calc(260px + 151vw);
+  width: 36vw;
+  z-index: 3;
+}
+#cuervogif  {
+  position: absolute;
+  width: 36vw;
+  top: 0;
+  left: 0;
+}
+#cuervo img  {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.cuervorollover  {
+  position: absolute;
+  width: 33.76vw;
+  /*left: 0.85vw;*/
+  top: 2.225vw;
+  opacity: 0;
+}
+#cuervo:hover .cuervorollover  {
+  opacity: 1;
+}
+#cuervotitle {
+  top: 21.9vw;
+  left: 0;
 }
 #telstrawrapper  {
   position: absolute;
@@ -519,34 +550,4 @@ body {
     transform: rotate(90deg);
 }
 
-/*#cuervo  {
-  position: absolute;
-  top: calc(260px + 151vw);
-  width: 36vw;
-  z-index: 3;
-}
-#cuervogif  {
-  position: absolute;
-  width: 36vw;
-  top: 0;
-  left: 0;
-}
-#cuervo img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-.cuervorollover  {
-  position: absolute;
-  width: 33.74vw;
-  /*left: 0.85vw;*/
-  top: 2.26vw;
-  opacity: 0;
-}
-/*#cuervo:hover .cuervorollover  {
-  opacity: 1;
-}
-#cuervotitle {
-  top: 21.9vw;
-  left: 0;
-}*/
+
