@@ -325,11 +325,11 @@ body {
   top: calc(160px + 166vw);
   left: 15vw;   
 }
-.fivetonine #archive  {
+/*.fivetonine #archive  {
   position: absolute;
   top: calc(160px + 208vw);
   left: 15vw; 
-}
+}*/
 /*#archive  {
   width: 36vw;
   position: absolute;
@@ -484,15 +484,15 @@ body {
   top: 21.9vw;
   left: 0;
 }
-#telstrawrapper  {
+.two #telstrawrapper  {
   position: absolute;
   top: calc(260px + 188vw);
 }
-/*.ninetofive #telstrawrapper  {
+.one #telstrawrapper  {
   position: absolute;
   top: calc(160px + 139vw);
   left: 10vw; 
-}*/
+}
 /*#telstrawrapper  {
   position: absolute;
   display: block;

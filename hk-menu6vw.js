@@ -25,7 +25,7 @@ $(document).ready(function() {
 		});
 
 		nine2five.on('click', function ()  {
-			// $("#telstrawrapper").detach().appendTo(".one");
+			$("#telstrawrapper").detach().appendTo(".one");
 			$('#linkscontainer').addClass("ninetofive");
 			$('#linkscontainer').removeClass("all");
 			business.show(200);
@@ -33,7 +33,7 @@ $(document).ready(function() {
 		});
 
 		all.on('click', function ()  {
-			// $("#telstrawrapper").detach().appendTo(".two");
+			$("#telstrawrapper").detach().appendTo(".two");
 			$('#linkscontainer').addClass("all");
 			$('#linkscontainer').removeClass("ninetofive");
 			$('#linkscontainer').removeClass("fivetonine");
