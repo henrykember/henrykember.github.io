@@ -278,11 +278,11 @@ body {
   margin-top: calc(160px + 139vw);
   left: 10vw; 
 }
-.ninetofive #subsub  {
+/*.ninetofive #subsub  {
   position: absolute;
   margin-top: calc(160px + 139vw);
   left: 10vw;  
-}
+}*/
 .fivetonine #subsub  {
   position: absolute;
   margin-top: 160px;
@@ -299,11 +299,11 @@ body {
   top: calc(160px + 180vw);
   left: 10vw; 
 }
-.ninetofive #houseworkwrapper  {
+/*.ninetofive #houseworkwrapper  {
   position: absolute;
   top: calc(160px + 180vw);
   left: 10vw;  
-}
+}*/
 .fivetonine #houseworkwrapper  {
   position: absolute;
   margin-top: calc(160px + 39vw);
@@ -488,11 +488,11 @@ body {
   position: absolute;
   top: calc(260px + 188vw);
 }
-.ninetofive #telstrawrapper  {
+/*.ninetofive #telstrawrapper  {
   position: absolute;
   top: calc(160px + 139vw);
   left: 10vw; 
-}
+}*/
 /*#telstrawrapper  {
   position: absolute;
   display: block;
@@ -502,9 +502,7 @@ body {
 }*/
 .telstravid  {
   position: absolute;
-  top:0;
   width: 36vw;
-/*  left: 15px;*/
 }
 .telstravid video  {
   width: 100%;
