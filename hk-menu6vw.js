@@ -17,22 +17,23 @@ $(document).ready(function() {
 		var casual = $(".casual");
 
 		five2nine.on('click', function ()  {	
+			$("#telstrawrapper").detach().appendTo(".two");
 			$('#linkscontainer').addClass("fivetonine");
 			$('#linkscontainer').removeClass("all");
 			casual.show(200);
 			business.hide(200);
-
 		});
 
 		nine2five.on('click', function ()  {
+			$("#telstrawrapper").detach().appendTo(".one");
 			$('#linkscontainer').addClass("ninetofive");
 			$('#linkscontainer').removeClass("all");
 			business.show(200);
 			casual.hide(200);
-			$("#telstrawrapper").detach().appendTo(".one");
 		});
 
 		all.on('click', function ()  {
+			$("#telstrawrapper").detach().appendTo(".two");
 			$('#linkscontainer').addClass("all");
 			$('#linkscontainer').removeClass("ninetofive");
 			$('#linkscontainer').removeClass("fivetonine");

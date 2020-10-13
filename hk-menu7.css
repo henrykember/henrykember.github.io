@@ -322,7 +322,7 @@ body {
 }
 .ninetofive #archive  {
   position: absolute;
-  top: calc(160px + 132vw);
+  top: calc(160px + 166vw);
   left: 15vw;   
 }
 .fivetonine #archive  {
@@ -486,17 +486,25 @@ body {
 }
 #telstrawrapper  {
   position: absolute;
+  top: calc(260px + 188vw);
+}
+.ninetofive #telstrawrapper  {
+  position: absolute;
+  top: calc(160px + 139vw);
+  left: 10vw; 
+}
+/*#telstrawrapper  {
+  position: absolute;
   display: block;
   object-fit: contain;
   top: calc(260px + 188vw);
-  /*left: 5vw; */
   width: 36vw;
-  /*border: 1px solid black;*/
-}
+}*/
 .telstravid  {
   position: absolute;
   top:0;
-/*  left: 15px;*/
+  width: 36vw;
+
 }
 .telstravid video  {
   width: 100%;

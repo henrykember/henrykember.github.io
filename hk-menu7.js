@@ -21,6 +21,7 @@ $(document).ready(function() {
 			$('#linkscontainer').removeClass("all");
 			casual.show(200);
 			business.hide(200);
+			$("#telstrawrapper").detach().appendTo(".two");
 
 		});
 
@@ -30,8 +31,6 @@ $(document).ready(function() {
 			business.show(200);
 			casual.hide(200);
 			$("#telstrawrapper").detach().appendTo(".one");
-			// $('#movetest2').append( $('#movetest1>a#telstrawrapper') );
-			// $('#movetest').append($("#telstrawrapper"));
 		});
 
 		all.on('click', function ()  {
@@ -40,6 +39,7 @@ $(document).ready(function() {
 			$('#linkscontainer').removeClass("fivetonine");
 			business.show(200);
 			casual.show(200);
+			$("#telstrawrapper").detach().appendTo(".two");
 		});
 
 
