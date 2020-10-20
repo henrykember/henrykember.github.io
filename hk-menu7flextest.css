@@ -67,6 +67,7 @@ body {
 .logowrapper  {
   position: fixed;
   width: 100%;
+  z-index: 0;
 }
 .logo {
   float: right;
@@ -99,11 +100,10 @@ body {
     min-width: 1080px;
     justify-content: space-around;
     margin: auto;
-    background-color: red;
+/*    background-color: red;*/
 }
 .flex-item {
     width: 440px;
-    border: 1px solid black;
 }
 .one  {
   margin-left: 70px;
@@ -129,11 +129,11 @@ body {
 #thorne {
   width: 440px;
 }
-.thornebg  {
+/*.thornebg  {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 .thornebg img  {
   width: 440px;
 }
@@ -144,23 +144,18 @@ body {
 }
 .thornevid video  {
   width: 410px;
-  /*border: 0.1px solid white;*/
 }
 #thornetitle  {
-  top: 284px;
+  top: -34px;
   left: 275px;
 }
 .all #infinitewrapper  {
   position: absolute;
-  top: 600px; 
+  top: 700px; 
 }
 .ninetofive #infinitewrapper  {
   position: absolute;
-  top: 600px; 
-
-}.fivetonine #infinitewrapper  {
-  position: absolute;
-  top: 600px; 
+  top: 700px; 
 }
 .infinitevid video  {
   width: 440px;
@@ -170,15 +165,11 @@ body {
 }
 .all #boostwrapper  {
   position: absolute;
-  top: 900px;
+  top: 1170px;
 }
 .ninetofive #boostwrapper  {
   position: absolute;
-  top: 900px;
-}
-.fivetonine #boostwrapper  {
-  position: absolute;
-  top: 900px;
+  top: 1170px;
 }
 .boostbg img  {
   width: 440px;
@@ -196,14 +187,11 @@ body {
 }
 .all #shadewrapper  {
   position: absolute;
-  top: 1300px;
+  top: 1625px;
 }
 .ninetofive #shadewrapper  {
   position: absolute;
-  top: 1300px; 
-}.fivetonine #shadewrapper  {
-  position: absolute;
-  top: 1300px;
+  top: 1625px; 
 }
 .shadevid video  {
   width: 440px;
@@ -213,7 +201,7 @@ body {
 }
 .all #subsub  {
   position: absolute;
-  margin-top: 1650px;
+  margin-top: 2050px;
 }
 .fivetonine #subsub  {
   position: absolute;
@@ -227,7 +215,7 @@ body {
 }
 .all #houseworkwrapper  {
   position: absolute;
-  top: 2000px;
+  top: 2550px;
 }
 .fivetonine #houseworkwrapper  {
   position: absolute;
@@ -241,11 +229,11 @@ body {
 }
 .all #archive  {
   position: absolute;
-  top: 2600px; 
+  top: 2920px; 
 }
 .ninetofive #archive  {
   position: absolute;
-  top: 1000px; 
+  top: 2400px; 
 }
 #archive img  {
   width: 440px;
@@ -258,7 +246,7 @@ top: 4px;
 
 #mixionary {
   position: absolute;
-  margin-top: 280px;
+  margin-top: 330px;
 }
 #mixpic  {
   margin-top: 0px;
@@ -277,33 +265,28 @@ top: 4px;
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 940px;
+  top: 930px;
   width: 440px;
-}
-.gdexpbg  {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 .gdexpbg img  {
   width: 440px;
 }
 .gdexpvid  {
   position: absolute;
-  top:40px;
+  top:38px;
 }
 .gdexpvid video  {
-  width: 375px;
+  width: 414px;
 }
 #gdexptitle  {
-  top: 260px;
-  left: 35px;
+  top: 4px;
+  left: 27px;
 }
 #seawrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 1420px;
+  top: 1410px;
 }
 .seavid video  {
   width: 440px;
@@ -315,7 +298,7 @@ top: 4px;
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 1750px;
+  top: 1840px;
 }
 .gdintvid video  {
   width: 440px;
@@ -344,42 +327,36 @@ top: 4px;
 }*/
 #cuervo  {
   position: absolute;
-  top: 2100px;
-  width: 440px;
+  top: 2290px;
   z-index: 3;
 }
-#cuervogif  {
-  position: absolute;
+#cuervogrid  {
   width: 440px;
-  top: 0;
-  left: 0;
 }
 #cuervo img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-.cuervorollover  {
+.cuervorollover {
   position: absolute;
-  width: 413px;
-  left: 0px;
+  width: 412.4px;
   top: 27.5px;
   opacity: 0;
-  /*border: 0.5px solid black;*/
 }
 #cuervo:hover .cuervorollover  {
   opacity: 1;
 }
 #cuervotitle {
-  top: 260px;
+  top: 4px;
 }
 .two #telstrawrapper  {
   position: absolute;
-  top: 2400px;
+  top: 2740px;
 }
 .one #telstrawrapper  {
   position: absolute;
-  top: 2000px;
+  top: 2050px;
 }
 /*#telstrawrapper  {
   position: absolute;
@@ -388,18 +365,13 @@ top: 4px;
   top: calc(260px + 188vw);
   width: 36vw;
 }*/
-.telstravid  {
-  position: absolute;
-  width: 440px;
-}
 .telstravid video  {
-  width: 100%;
+  width: 440px;
   /*border: 0.5px solid white;*/
 }
 #telstratitle  {
   top: 4px;
 }
-
 #two-red  {
   position: absolute;
   background-color: red;
@@ -418,7 +390,7 @@ top: 4px;
 
 .bottom  {
   position: absolute;
-  top: 3000px;
+  top: 3600px;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -429,10 +401,16 @@ top: 4px;
 @media only screen and (max-width: 1024px)  {
 
 .flex-container {
-  min-width: 600px;
+  min-width: 850px;
 }
 .flex-item  {
   width: 360px;
+}
+.one  {
+  margin-left: 40px;
+}
+.two  {
+  margin-right: 40px;
 }
 #thorne  {
   width: 360px;
@@ -448,15 +426,27 @@ top: 4px;
 .thornevid video  {
   width: 320px;
 }
-#thornetitle  {
-  top: 213px;
-  left:165px;
+  #thornetitle  {
+  top: -29px;
+  left: 194px;
 }
-.shadevid video  {
+.all #infinitewrapper  {
+  top: 620px; 
+}
+.ninetofive #infinitewrapper  {
+  top: 620px; 
+}
+.infinitevid video  {
   width: 360px;
 }
+.all #boostwrapper  {
+  top: 970px;
+}
+.ninetofive #boostwrapper  {
+  top: 970px;
+}
 .boostbg img  {
-  width: 440px;
+  width: 360px;
 }
 .boostvid  {
   position: absolute;
@@ -466,17 +456,87 @@ top: 4px;
 .boostvid video  {
   width: 305px;
 }
+.all #shadewrapper  {
+  top: 1330px;
+}
+.ninetofive #shadewrapper  {
+  top: 1350px; 
+}
 .shadevid video  {
   width: 360px;
 }
-.subsub  img  {
+.all #subsub  {
+  margin-top: 1650px;
+}
+#subsub  img  {
   width: 360px;
 }
-
-
-
-
+.all #houseworkwrapper  {
+  top: 2035px;
+}
+.fivetonine #houseworkwrapper  {
+  top: 600px;
+}
+.housevid video  {
+  width: 360px;
+}
+.all #archive  {
+  top: 2325px; 
+}
+.ninetofive #archive  {
+  top: 1950px; 
+}
+#mixionary {
+  margin-top: 300px;
+}
 #mixionary img  {
+  width: 360px;
+}
+#gdexpwrapper  {
+  top: 770px;
+}
+.gdexpbg img  {
+  width: 360px;
+}
+.gdexpvid  {
+  position: absolute;
+  top: 31px;
+}
+.gdexpvid video  {
+  width: 338px;
+}
+#gdexptitle  {
+  left: 23px;
+}
+#seawrapper  {
+  top: 1150px;
+}
+.seavid video  {
+  width: 360px;
+}
+#gdintwrapper  {
+  top: 1500px;
+}
+.gdintvid video  {
+  width: 360px;
+}
+#cuervo  {
+  top: 1850px;
+}
+#cuervogrid  {
+width: 360px;
+}
+.cuervorollover  {
+width: 337.5px;
+top: 22.5px;
+}
+.two #telstrawrapper  {
+  top: 2210px;
+}
+.one #telstrawrapper  {
+  top: 1680px;
+}
+.telstravid video {
   width: 360px;
 }
 #one-blue {
@@ -485,6 +545,6 @@ top: 4px;
 #two-blue {
   width: 360px;
 }
-
+.bottom  {
+  top: 3000px;
 }
-

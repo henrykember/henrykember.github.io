@@ -39,10 +39,6 @@ body {
   height:80px;
   
 }
-/*/*/*div#content {
-  z-index: 300;
-    /*display: none;*/
-    }
 .menucontainer  {
   position: fixed;
   top: 0;
@@ -54,8 +50,6 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 20px 70px;
-  /*border: 1px solid black;*/
-/*  background-color: red;*/
 }
 .menuitems a  {
   list-style-type: none;
@@ -69,371 +63,249 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
+
 .logowrapper  {
   position: fixed;
   width: 100%;
+  z-index: 0;
 }
-.logocontainer  {
-  margin-left: 50px;
-  margin-right: 80px;
-  /*max-width: 1300px;*/
-  min-width: 400px;
-  margin-top: calc(34vh + 60px);
-   margin-top: 280px;
-  /*padding-right: 50px;*/
-   /*border: 1px solid black;*/
-}
-#logo {
+.logo {
   float: right;
-  margin-right: -100px;
   font-size: 44px;
-/*  font-size: 6.5vh;*/
+  margin-top: 280px;
+  margin-right: -50px;
   width: 350px;
-    height: 90px;
-/*    width: 50vh;
-    height: 13vh;*/
-    padding: 20px;
+  padding: 20px;
   border: 5px solid black;
   transform: translate(-50%, -100%);
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
-/*The below affects every thumbnail on rollover*/
-.outer-container  {
-	z-index: 100;
-  width: 100%;
-	/*margin-left: 80px;*/
-	/*margin-right: 80px;*/
+.subtitles  {
+  position: relative;
+  display: inline-block;
+  list-style-type: none !important;
+  text-decoration: none;
+    line-height: 15px;
+    /*margin-top: -3px;*/
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #000000;
+  /*z-index: 6;*/
 }
+
 .flex-container {
+    z-index: 100;
     display: flex;
+    min-width: 1080px;
     justify-content: space-around;
-    box-sizing: border-box;
-    /*width: 100%;*/
-    margin-left: 145px;
-    background-color: grey;
+    margin: auto;
+/*    background-color: red;*/
 }
 .flex-item {
-    width: 300px;
-/*    margin-left: 20px;*/
-    /*background-color: grey;*/
-    border: 1px solid black;
-     /*margin-right: 20px;*/
-    /*margin-right: 27px;*/
+    width: 440px;
 }
-.rollover {
-  /*display: block;*/
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: left;
-  /*background-color: rgba(0,0,0,.35);*/
-  opacity: 0;
-  color: white;
+.one  {
+  margin-left: 70px;
 }
-.rollover img  {
-  display: block;
-  position: relative;
-  width: 100%;
-  object-fit: contain;
-  top: 0px;
-  left: 0px;
-  z-index: 7;
-}
-.rolloverpic img  {
-  position: relative;
-  margin-top: 0;
-  margin-left: 0;
-  object-fit: contain;
-   z-index: 3;
-}
-.subtitles  {
-	position: relative;
-	display: inline-block;
-	list-style-type: none !important;
-	text-decoration: none;
-    line-height: 15px;
-    margin-top: -3px;
-	/*margin-top: 10px;
-	left: 0px;*/
-	font-size: 10px;
-	text-transform: uppercase;
-	color: #000000;
-	/*z-index: 6;*/
+.two  {
+  display: inline-block;
+  margin-right: 70px;
 }
 
-/*Items in Flex-item 1*/
+/*Items in Flex-item one*/
 
 .all #thornewrapper  {
   position: absolute;
   top: 160px;
-  left: 100px; 
 }
 .ninetofive #thornewrapper  {
   position: absolute;
   top: 160px;
-  left: 100px; 
 }.fivetonine #thornewrapper  {
   position: absolute;
   top: 160px;
-  left: 100px; 
 }
 #thorne {
   width: 440px;
 }
-.thornebg  {
+/*.thornebg  {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 .thornebg img  {
   width: 440px;
 }
 .thornevid  {
   position: absolute;
-  top: 45px;
+  top: 50px;
   left: 20px;
 }
 .thornevid video  {
   width: 410px;
-  /*border: 0.1px solid white;*/
 }
 #thornetitle  {
-  top: 287px;
-  left:290px;
+  top: -34px;
+  left: 275px;
 }
 .all #infinitewrapper  {
   position: absolute;
-  top: 600px;
-  left: 100px;  
+  top: 700px; 
 }
 .ninetofive #infinitewrapper  {
   position: absolute;
-  top: 600px;
-  left: 100px; 
-}.fivetonine #infinitewrapper  {
-  position: absolute;
-   top: 600px;
-  left: 100px; 
+  top: 700px; 
 }
 .infinitevid video  {
   width: 440px;
 }
 #infinitetitle  {
-  top: 10px;
+  top: 4px;
 }
 .all #boostwrapper  {
   position: absolute;
-  top: calc(160px + 70vw);
-  left: 10vw;  
+  top: 1170px;
 }
 .ninetofive #boostwrapper  {
   position: absolute;
-  top: calc(160px + 70vw);
-   left: 10vw; 
-}.fivetonine #boostwrapper  {
-  position: absolute;
-  top: calc(160px + 70vw);
-  left: 10vw; 
+  top: 1170px;
 }
 .boostbg img  {
-  width: 36vw;
+  width: 440px;
 }
 .boostvid  {
   position: absolute;
   top:0;
-  left: 3.37vw;
+  left: 40px;
 }
 .boostvid video  {
-  width: 30.5vw;
+  width: 373px;
 }
 #boosttitle  {
-  top: 0.6vw;
+  top: 4px;
 }
 .all #shadewrapper  {
   position: absolute;
-  top: calc(160px + 105vw);
-  left: 10vw; 
+  top: 1625px;
 }
 .ninetofive #shadewrapper  {
   position: absolute;
-  top: calc(160px + 105vw);
-  left: 10vw;  
-}.fivetonine #shadewrapper  {
-  position: absolute;
-  top: calc(160px + 105vw);
-  left: 10vw;
+  top: 1625px; 
 }
 .shadevid video  {
-  width: 36vw;
+  width: 440px;
 }
 #shadetitle  {
-  top: 0.6vw;
+  top: 4px;
 }
 .all #subsub  {
   position: absolute;
-  margin-top: calc(160px + 139vw);
-  left: 10vw; 
-}
-.ninetofive #subsub  {
-  position: absolute;
-  margin-top: calc(160px + 139vw);
-  left: 10vw;  
+  margin-top: 2050px;
 }
 .fivetonine #subsub  {
   position: absolute;
   margin-top: 160px;
-  left: 10vw;
 }
 #subsubpic img  {
-  width: 36vw;
+  width: 440px;
 }
 #subsubtitle  {
-  top: 0.6vw;
+  top: 4px;
 }
 .all #houseworkwrapper  {
   position: absolute;
-  top: calc(160px + 180vw);
-  left: 10vw; 
-}
-.ninetofive #houseworkwrapper  {
-  position: absolute;
-  top: calc(160px + 180vw);
-  left: 10vw;  
+  top: 2550px;
 }
 .fivetonine #houseworkwrapper  {
   position: absolute;
-  margin-top: calc(160px + 39vw);
-  left: 10vw;
+  top: 600px;
 }
 .housevid video  {
-  width: 36vw;
+  width: 440px;
 }
 #housetitle  {
-  top: 0.6vw;
+  top: 4px;
 }
 .all #archive  {
   position: absolute;
-  top: calc(160px + 208vw);
-  left: 15vw; 
+  top: 2920px; 
 }
 .ninetofive #archive  {
   position: absolute;
-  top: calc(160px + 166vw);
-  left: 15vw;   
+  top: 2400px; 
 }
-.fivetonine #archive  {
-  position: absolute;
-  top: calc(160px + 208vw);
-  left: 15vw; 
-}
-/*#archive  {
-  width: 36vw;
-  position: absolute;
-  margin-top: calc(160px + 208vw);
-  margin-left: 15vw;
-}*/
 #archive img  {
-  width: 36vw;
+  width: 440px;
 }
 #archivetitle  {
-  top: 7;
-  left: 0;
+top: 4px;
 }
 
-/*Items in flex-item 2*/
+/*Items in Flex-item one*/
 
 #mixionary {
   position: absolute;
-  margin-top: 260px;
+  margin-top: 330px;
 }
 #mixpic  {
-  position: relative;
-  width: 36vw;
   margin-top: 0px;
   margin-left: 0px;
   z-index: 6;
 }
 #mixionary img {
   display: block;
-  width: 36vw;
+  width: 440px;
   object-fit: contain;
 }
 #mixtitle {
-  margin-top: 0.52vw;
-  /*margin-left: -5vw;*/
+  margin-top: 4px;
 }
 #gdexpwrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: calc(260px + 47vw);
-  width: 36vw;
-  /*border: 1px solid black;*/
-}
-.gdexpbg  {
-  position: absolute;
-  top: 0;
-  left: 0;
+  top: 930px;
+  width: 440px;
 }
 .gdexpbg img  {
-  width: 36vw;
+  width: 440px;
 }
 .gdexpvid  {
   position: absolute;
-  top:3.13vw;
+  top:38px;
 }
 .gdexpvid video  {
-  width: 33.8vw;
-  /*border: 0.5px solid white;*/
+  width: 414px;
 }
 #gdexptitle  {
-  top: 24.9vw;
-  left: 2.2vw;
+  top: 4px;
+  left: 27px;
 }
 #seawrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
- top: calc(260px + 85vw);
-  /*left: 5vw; */
-  width: 36vw;
-  /*border: 1px solid black;*/
-}
-.seavid  {
-  position: absolute;
-  top:0;
+  top: 1410px;
 }
 .seavid video  {
-  width: 36vw;
-  /*border: 0.5px solid white;*/
+  width: 440px;
 }
 #seatitle  {
-  top: 20.82vw;
+  top: 4px;
 }
 #gdintwrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: calc(260px + 118vw);
-  /*left: 5vw; */
-  width: 36vw;
-  /*border: 1px solid black;*/
-}
-.gdintvid  {
-  position: absolute;
-  top:0;
-/*  left: 15px;*/
+  top: 1840px;
 }
 .gdintvid video  {
-  width: 36vw;
+  width: 440px;
   /*border: 0.5px solid white;*/
 }
 #gdinttitle  {
-  top: 20.82vw;
+  top: 4px;
 }
 /*#cuervowrapper  {
   position: absolute;
@@ -455,59 +327,70 @@ body {
 }*/
 #cuervo  {
   position: absolute;
-  top: calc(260px + 151vw);
-  width: 36vw;
+  top: 2290px;
   z-index: 3;
 }
-#cuervogif  {
-  position: absolute;
-  width: 36vw;
-  top: 0;
-  left: 0;
+#cuervogrid  {
+  width: 440px;
 }
 #cuervo img  {
   display: block;
   width: 100%;
   object-fit: contain;
 }
-.cuervorollover  {
+.cuervorollover {
   position: absolute;
-  width: 33.76vw;
-  /*left: 0.85vw;*/
-  top: 2.225vw;
+  width: 412.4px;
+  top: 27.5px;
   opacity: 0;
 }
 #cuervo:hover .cuervorollover  {
   opacity: 1;
 }
 #cuervotitle {
-  top: 21.9vw;
-  left: 0;
+  top: 4px;
 }
 .two #telstrawrapper  {
   position: absolute;
-  top: calc(260px + 188vw);
+  top: 2740px;
 }
 .one #telstrawrapper  {
   position: absolute;
-  top: calc(160px + 139vw);
-  left: 10vw; 
+  top: 2050px;
 }
-.telstravid  {
+/*#telstrawrapper  {
   position: absolute;
-  top:0;
+  display: block;
+  object-fit: contain;
+  top: calc(260px + 188vw);
   width: 36vw;
-}
+}*/
 .telstravid video  {
-  width: 100%;
+  width: 440px;
+  /*border: 0.5px solid white;*/
 }
 #telstratitle  {
-  top: 20.82vw;
+  top: 4px;
+}
+#two-red  {
+  position: absolute;
+  background-color: red;
+  top: 160px;
+  width: 440px;
+  height: 300px;
+}
+
+#two-blue  {
+  position: absolute;
+  background-color: blue;
+  top: 800px;
+  width: 440px;
+  height: 300px;
 }
 
 .bottom  {
   position: absolute;
-  top: calc(260px + 265vw);
+  top: 3600px;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -515,38 +398,153 @@ body {
   text-align: center;
   line-height: 20px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-    and (max-device-width: 1024px)
-/*  and (max-device-width: 480px)
-*/  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (max-width: 1024px)  {
 
-#thornewrapper  {
-  width:; 320px;
-
-  .logocontainer  {
-  margin-left: 25px;
-  margin-right: 100px;
-  /*max-width: 1300px;*/
-  min-width: 200px;
-  margin-top: calc(34vh + 60px);
-  /*padding-right: 50px;*/
-   /*border: 1px solid black;*/
+.flex-container {
+  min-width: 850px;
 }
-#logo {
-  float: right;
-  margin-right: -150px;
-  /*font-size: 44px;*/
-  font-size: 4.5vh;
-  /*width: 350px;
-    height: 90px;*/
-    width: 30vh;
-    height: 6.5vh;
-    padding: 20px;
-  border: 5px solid black;
-  transform: translate(-50%, -100%);
-    transform: rotate(90deg);
+.flex-item  {
+  width: 360px;
 }
-
-
+.one  {
+  margin-left: 40px;
+}
+.two  {
+  margin-right: 40px;
+}
+#thorne  {
+  width: 360px;
+}
+.thornebg img  {
+  width: 360px;
+}
+.thornevid  {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+.thornevid video  {
+  width: 320px;
+}
+  #thornetitle  {
+  top: -29px;
+  left: 194px;
+}
+.all #infinitewrapper  {
+  top: 620px; 
+}
+.ninetofive #infinitewrapper  {
+  top: 620px; 
+}
+.infinitevid video  {
+  width: 360px;
+}
+.all #boostwrapper  {
+  top: 970px;
+}
+.ninetofive #boostwrapper  {
+  top: 970px;
+}
+.boostbg img  {
+  width: 360px;
+}
+.boostvid  {
+  position: absolute;
+  top:0;
+  left: 34px;
+}
+.boostvid video  {
+  width: 305px;
+}
+.all #shadewrapper  {
+  top: 1330px;
+}
+.ninetofive #shadewrapper  {
+  top: 1350px; 
+}
+.shadevid video  {
+  width: 360px;
+}
+.all #subsub  {
+  margin-top: 1650px;
+}
+#subsub  img  {
+  width: 360px;
+}
+.all #houseworkwrapper  {
+  top: 2035px;
+}
+.fivetonine #houseworkwrapper  {
+  top: 600px;
+}
+.housevid video  {
+  width: 360px;
+}
+.all #archive  {
+  top: 2325px; 
+}
+.ninetofive #archive  {
+  top: 1950px; 
+}
+#mixionary {
+  margin-top: 300px;
+}
+#mixionary img  {
+  width: 360px;
+}
+#gdexpwrapper  {
+  top: 770px;
+}
+.gdexpbg img  {
+  width: 360px;
+}
+.gdexpvid  {
+  position: absolute;
+  top: 31px;
+}
+.gdexpvid video  {
+  width: 338px;
+}
+#gdexptitle  {
+  left: 23px;
+}
+#seawrapper  {
+  top: 1150px;
+}
+.seavid video  {
+  width: 360px;
+}
+#gdintwrapper  {
+  top: 1500px;
+}
+.gdintvid video  {
+  width: 360px;
+}
+#cuervo  {
+  top: 1850px;
+}
+#cuervogrid  {
+width: 360px;
+}
+.cuervorollover  {
+width: 337.5px;
+top: 22.5px;
+}
+.two #telstrawrapper  {
+  top: 2210px;
+}
+.one #telstrawrapper  {
+  top: 1680px;
+}
+.telstravid video {
+  width: 360px;
+}
+#one-blue {
+  width: 360px;
+}
+#two-blue {
+  width: 360px;
+}
+.bottom  {
+  top: 3000px;
+}
