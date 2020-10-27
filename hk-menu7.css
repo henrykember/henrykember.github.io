@@ -109,8 +109,15 @@ body {
   margin-left: 70px;
 }
 .two  {
-  display: inline-block;
+  /*display: inline-block;*/
   margin-right: 70px;
+}
+.desktop  {
+  display: block;
+}
+.mobile  {
+  width: 360px;
+  display: none;
 }
 
 /*Items in Flex-item one*/
@@ -129,11 +136,6 @@ body {
 #thorne {
   width: 440px;
 }
-/*.thornebg  {
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
 .thornebg img  {
   width: 440px;
 }
@@ -157,6 +159,9 @@ body {
   position: absolute;
   top: 700px; 
 }
+/*.infinitevid img  {
+  width: 440px;
+}*/
 .infinitevid video  {
   width: 440px;
 }
@@ -307,25 +312,25 @@ top: 4px;
 #gdinttitle  {
   top: 4px;
 }
-/*#cuervowrapper  {
+#cuervowrapper  {
   position: absolute;
-  margin-top: calc(260px + 151vw);
+  margin-top: 2290px;
+  width: 440px;
 }
 .cuervobg img  {
-  position: absolute;
-  width: 36vw;
+  width: 440px;
 }
 .cuervovid  {
   position: absolute;
-  margin-top: 2.3vw;
+  top: 29px;
 }
 .cuervovid video  {
-  width: 33.74vw;
+  width: 413px;
 }
 #cuervotitle  {
-  top: 21.9vw;
-}*/
-#cuervo  {
+  top: 4px;
+}
+/*#cuervo  {
   position: absolute;
   top: 2290px;
   z-index: 3;
@@ -349,7 +354,7 @@ top: 4px;
 }
 #cuervotitle {
   top: 4px;
-}
+}*/
 .two #telstrawrapper  {
   position: absolute;
   top: 2740px;
@@ -358,36 +363,12 @@ top: 4px;
   position: absolute;
   top: 2050px;
 }
-/*#telstrawrapper  {
-  position: absolute;
-  display: block;
-  object-fit: contain;
-  top: calc(260px + 188vw);
-  width: 36vw;
-}*/
 .telstravid video  {
   width: 440px;
-  /*border: 0.5px solid white;*/
 }
 #telstratitle  {
   top: 4px;
 }
-#two-red  {
-  position: absolute;
-  background-color: red;
-  top: 160px;
-  width: 440px;
-  height: 300px;
-}
-
-#two-blue  {
-  position: absolute;
-  background-color: blue;
-  top: 800px;
-  width: 440px;
-  height: 300px;
-}
-
 .bottom  {
   position: absolute;
   top: 3600px;
@@ -399,7 +380,16 @@ top: 4px;
   line-height: 20px;
 }
 @media only screen and (max-width: 1024px)  {
-
+  .logo {
+  font-size: 34px;
+  margin-top: 230px;
+  margin-right: -50px;
+  width: 280px;
+  padding: 15px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+}
 .flex-container {
   min-width: 850px;
 }
@@ -520,15 +510,18 @@ top: 4px;
 .gdintvid video  {
   width: 360px;
 }
-#cuervo  {
-  top: 1850px;
+#cuervowrapper  {
+  margin-top: 1840px;
 }
-#cuervogrid  {
-width: 360px;
+.cuervobg img  {
+  width: 360px;
 }
-.cuervorollover  {
-width: 337.5px;
-top: 22.5px;
+.cuervovid  {
+  position: absolute;
+  top: 23px;
+}
+.cuervovid video  {
+  width: 338px;
 }
 .two #telstrawrapper  {
   top: 2210px;
@@ -545,6 +538,53 @@ top: 22.5px;
 #two-blue {
   width: 360px;
 }
-.bottom  {
-  top: 3000px;
 }
+/* ----------- iPhone 5, 5S, 5C and 5SE portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone 6+, 7+ and 8+ portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone X portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+
