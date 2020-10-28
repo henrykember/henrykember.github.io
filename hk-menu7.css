@@ -330,31 +330,6 @@ top: 4px;
 #cuervotitle  {
   top: 4px;
 }
-/*#cuervo  {
-  position: absolute;
-  top: 2290px;
-  z-index: 3;
-}
-#cuervogrid  {
-  width: 440px;
-}
-#cuervo img  {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-.cuervorollover {
-  position: absolute;
-  width: 412.4px;
-  top: 27.5px;
-  opacity: 0;
-}
-#cuervo:hover .cuervorollover  {
-  opacity: 1;
-}
-#cuervotitle {
-  top: 4px;
-}*/
 .two #telstrawrapper  {
   position: absolute;
   top: 2740px;
@@ -380,16 +355,6 @@ top: 4px;
   line-height: 20px;
 }
 @media only screen and (max-width: 1024px)  {
-  .logo {
-  font-size: 34px;
-  margin-top: 230px;
-  margin-right: -50px;
-  width: 280px;
-  padding: 15px;
-  border: 5px solid black;
-  transform: translate(-50%, -100%);
-  transform: rotate(90deg);
-}
 .flex-container {
   min-width: 850px;
 }
@@ -538,6 +503,45 @@ top: 4px;
 #two-blue {
   width: 360px;
 }
+.bottom  {
+  position: absolute;
+  top: 3200px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+@media screen and (min-width : 320px) and (max-width : 1025px) and (orientation :portrait) {
+  .bottom  {
+  top: 2900px;
+  z-index: -10;
+}
+/*    .logo {
+  font-size: 44px;
+  margin-top: 330px;
+  margin-right: -80px;
+  width: 380px;
+  padding: 20px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+}*/
+@media screen and (min-width : 320px) and (max-width : 1025px) and (orientation :landscape) {
+  .logo {
+  font-size: 34px;
+  margin-top: 180px;
+  margin-right: -50px;
+  width: 240px;
+  padding: 15px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+}
+.bottom  {
+  top: 2900px;
+  z-index: -10;
 }
 /* ----------- iPhone 5, 5S, 5C and 5SE portrait & landscape----------- */
 @media only screen 
