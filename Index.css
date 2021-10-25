@@ -238,24 +238,27 @@ font-size: 13px;
 }   
 #buttons  {
   /*margin-top: calc(31vh + 150px);*/
-  margin-top: 865px;
+  margin-top: 900px;
   margin-left: 60px;
 }
-#accept  {
-    font-size: 42px;
-    width: 180px;
-    height: 40px;
-    padding: 16px;
+.accept  {
+    width: 175px;
+    height: 50px;
+    /*padding: 12px;*/
     border: 6px solid black;
 }
-#decline  {
-  font-size: 42px;
-  width: 180px;
-  height: 40px;
-  padding: 16px;
+.decline  {
+  width: 175px;
+  height: 50px;
   border: 6px solid black;
   margin-top: 26px;
   margin-left: 60px;
+}
+.text  {
+  font-size: 35px;
+  margin-left: 13px;
+  padding-bottom: 22px;
+
 }
 #accept:hover  {
   background-size: 280px 88px;
