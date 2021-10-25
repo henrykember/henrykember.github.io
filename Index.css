@@ -97,6 +97,7 @@ a  {
 }
 #buttons {
   position: absolute;
+  z-index: 100;
   margin-top: calc(50vh + 145px);
   /*margin-top: calc(50vh + 180px);*/
   margin-left: 50px;
@@ -106,9 +107,9 @@ a  {
   height: 150px;
   width: 812px;
   font-weight: 500;
-  /*border: 1px solid black;*/
 }
-#accept  {
+/*#accept  {
+    position: relative;
     display: block;
     text-decoration: none; 
     list-style-type: none;
@@ -121,7 +122,69 @@ a  {
     margin-top: 0px;
     border: 3px solid black;
 }
-#decline  {
+#accept:hover {
+  background: url("./P_Rodney_Dangerfield_tiny.jpg");
+  background-size: 114px 36px;
+  font-size: 0px;
+}*/
+.accept  {
+  z-index: 1;
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 36px;
+  border: 3px solid black;
+  text-align: center;
+}
+.text  {
+  z-index: 2;
+  position: absolute;
+  margin-left: 3px;
+  text-decoration: none; 
+  color: black;
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 21px;
+}
+.accept img {
+  z-index: 99;
+  position: absolute;
+  object-fit: fill;
+  box-sizing: border-box;
+  width: 100px;
+  height: 36px;
+  margin-left: -50px;
+  visibility: hidden;
+}
+.accept:hover img {
+  visibility: visible;
+}
+.decline  {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-top: 13px;
+  margin-left: 35px;
+  width: 100px;
+  height: 36px;
+  border: 3px solid black;
+  text-align: center;
+}
+.decline img {
+  z-index: 99;
+  position: absolute;
+  object-fit: fill;
+  box-sizing: border-box;
+  width: 100px;
+  height: 36px;
+  margin-left: -50px;
+  visibility: hidden;
+}
+.decline:hover img {
+  visibility: visible;
+}
+/*#decline  {
   display: block;
   text-decoration: none; 
   list-style-type: none;
@@ -134,17 +197,14 @@ a  {
   margin-top: 13px;
   margin-left: 30px;
   border: 3px solid black;
+  background: url("./tinygrace1.jpg");
+  background-size: 114px 36px;
 }
-#accept:hover  {
-  background: url("./P_Rodney_Dangerfield_tiny.jpg");
-  background-size: 140px 44px;
-  font-size: 0px;
-}
-#decline:hover  {
+#decline:hover {
   background: url("./tinygrace1.jpg");
   background-size: 114px 36px;
   font-size: 0px;
-}
+}*/
 
 @media only screen 
   and (min-device-width: 300px) 
