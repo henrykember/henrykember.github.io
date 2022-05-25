@@ -15,18 +15,19 @@ body {
   top: 0;
   width: 100%;
   z-index: 200;
-/*  border: 1px solid black;*/
+  /*border: 1px solid black;*/
 }
 .menu {
   display: flex;
   justify-content: space-around;
-/*  margin: 20px 70px;*/
- margin: calc(10px + 1vw) calc(7.5px + 0vw);
+  margin: 20px 70px;
+/* margin: calc(10px + 1vw) calc(7.5px + 0vw);*/
+/*  margin: calc(10px + 1vw) calc(7.5px + 0.3vw);*/
 }
 .menuitems a  {
   list-style-type: none;
   color: black;
-  font-size: calc(8px + 0.8vw);
+  font-size: calc(8px + 0.55vw);
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;

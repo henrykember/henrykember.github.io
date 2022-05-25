@@ -20,13 +20,13 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 20px 70px;
-  /*border: 1px solid black;*/
+/* margin: calc(10px + 1vw) calc(7.5px + 0vw);*/
+/*  margin: calc(10px + 1vw) calc(7.5px + 0.3vw);*/
 }
-a  {
+.menuitems a  {
   list-style-type: none;
-  text-decoration: underline;
   color: black;
-  font-size: 16px;
+  font-size: calc(8px + 0.55vw);
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
