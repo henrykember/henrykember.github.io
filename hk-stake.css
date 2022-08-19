@@ -150,11 +150,26 @@ body {
   margin-top: calc(145px + 0.5vw);
   left: 7vw;
 }
+/*.workcontainer  {
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(75px + 24vw);
+  right: calc(15px + 5vw);
+  /*border: 1px solid black;*/
+}*/
 .vidcontainer {
   width: 84vw;
 }
+.pic  {
+  position: relative;
+  margin-bottom: 3vw;
+  width: 63vw;
+}
+.pic img  {
+  width: 100%;
+}
 .bottom  {
- top: 160vw;
+  top: calc(20px + 170vw);
 }
 }
 @media only screen 
