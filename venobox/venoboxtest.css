@@ -21,3 +21,9 @@ a.venobox  {
 .venobox img  {
 	width: 100%;
 }
+/*This first media query is for a narrow desktop window*/
+@media only screen and (min-width: 200px) and (max-width: 824px)  {
+.venobox img  {
+	width: 50%;
+}
+)

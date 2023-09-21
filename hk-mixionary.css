@@ -121,6 +121,60 @@ div.mixionary  {
   text-align: center;
   line-height: 20px;
 }
+/*This first media query is for a narrow desktop window*/
+@media only screen and (min-width: 200px) and (max-width: 924px)  {
+.deetscontainer  {
+/*  top: calc(50px + 12vw);*/
+   top: calc(25px + 8vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+/*.deetstitlemob {
+  opacity: 1;
+}*/
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+    font-size: calc(9x + 0.5vw);
+/*    font-size: calc(6px + 0.5vw);*/
+/*  font-size: calc(6px + 0.4vw);*/
+  line-height: calc(5px + 1vw);
+  width: 50vw;
+}
+.deets.press {
+  width: 200vw;
+}
+.workcontainer  {
+  position: relative;
+/*  margin-top: calc(145px + 0.5vw);*/
+  margin-top: calc(5px + 6vw); 
+/*    margin-top: calc(5px + 8vw);    */
+  width: 75vw;
+  left: 7vw;
+  right: calc(15px + 1vw);
+}
+div.mixionary  {
+  width: 87vw;
+}
+.mixpub  {
+  width: 84.7vw;
+}
+.bottom  {
+  top: 355vw;
+}
+}
 @media only screen 
   and (min-device-width: 320px) 
     and (max-device-width: 1024px)
