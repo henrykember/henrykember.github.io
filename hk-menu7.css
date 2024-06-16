@@ -299,17 +299,18 @@ top: 4px;
 #seatitle  {
   top: 4px;
 }
-#gdintwrapper  {
+
+#stakewrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
   top: 1840px;
 }
-.gdintvid video  {
+.stakevid video  {
   width: 440px;
   /*border: 0.5px solid white;*/
 }
-#gdinttitle  {
+#stakettitle  {
   top: 4px;
 }
 #cuervowrapper  {

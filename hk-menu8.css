@@ -130,7 +130,8 @@ body {
 .ninetofive #thornewrapper  {
   position: absolute;
   top: 160px;
-}.fivetonine #thornewrapper  {
+}
+.fivetonine #thornewrapper  {
   position: absolute;
   top: 160px;
 }
@@ -173,11 +174,11 @@ body {
 /*COVERGIRL-BY THE INFINITE*/
 .all #infinitewrapper  {
   position: absolute;
-  top: 1170px; 
+  top: 1140px; 
 }
 .ninetofive #infinitewrapper  {
   position: absolute;
-  top: 1170px; 
+  top: 1130px; 
 }
 .infinitevid img  {
   width: 440px;
@@ -189,13 +190,11 @@ body {
   top: 4px;
 }
 /*SEAFOLLY-STAY FOREVER*/
-.all #seawrapper  {
-  position: absolute;
-.ninetofive #seawrapper  {
+#seawrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 1625px;
+  top: 1570px;
 }
 .seavid video  {
   width: 440px;
@@ -206,11 +205,11 @@ body {
 /*BOOST MOBILE-STAY LIVING*/
 .all #boostwrapper  {
   position: absolute;
-  top: 1170px;
+  top: 2000px;
 }
 .ninetofive #boostwrapper  {
   position: absolute;
-  top: 1170px;
+  top: 2000px;
 }
 .boostbg img  {
   width: 440px;
@@ -226,41 +225,47 @@ body {
 #boosttitle  {
   top: 4px;
 }
-.all #shadewrapper  {
+/*GUIDE DOGS-EXPERIENCE UNSEEN*/
+.all #gdexpwrapper  {
   position: absolute;
-  top: 1625px;
-}
-.ninetofive #shadewrapper  {
-  position: absolute;
-  top: 1625px; 
-}
-.shadevid video  {
+  display: block;
+  object-fit: contain;
+  top: 2460px;
   width: 440px;
 }
-#shadetitle  {
-  top: 4px;
-}
-.all #subsub  {
+.ninetofive #gdexpwrapper  {
   position: absolute;
-  margin-top: 2050px;
-}
-.fivetonine #subsub  {
-  position: absolute;
-  margin-top: 160px;
-}
-#subsubpic img  {
+  display: block;
+  object-fit: contain;
+  top: 2430px;
   width: 440px;
 }
-#subsubtitle  {
+.gdexpbg img  {
+  width: 440px;
+}
+.gdexpvid  {
+  position: absolute;
+  top:38px;
+}
+.gdexpvid video  {
+  width: 414px;
+}
+#gdexptitle  {
   top: 4px;
+  left: 27px;
+}
+/*HOUSEWORK*/
+#houseworkwrapper  {
+  position: absolute;
+  top: 2950px;
 }
 .all #houseworkwrapper  {
   position: absolute;
-  top: 2550px;
+  top: 2950px;
 }
 .fivetonine #houseworkwrapper  {
   position: absolute;
-  top: 600px;
+  top: 240px;
 }
 .housevid video  {
   width: 440px;
@@ -268,23 +273,10 @@ body {
 #housetitle  {
   top: 4px;
 }
-.all #archive  {
-  position: absolute;
-  top: 2920px; 
-}
-.ninetofive #archive  {
-  position: absolute;
-  top: 2400px; 
-}
-#archive img  {
-  width: 440px;
-}
-#archivetitle  {
-top: 4px;
-}
 
 /*Items in Flex-item two*/
 
+/*DIAGEO-MIXIONARY*/
 #mixionary {
   position: absolute;
   margin-top: 330px;
@@ -302,66 +294,96 @@ top: 4px;
 #mixtitle {
   margin-top: 4px;
 }
-#gdexpwrapper  {
+/*KATHMANDU-THE THIEF*/
+/*#kmdwrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 930px;
+  top: 940px;
+}
+.kmdvid video  {
   width: 440px;
 }
-.gdexpbg img  {
-  width: 440px;
-}
-.gdexpvid  {
-  position: absolute;
-  top:38px;
-}
-.gdexpvid video  {
-  width: 414px;
-}
-#gdexptitle  {
+#kmdtitle  {
   top: 4px;
-  left: 27px;
-}
-
-#gdintwrapper  {
+}*/
+/*with background*/
+.all #kmdwrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
-  top: 1840px;
+  top: 940px;
+  width: 440px;
 }
-.gdintvid video  {
+.ninetofive #kmdwrapper  {
+  top: 940px;
+}
+.kmdbg img  {
+  width: 440px;
+}
+.kmdvid  {
+  position: absolute;
+  top:50px;
+}
+.kmdvid video  {
+  width: 440px;
+}
+#kmdtitle  {
+  top: 4px;
+  left: 0px;
+}
+/*STAKE-THE TAKEOVER*/
+#stakewrapper  {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  top: 1360px;
+}
+.stakevid video  {
   width: 440px;
   /*border: 0.5px solid white;*/
 }
-#gdinttitle  {
+#staketitle  {
   top: 4px;
 }
-#cuervowrapper  {
+/*COVERGIRL-SHADE FOR SHADE*/
+.all #shadewrapper  {
   position: absolute;
-  margin-top: 2290px;
+  top: 1780px;
+}
+.ninetofive #shadewrapper  {
+  position: absolute;
+  top: 1780px; 
+}
+.shadevid video  {
   width: 440px;
 }
-.cuervobg img  {
-  width: 440px;
-}
-.cuervovid  {
-  position: absolute;
-  top: 29px;
-}
-.cuervovid video  {
-  width: 413px;
-}
-#cuervotitle  {
+#shadetitle  {
   top: 4px;
 }
-.two #telstrawrapper  {
+/*SUBSTITUTE SUBURB*/
+.all #subsub  {
   position: absolute;
-  top: 2740px;
+  margin-top: 2200px;
 }
-.one #telstrawrapper  {
+.fivetonine #subsub  {
   position: absolute;
-  top: 2050px;
+  margin-top: 160px;
+}
+#subsubpic img  {
+  width: 440px;
+}
+#subsubtitle  {
+  top: 4px;
+}
+/*TELSTRA-AIR INSTALLATION*/
+.all #telstrawrapper  {
+  position: absolute;
+  top: 2720px;
+}
+.ninetofive #telstrawrapper  {
+  position: absolute;
+  top: 2200px;
 }
 .telstravid video  {
   width: 440px;
@@ -369,9 +391,24 @@ top: 4px;
 #telstratitle  {
   top: 4px;
 }
+/*ARCHIVE*/
+.all #archive  {
+  position: absolute;
+  top: 3100px; 
+}
+.ninetofive #archive  {
+  position: absolute;
+  top: 2600px; 
+}
+#archive img  {
+  width: 440px;
+}
+#archivetitle  {
+top: 4px;
+}
 .bottom  {
   position: absolute;
-  top: 3600px;
+  top: 3750px;
   left: 0px;
   width: 100%;
   height: 100px;
@@ -392,6 +429,7 @@ top: 4px;
 .two  {
   margin-right: 40px;
 }
+/*Items in Flex-item one*/
 #thorne  {
   width: 360px;
 }
@@ -406,24 +444,39 @@ top: 4px;
 .thornevid video  {
   width: 320px;
 }
-  #thornetitle  {
+#thornetitle  {
   top: -29px;
   left: 194px;
 }
-.all #infinitewrapper  {
+.all #smoothwrapper  {
   top: 620px; 
 }
-.ninetofive #infinitewrapper  {
+.ninetofive #smoothwrapper  {
   top: 620px; 
+}
+.smoothvid video  {
+  width: 360px;
+}
+.all #infinitewrapper  {
+  top: 970px; 
+}
+.ninetofive #infinitewrapper  {
+  top: 970px; 
 }
 .infinitevid video  {
   width: 360px;
 }
+#seawrapper  {
+  top: 1330px;
+}
+.seavid video  {
+  width: 360px;
+}
 .all #boostwrapper  {
-  top: 970px;
+  top: 1650px;
 }
 .ninetofive #boostwrapper  {
-  top: 970px;
+  top: 1650px;
 }
 .boostbg img  {
   width: 360px;
@@ -436,44 +489,11 @@ top: 4px;
 .boostvid video  {
   width: 305px;
 }
-.all #shadewrapper  {
-  top: 1330px;
+.all #gdexpwrapper  {
+  top: 2010px;
 }
-.ninetofive #shadewrapper  {
-  top: 1350px; 
-}
-.shadevid video  {
-  width: 360px;
-}
-.all #subsub  {
-  margin-top: 1650px;
-}
-#subsub  img  {
-  width: 360px;
-}
-.all #houseworkwrapper  {
-  top: 2035px;
-}
-.fivetonine #houseworkwrapper  {
-  top: 600px;
-}
-.housevid video  {
-  width: 360px;
-}
-.all #archive  {
-  top: 2325px; 
-}
-.ninetofive #archive  {
-  top: 1950px; 
-}
-#mixionary {
-  margin-top: 300px;
-}
-#mixionary img  {
-  width: 360px;
-}
-#gdexpwrapper  {
-  top: 770px;
+.ninetofive #gdexpwrapper  {
+  top: 1990px;
 }
 .gdexpbg img  {
   width: 360px;
@@ -485,47 +505,85 @@ top: 4px;
 .gdexpvid video  {
   width: 338px;
 }
-#gdexptitle  {
-  left: 23px;
+.all #houseworkwrapper  {
+  top: 2380px;
 }
-#seawrapper  {
-  top: 1150px;
+.fivetonine #houseworkwrapper  {
+  top: 160px;
 }
-.seavid video  {
+.housevid video  {
   width: 360px;
 }
-#gdintwrapper  {
-  top: 1500px;
+/*Items in Flex-item Two*/
+#mixionary {
+  margin-top: 300px;
 }
-.gdintvid video  {
+#mixionary img  {
   width: 360px;
 }
-#cuervowrapper  {
-  margin-top: 1840px;
+/*#kmdwrapper  {
+  top: 800px;
 }
-.cuervobg img  {
+.kmdvid video  {
+  width: 360px;
+}*/
+/* w/ background*/
+.all #kmdwrapper  {
+  top: 800px;
+}
+.ninetofive #kmdwrapper  {
+  top: 800px;
+}
+.kmdbg img  {
   width: 360px;
 }
-.cuervovid  {
+.kmdvid  {
   position: absolute;
-  top: 23px;
+  top: 39px;
 }
-.cuervovid video  {
-  width: 338px;
+.kmdvid video  {
+  width: 360px;
 }
-.two #telstrawrapper  {
-  top: 2210px;
+#stakewrapper  {
+  top: 1160px;
 }
-.one #telstrawrapper  {
-  top: 1680px;
+.stakevid video  {
+  width: 360px;
+}
+.all #shadewrapper  {
+  top: 1510px;
+}
+.ninetofive #shadewrapper  {
+  top: 1510px; 
+}
+.shadevid video  {
+  width: 360px;
+}
+.all #subsub  {
+  margin-top: 1860px;
+}
+.fivetonine #subsub  {
+  margin-top: 350px;
+}
+#subsub  img  {
+  width: 360px;
+}
+.all #telstrawrapper  {
+  top: 2245px;
+}
+.ninetofive #telstrawrapper  {
+  top: 1830px;
 }
 .telstravid video {
   width: 360px;
 }
-#one-blue {
-  width: 360px;
+.all #archive  {
+  top: 2515px; 
 }
-#two-blue {
+.ninetofive #archive  {
+  top: 2115px; 
+}
+#archive img  {
   width: 360px;
 }
 .bottom  {
@@ -560,7 +618,7 @@ top: 4px;
   margin-right: -25px;
 }
 .bottom  {
-  top: 2900px;
+  top: 3000px;
   z-index: -10;
 }
 }
