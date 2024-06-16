@@ -9,7 +9,6 @@ body {
   font-family: 'Roboto';
   margin: 0;
   padding: 0;
-  hyphens: manual;
 }
 .menucontainer  {
   position: fixed;
@@ -23,6 +22,7 @@ body {
   justify-content: space-around;
   margin: 20px 70px;
 /* margin: calc(10px + 1vw) calc(7.5px + 0vw);*/
+/*  margin: calc(10px + 1vw) calc(7.5px + 0.3vw);*/
 }
 .menuitems a  {
   list-style-type: none;
@@ -60,23 +60,13 @@ body {
   font-style: italic;
 }
 .deets.blurb  {
-   margin-top: calc(2px + 0.4vw);
+    margin-top: calc(2px + 0.4vw);
   /*font-size: calc(8px + 0.6vw);
   line-height: calc(6px + 1.1vw);*/
    font-size: calc(6px + 0.5vw);
   line-height: calc(2px + 1.3vw);
 /*  color: rgb(100, 100, 100);*/
   /*font-style: italic;*/
-}
-.deets.press a {
-  list-style-type: none;
-  text-decoration: underline;
-  color: black;
-  /*font-style: italic;*/
-  line-height: calc(6px + 1.3vw);
-}
-.deets.press span  {
-	/*font-weight: 600;*/
 }
 .workcontainer  {
   position: absolute;
@@ -104,63 +94,16 @@ body {
   width: 100%;
   height: 100%;
 }
-/*.bottom  {
+.bottom  {
   position: absolute;
-  top: calc(10px + 60vw);
+/*  top: calc(10px + 10vw);*/
+  top: 300px;
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
-}*/
-
-/*/*/*@media only screen 
-  and (min-device-width: 320px) 
-    and (max-device-width: 1324px)
-/*  and (max-device-width: 480px)
-*/  and (-webkit-min-device-pixel-ratio: 2)
-{
-.deetscontainer  {
-  top: calc(50px + 12vw);
-  position: relative;
-  left: 7vw;
-  width: calc(60px + 80vw);
-  min-width: 200px;
-  z-index: 0;
-}
-.deets.title  {
-  font-size: calc(10px + 5vw);
-}
-/*.deetstitlemob {
-  opacity: 1;
-}*/
-.deets.category  {
-  margin-top: calc(10px + 0.8vw);
-  /*margin-top: 13vw;*/
-  font-size: calc(5px + 1vw);
-  /*font-size: calc(8px + 2vw);*/
-  /*max-width: 600px;*/
-}
-.deets.blurb  {
-  margin-top: calc(4px + 0.5vw);
-  font-size: calc(6px + 0.4vw);
-  line-height: calc(4px + 1vw);
-  width: 50vw;
-}
-.workcontainer  {
-  position: relative;
-  margin-top: calc(145px + 0.5vw);
-  left: 7vw;
-}
-.vidcontainer {
-  width: 84vw;
-}
-/*.bottom  {
-  position: absolute;
- top: calc(10px + 60vw);
- opacity: 0;
-}*/
 }
 @media only screen 
   and (min-device-width: 320px) 
@@ -198,12 +141,26 @@ body {
   margin-top: calc(145px + 0.5vw);
   left: 7vw;
 }
+/*.workcontainer  {
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(75px + 24vw);
+  right: calc(15px + 5vw);
+  /*border: 1px solid black;*/
+}*/
 .vidcontainer {
   width: 84vw;
 }
+.pic  {
+  position: relative;
+  margin-bottom: 3vw;
+  width: 63vw;
+}
+.pic img  {
+  width: 100%;
+}
 .bottom  {
- top: 160vw;
- opacity: 0;
+  top: calc(20px + 170vw);
 }
 }
 @media only screen 

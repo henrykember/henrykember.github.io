@@ -1,0 +1,616 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            /*width: 22px;*/
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+/*  width: 80%;*/
+  /*margin-left: 10%;*/
+  /*margin-right: 10%;*/
+  /*background-color: red;*/
+}
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999; /* makes sure it stays on top */
+}
+
+#status {
+    /*width:80px;
+    height:80px;*/
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    /*background-image:url(loading2.gif);  path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-40px 0 0 -40px; /* is width and height divided by two */
+}
+#status img  {
+   width:80px;
+  height:80px;
+  
+}
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+
+.logowrapper  {
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+}
+.logo {
+  float: right;
+  font-size: 44px;
+  margin-top: 280px;
+  margin-right: -50px;
+  width: 350px;
+  padding: 20px;
+  border: 5px solid black;
+  transform: translate(-50%, -100%);
+  transform: rotate(90deg);
+}
+
+.subtitles  {
+  position: relative;
+  display: inline-block;
+  list-style-type: none !important;
+  text-decoration: none;
+    line-height: 15px;
+    /*margin-top: -3px;*/
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #000000;
+  /*z-index: 6;*/
+}
+
+.flex-container {
+    z-index: 100;
+    display: flex;
+    min-width: 1080px;
+    justify-content: space-around;
+    margin: auto;
+/*    background-color: red;*/
+}
+.flex-item {
+    width: 440px;
+}
+.one  {
+  margin-left: 70px;
+}
+.two  {
+  /*display: inline-block;*/
+  margin-right: 70px;
+}
+.desktop  {
+  display: block;
+}
+.mobile  {
+  width: 360px;
+  display: none;
+}
+
+/*Items in Flex-item one*/
+
+/*THORNE*/
+.all #thornewrapper  {
+  position: absolute;
+  top: 160px;
+}
+.ninetofive #thornewrapper  {
+  position: absolute;
+  top: 160px;
+}.fivetonine #thornewrapper  {
+  position: absolute;
+  top: 160px;
+}
+#thorne {
+  width: 440px;
+}
+.thornebg img  {
+  width: 440px;
+}
+.thornevid  {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.thornevid video  {
+  width: 410px;
+}
+#thornetitle  {
+  top: -34px;
+  left: 275px;
+}
+/*ROLLIN'-SMOOTH*/
+.all #smoothwrapper  {
+  position: absolute;
+  top: 700px; 
+}
+.ninetofive #smoothwrapper  {
+  position: absolute;
+  top: 700px; 
+}
+.smoothvid img  {
+  width: 440px;
+}
+.smoothvid video  {
+  width: 440px;
+}
+#smoothtitle  {
+  top: 4px;
+}
+/*COVERGIRL-BY THE INFINITE*/
+.all #infinitewrapper  {
+  position: absolute;
+  top: 1170px; 
+}
+.ninetofive #infinitewrapper  {
+  position: absolute;
+  top: 1170px; 
+}
+.infinitevid img  {
+  width: 440px;
+}
+.infinitevid video  {
+  width: 440px;
+}
+#infinitetitle  {
+  top: 4px;
+}
+/*SEAFOLLY-STAY FOREVER*/
+.all #seawrapper  {
+  position: absolute;
+.ninetofive #seawrapper  {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  top: 1625px;
+}
+.seavid video  {
+  width: 440px;
+}
+#seatitle  {
+  top: 4px;
+}
+/*BOOST MOBILE-STAY LIVING*/
+.all #boostwrapper  {
+  position: absolute;
+  top: 1170px;
+}
+.ninetofive #boostwrapper  {
+  position: absolute;
+  top: 1170px;
+}
+.boostbg img  {
+  width: 440px;
+}
+.boostvid  {
+  position: absolute;
+  top:0;
+  left: 40px;
+}
+.boostvid video  {
+  width: 373px;
+}
+#boosttitle  {
+  top: 4px;
+}
+.all #shadewrapper  {
+  position: absolute;
+  top: 1625px;
+}
+.ninetofive #shadewrapper  {
+  position: absolute;
+  top: 1625px; 
+}
+.shadevid video  {
+  width: 440px;
+}
+#shadetitle  {
+  top: 4px;
+}
+.all #subsub  {
+  position: absolute;
+  margin-top: 2050px;
+}
+.fivetonine #subsub  {
+  position: absolute;
+  margin-top: 160px;
+}
+#subsubpic img  {
+  width: 440px;
+}
+#subsubtitle  {
+  top: 4px;
+}
+.all #houseworkwrapper  {
+  position: absolute;
+  top: 2550px;
+}
+.fivetonine #houseworkwrapper  {
+  position: absolute;
+  top: 600px;
+}
+.housevid video  {
+  width: 440px;
+}
+#housetitle  {
+  top: 4px;
+}
+.all #archive  {
+  position: absolute;
+  top: 2920px; 
+}
+.ninetofive #archive  {
+  position: absolute;
+  top: 2400px; 
+}
+#archive img  {
+  width: 440px;
+}
+#archivetitle  {
+top: 4px;
+}
+
+/*Items in Flex-item two*/
+
+#mixionary {
+  position: absolute;
+  margin-top: 330px;
+}
+#mixpic  {
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 6;
+}
+#mixionary img {
+  display: block;
+  width: 440px;
+  object-fit: contain;
+}
+#mixtitle {
+  margin-top: 4px;
+}
+#gdexpwrapper  {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  top: 930px;
+  width: 440px;
+}
+.gdexpbg img  {
+  width: 440px;
+}
+.gdexpvid  {
+  position: absolute;
+  top:38px;
+}
+.gdexpvid video  {
+  width: 414px;
+}
+#gdexptitle  {
+  top: 4px;
+  left: 27px;
+}
+
+#gdintwrapper  {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  top: 1840px;
+}
+.gdintvid video  {
+  width: 440px;
+  /*border: 0.5px solid white;*/
+}
+#gdinttitle  {
+  top: 4px;
+}
+#cuervowrapper  {
+  position: absolute;
+  margin-top: 2290px;
+  width: 440px;
+}
+.cuervobg img  {
+  width: 440px;
+}
+.cuervovid  {
+  position: absolute;
+  top: 29px;
+}
+.cuervovid video  {
+  width: 413px;
+}
+#cuervotitle  {
+  top: 4px;
+}
+.two #telstrawrapper  {
+  position: absolute;
+  top: 2740px;
+}
+.one #telstrawrapper  {
+  position: absolute;
+  top: 2050px;
+}
+.telstravid video  {
+  width: 440px;
+}
+#telstratitle  {
+  top: 4px;
+}
+.bottom  {
+  position: absolute;
+  top: 3600px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+@media only screen and (max-width: 1024px)  {
+.flex-container {
+  min-width: 850px;
+}
+.flex-item  {
+  width: 360px;
+}
+.one  {
+  margin-left: 40px;
+}
+.two  {
+  margin-right: 40px;
+}
+#thorne  {
+  width: 360px;
+}
+.thornebg img  {
+  width: 360px;
+}
+.thornevid  {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+.thornevid video  {
+  width: 320px;
+}
+  #thornetitle  {
+  top: -29px;
+  left: 194px;
+}
+.all #infinitewrapper  {
+  top: 620px; 
+}
+.ninetofive #infinitewrapper  {
+  top: 620px; 
+}
+.infinitevid video  {
+  width: 360px;
+}
+.all #boostwrapper  {
+  top: 970px;
+}
+.ninetofive #boostwrapper  {
+  top: 970px;
+}
+.boostbg img  {
+  width: 360px;
+}
+.boostvid  {
+  position: absolute;
+  top:0;
+  left: 34px;
+}
+.boostvid video  {
+  width: 305px;
+}
+.all #shadewrapper  {
+  top: 1330px;
+}
+.ninetofive #shadewrapper  {
+  top: 1350px; 
+}
+.shadevid video  {
+  width: 360px;
+}
+.all #subsub  {
+  margin-top: 1650px;
+}
+#subsub  img  {
+  width: 360px;
+}
+.all #houseworkwrapper  {
+  top: 2035px;
+}
+.fivetonine #houseworkwrapper  {
+  top: 600px;
+}
+.housevid video  {
+  width: 360px;
+}
+.all #archive  {
+  top: 2325px; 
+}
+.ninetofive #archive  {
+  top: 1950px; 
+}
+#mixionary {
+  margin-top: 300px;
+}
+#mixionary img  {
+  width: 360px;
+}
+#gdexpwrapper  {
+  top: 770px;
+}
+.gdexpbg img  {
+  width: 360px;
+}
+.gdexpvid  {
+  position: absolute;
+  top: 31px;
+}
+.gdexpvid video  {
+  width: 338px;
+}
+#gdexptitle  {
+  left: 23px;
+}
+#seawrapper  {
+  top: 1150px;
+}
+.seavid video  {
+  width: 360px;
+}
+#gdintwrapper  {
+  top: 1500px;
+}
+.gdintvid video  {
+  width: 360px;
+}
+#cuervowrapper  {
+  margin-top: 1840px;
+}
+.cuervobg img  {
+  width: 360px;
+}
+.cuervovid  {
+  position: absolute;
+  top: 23px;
+}
+.cuervovid video  {
+  width: 338px;
+}
+.two #telstrawrapper  {
+  top: 2210px;
+}
+.one #telstrawrapper  {
+  top: 1680px;
+}
+.telstravid video {
+  width: 360px;
+}
+#one-blue {
+  width: 360px;
+}
+#two-blue {
+  width: 360px;
+}
+.bottom  {
+  position: absolute;
+  top: 3200px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+@media screen and (min-width : 320px) and (max-width : 1025px) and (orientation :portrait) {
+  .bottom  {
+  top: 2900px;
+  z-index: -10;
+}
+    .logo {
+  font-size: 54px;
+  margin-top: 330px;
+  margin-right: -40px;
+  width: 420px;
+  padding: 25px;
+}
+}
+@media screen and (min-width : 320px) and (max-width : 1025px) and (orientation :landscape) {
+  .logo {
+  font-size: 34px;
+  margin-top: 240px;
+  width: 240px;
+  padding: 15px;
+  margin-right: -25px;
+}
+.bottom  {
+  top: 2900px;
+  z-index: -10;
+}
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone 6+, 7+ and 8+ portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+/* ----------- iPhone X portrait & landscape----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.desktop  {
+  display: none;
+}
+.mobile  {
+  width: 360px;
+  display: block;
+}
+}
+
