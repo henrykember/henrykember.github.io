@@ -295,28 +295,12 @@ body {
   margin-top: 4px;
 }
 /*KATHMANDU-THE THIEF*/
-/*#kmdwrapper  {
-  position: absolute;
-  display: block;
-  object-fit: contain;
-  top: 940px;
-}
-.kmdvid video  {
-  width: 440px;
-}
-#kmdtitle  {
-  top: 4px;
-}*/
-/*with background*/
-.all #kmdwrapper  {
+#kmdwrapper  {
   position: absolute;
   display: block;
   object-fit: contain;
   top: 940px;
   width: 440px;
-}
-.ninetofive #kmdwrapper  {
-  top: 940px;
 }
 .kmdbg img  {
   width: 440px;
@@ -521,17 +505,7 @@ top: 4px;
 #mixionary img  {
   width: 360px;
 }
-/*#kmdwrapper  {
-  top: 800px;
-}
-.kmdvid video  {
-  width: 360px;
-}*/
-/* w/ background*/
-.all #kmdwrapper  {
-  top: 800px;
-}
-.ninetofive #kmdwrapper  {
+#kmdwrapper  {
   top: 800px;
 }
 .kmdbg img  {
