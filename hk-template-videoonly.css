@@ -263,7 +263,4 @@ body {
 .workcontainer  {
   top: calc(25px + 5vw);
 }
-.bottom  {
- top: 120vw;
-}
 }

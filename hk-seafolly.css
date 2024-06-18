@@ -111,12 +111,61 @@ body {
 .bottom  {
   position: absolute;
   top: 140vw;
+  font-size: calc(8px + 0.55vw);
   left: 0px;
   width: 100%;
   height: 100px;
   /*border: 1px solid black;*/
   text-align: center;
   line-height: 20px;
+}
+@media only screen and (min-width: 200px) and (max-width: 824px)  {
+.deetscontainer  {
+/*  top: calc(50px + 12vw);*/
+   top: calc(25px + 8vw);
+  position: relative;
+  left: 7vw;
+  width: calc(60px + 80vw);
+  min-width: 200px;
+  z-index: 0;
+}
+.deets.title  {
+  font-size: calc(10px + 5vw);
+}
+/*.deetstitlemob {
+  opacity: 1;
+}*/
+.deets.category  {
+  margin-top: calc(10px + 0.8vw);
+  /*margin-top: 13vw;*/
+  font-size: calc(5px + 1vw);
+  /*font-size: calc(8px + 2vw);*/
+  /*max-width: 600px;*/
+}
+.deets.blurb  {
+  margin-top: calc(4px + 0.5vw);
+    font-size: calc(9x + 0.5vw);
+/*    font-size: calc(6px + 0.5vw);*/
+/*  font-size: calc(6px + 0.4vw);*/
+  line-height: calc(5px + 1vw);
+  width: 50vw;
+}
+.workcontainer  {
+  position: relative;
+/*  margin-top: calc(145px + 0.5vw);*/
+  margin-top: calc(5px + 6vw); 
+/*    margin-top: calc(5px + 8vw);    */
+  left: 7vw;
+}
+.vidcontainer {
+  width: 84vw;
+}.pic  {
+  width: 84vw;
+}
+.bottom  {
+ top: calc(10px + 210vw);
+/* font-size: calc(10px + 5vw);*/
+}
 }
 @media only screen 
   and (min-device-width: 320px) 
