@@ -376,7 +376,7 @@ body {
   top: 4px;
 }
 /*ARCHIVE*/
-.all #archive  {
+/*.all #archive  {
   position: absolute;
   top: 3100px; 
 }
@@ -389,6 +389,28 @@ body {
 }
 #archivetitle  {
 top: 4px;
+}*/
+/*NEW ARCHIVE THUMB*/
+.all #archivewrapper  {
+  position: absolute;
+  top: 3100px;
+}
+.ninetofive #archivewrapper  {
+  position: absolute;
+  top: 2600px;
+}
+.archivebg img  {
+  width: 440px;
+}
+.archivevid  {
+  position: absolute;
+  top:151;
+}
+.archivevid video  {
+  width: 378px;
+}
+#archivetitle  {
+  top: 4px;
 }
 .bottom  {
   position: absolute;
@@ -551,14 +573,20 @@ top: 4px;
 .telstravid video {
   width: 360px;
 }
-.all #archive  {
-  top: 2515px; 
+.all #archivewrapper  {
+  top: 2615px; 
 }
-.ninetofive #archive  {
-  top: 2115px; 
+.ninetofive #archivewrapper  {
+  top: 2315px; 
 }
-#archive img  {
+.archivebg img  {
   width: 360px;
+}
+.archivevid  {
+  top:124;
+}
+.archivevid video {
+width: 310;
 }
 .bottom  {
   position: absolute;
