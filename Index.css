@@ -267,6 +267,9 @@ margin-top: calc(60vh + 180px);
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation :portrait) { 
+#headerp  {
+  font-size: 65px;
+}
 #tsandcs  {
  font-size: 20px;
  line-height: 26px;
@@ -290,6 +293,9 @@ font-size: 20px;
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation :landscape) { 
+    #headerp  {
+  font-size: 65px;
+}
  #tsandcs  {
  font-size: 20px;
  line-height: 26px;
