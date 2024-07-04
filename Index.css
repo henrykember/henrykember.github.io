@@ -267,6 +267,19 @@ margin-top: calc(60vh + 180px);
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation :portrait) { 
+#tsandcs  {
+ font-size: 20px;
+ line-height: 26px;
+ line-width: 6px;
+ margin-top: 180px;
+ margin-left: 60px;
+ width: 700px;
+ padding-right: 13px;
+ height: calc(60vh - 20px);
+}
+span  {
+font-size: 20px;
+}
 #buttons  {
   /*margin-top: calc(31vh + 150px);*/
   margin-top: 1020px;
@@ -277,6 +290,19 @@ margin-top: calc(60vh + 180px);
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation :landscape) { 
+ #tsandcs  {
+ font-size: 20px;
+ line-height: 26px;
+ line-width: 6px;
+ margin-top: 180px;
+ margin-left: 60px;
+ width: 700px;
+ padding-right: 13px;
+ height: calc(60vh - 20px);
+}
+span  {
+font-size: 20px;
+}
 #headerp  {
   margin-top: 110px;
 }
