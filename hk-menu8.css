@@ -376,21 +376,6 @@ body {
   top: 4px;
 }
 /*ARCHIVE*/
-/*.all #archive  {
-  position: absolute;
-  top: 3100px; 
-}
-.ninetofive #archive  {
-  position: absolute;
-  top: 2600px; 
-}
-#archive img  {
-  width: 440px;
-}
-#archivetitle  {
-top: 4px;
-}*/
-/*NEW ARCHIVE THUMB*/
 .all #archivewrapper  {
   position: absolute;
   top: 3100px;
