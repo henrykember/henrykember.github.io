@@ -214,7 +214,7 @@ a  {
  line-width: 6px;
  margin-top: 180px;
  margin-left: 60px;
- width: 700px;
+ width: 900px;
  padding-right: 13px;
  height: calc(60vh - 20px);
 }
@@ -276,7 +276,7 @@ margin-top: calc(60vh + 180px);
  line-width: 6px;
  margin-top: 180px;
  margin-left: 60px;
- width: 700px;
+ width: 900px;
  padding-right: 13px;
  height: calc(60vh - 20px);
 }
@@ -302,7 +302,7 @@ font-size: 20px;
  line-width: 6px;
  margin-top: 180px;
  margin-left: 60px;
- width: 700px;
+ width: 900px;
  padding-right: 13px;
  height: calc(60vh - 20px);
 }
