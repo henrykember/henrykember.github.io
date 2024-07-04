@@ -209,17 +209,17 @@ a  {
   margin-top: 100px;
 }
 #tsandcs  {
- font-size: 13px;
- line-height: 19px;
+ font-size: 16px;
+ line-height: 24px;
  line-width: 6px;
- margin-top: 173px;
+ margin-top: 180px;
  margin-left: 60px;
  width: 640px;
  padding-right: 13px;
  height: calc(60vh - 20px);
 }
 span  {
-font-size: 13px;
+font-size: 16px;
 }
 #tsandcs::-webkit-scrollbar {
   width: 20px;         
