@@ -623,6 +623,9 @@ width: 310;
   width: 360px;
   display: block;
 }
+.bottom  {
+  top: 3200px;
+}
 /* ----------- iPhone 6, 6S, 7 and 8 portrait & landscape----------- */
 @media only screen 
   and (min-device-width: 375px) 
@@ -634,6 +637,9 @@ width: 310;
 .mobile  {
   width: 360px;
   display: block;
+}
+.bottom  {
+  top: 3200px;
 }
 /* ----------- iPhone 6+, 7+ and 8+ portrait & landscape----------- */
 @media only screen 
@@ -647,6 +653,9 @@ width: 310;
   width: 360px;
   display: block;
 }
+.bottom  {
+  top: 3200px;
+}
 /* ----------- iPhone X portrait & landscape----------- */
 @media only screen 
   and (min-device-width: 375px) 
@@ -658,6 +667,9 @@ width: 310;
 .mobile  {
   width: 360px;
   display: block;
+}
+.bottom  {
+  top: 3200px;
 }
 }
 
