@@ -163,7 +163,7 @@ body {
   top: 700px; 
 }
 .smoothvid img  {
-  width: 440px;
+  width: 360px;
 }
 .smoothvid video  {
   width: 440px;
@@ -180,9 +180,9 @@ body {
   position: absolute;
   top: 1130px; 
 }
-.infinitevid img  {
-  width: 440px;
-}
+/*.infinitevid img  {
+  width: 360px;
+}*/
 .infinitevid video  {
   width: 440px;
 }

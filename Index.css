@@ -118,25 +118,6 @@ a  {
   width: 812px;
   font-weight: 500;
 }
-/*#accept  {
-    position: relative;
-    display: block;
-    text-decoration: none; 
-    list-style-type: none;
-    font-size: 21px;
-    text-align: center;
-    color: black;
-    width: 90px;
-    height: 20px;
-    padding: 8px;
-    margin-top: 0px;
-    border: 3px solid black;
-}
-#accept:hover {
-  background: url("./P_Rodney_Dangerfield_tiny.jpg");
-  background-size: 114px 36px;
-  font-size: 0px;
-}*/
 .accept  {
   z-index: 1;
   position: relative;
@@ -235,7 +216,7 @@ a  {
  margin-left: 60px;
  width: 640px;
  padding-right: 13px;
- height: calc(40vh - 20px);
+ height: calc(60vh - 20px);
 }
 span  {
 font-size: 13px;
@@ -248,7 +229,8 @@ font-size: 13px;
 }   
 #buttons  {
   /*margin-top: calc(31vh + 150px);*/
-  margin-top: 900px;
+/*  margin-top: 900px;*/
+margin-top: calc(60vh + 180px);
   margin-left: 60px;
 }
 .accept  {
@@ -268,14 +250,18 @@ font-size: 13px;
   font-size: 35px;
   margin-left: 13px;
   padding-bottom: 22px;
-
 }
-#accept:hover  {
+#buttons img  {
+  width: 175px;
+  height: 50px;
+  margin-left: -88px;
+}
+/*#accept:hover  {
   background-size: 280px 88px;
 }
 #decline:hover  {
   background-size: 228px 72px;
-}
+}*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
