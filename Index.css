@@ -229,8 +229,8 @@ font-size: 20px;
 #buttons  {
   /*margin-top: calc(31vh + 150px);*/
 /*  margin-top: 900px;*/
-margin-top: calc(40vh + 580px);
-  margin-left: 60px;
+margin-top: calc(40vh + 530px);
+margin-left: 60px;
 }
 .accept  {
     width: 210px;
@@ -264,15 +264,15 @@ margin-top: calc(40vh + 580px);
 @media only screen
     and (min-device-width: 400px) 
     and (min-device-height: 700px) 
-    and (-webkit-device-pixel-ratio: 3)
+    and (-webkit-min-device-pixel-ratio: 3)
     and (orientation :portrait) {
 #headerp  {
-  font-size: 125px;
+  font-size: 95px;
   margin-top: 200px;
 }
 #tsandcs  {
  font-size: 24px;
- line-height: 26px;
+ line-height: 27px;
  line-width: 6px;
  margin-top: 410px;
  margin-left: 60px;
@@ -290,9 +290,9 @@ margin-top: 1330px;
 margin-left: 60px;
 }
 @media only screen
-    and (device-height: 844px) 
-    and (device-width: 390px)
-    and (-webkit-device-pixel-ratio: 3)
+    and (min-device-height: 700px) 
+    and (min-device-width: 400px)
+    and (-webkit-min-device-pixel-ratio: 3)
     and (orientation :landscape) {
 #headerp  {
   font-size: 65px;
