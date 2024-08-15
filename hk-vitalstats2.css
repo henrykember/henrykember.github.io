@@ -1,0 +1,108 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+html  {
+    cursor: url("./Fez-Medlrg.png"), auto;
+            width: 22px;
+  background-color: FFFFFF;
+}
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+.menucontainer  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+/*  border: 1px solid black;*/
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
+/* margin: calc(10px + 1vw) calc(7.5px + 0vw);*/
+/*  margin: calc(10px + 1vw) calc(7.5px + 0.3vw);*/
+}
+.menuitems a  {
+  list-style-type: none;
+  color: black;
+  font-size: calc(8px + 0.55vw);
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuitems a:hover  {
+  font-style: italic;
+}
+.details  {
+  position: fixed;
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 240px;
+  font-size: 58px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.deets.title  {
+  margin-top: -6px;
+}
+#vitalcontainer  {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  right: 50px;
+  border: 1px solid black;
+}
+.flex-container  {
+  display: flex;
+  flex-direction: row;
+/*  min-width: 400px;*/
+  justify-content: space-around;
+  margin: auto;
+/*  border: 1px solid black;*/
+  background-color: red;
+}
+.flex-item one  {
+  font-size: 20px;
+  line-height: 25px;
+  width: 550px;
+  border: 1px solid black;
+}
+#datescopy {
+}
+.flex-item two  {
+  font-size: 20px;
+  border: 1px solid black;
+  line-height: 25px;
+  width: 550px;
+}
+#placescopy {
+}
+.flex-item three  {
+  font-size: 20px;
+/*  border: 1px solid black;*/
+  line-height: 25px;
+  width: 250px;
+}
+#rolescopy {
+}
+.flex-item four  {
+  font-size: 20px;
+/*  border: 1px solid black;*/
+  line-height: 25px;
+  width: 300px;
+}
+#clientscopy {
+}
+
+.bottom  {
+  position: absolute;
+  top: 950px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 20px;
+}
+

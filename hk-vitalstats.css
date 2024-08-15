@@ -54,12 +54,12 @@ body {
   left: 250px;
   min-width: 450px;
   max-width: 1300px;
-  /*border: 1px solid black;*/
+/*  border: 1px solid black;*/
 }
 .cv  {
   display: block;
   font-size: 20px;
-  /*border: 1px solid black;*/
+/*  border: 1px solid black;*/
   line-height: 25px;
 }
 .cv span  {
