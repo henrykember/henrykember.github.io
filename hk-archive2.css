@@ -19,13 +19,13 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-/*  margin: 20px 70px;*/
- margin: calc(10px + 1vw) calc(7.5px + 0vw);
+  margin: 20px 70px;
+ /*margin: calc(10px + 1vw) calc(7.5px + 0vw);*/
 }
 .menuitems a  {
   list-style-type: none;
   color: black;
-  font-size: calc(8px + 0.8vw);
+  font-size: calc(8px + 0.55vw);
   line-height: 28px;
   font-weight: 400;
   cursor: pointer;
@@ -34,7 +34,7 @@ body {
   font-style: italic;
 }
 .deetscontainer  {
-  position: absolute;
+  position: fixed;
   top: calc(25px + 8vw);
   left: calc(5px + 6vw);
   width: calc(50px + 14vw);
@@ -75,25 +75,43 @@ body {
   right: calc(15px + 5vw);
   /*border: 1px solid black;*/
 }
-#title  {
+.projecttitle  {
   position: relative;
   text-decoration: underline !important;
   font-size: 1.8vw;
   line-height: 2.1vw;
   width: 50vw;
-  margin-bottom: calc(10px + 0.4vw);
+  margin-top: calc(12px + 2.4vw);
+  margin-bottom: calc(8px + 0.1vw);
 }
-#title span {
+.projecttitle span {
   display:inline-block;
   font-style: italic;
   text-decoration: none;
 }
+#usyd  {
+  margin-top: 0px;
+}
 .vidcontainer {
   position: relative;
   /*border: 1px solid black;*/
-  margin-bottom: 4vw;
+  margin-bottom: 1.4vw;
   width: 63vw;
 }
+/*.vidcontainer .projecttitle  {
+  position: relative;
+  text-decoration: underline !important;
+  font-size: 1.8vw;
+  line-height: 2.1vw;
+  width: 50vw;
+  margin-top: calc(12px + 2.4vw);
+  margin-bottom: calc(8px + 0.1vw);
+}
+.vidcontainer .projecttitle span {
+  display:inline-block;
+  font-style: italic;
+  text-decoration: none;
+}*/
 .vidwrapper {
   /*border: 1px solid black;*/
   position: relative;
