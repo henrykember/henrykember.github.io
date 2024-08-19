@@ -42,80 +42,70 @@ body {
   font-size: 58px;
   font-weight: 400;
   text-decoration: underline;
+
 }
 .deets.title  {
   margin-top: -6px;
 }
-#vitalcontainer  {
+.vitalstats  {
   position: absolute;
   top: 150px;
+  right: 260px;
   left: 250px;
-  right: 250px;
+  min-width: 450px;
+  max-width: 1300px;
+/*  border: 1px solid black;*/
 }
-.category {
-  height: 50px;
-  font-size: 30px;
+.cv  {
+  display: block;
+  font-size: 20px;
+/*  border: 1px solid black;*/
+  line-height: 25px;
+}
+.cv span  {
   font-style: italic;
   font-weight: 400;
+  font-size: 36px;
   text-decoration: underline;
 }
-.flex-container  {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-/*  border: 1px solid black;*/
-}
-.flex-item  {
-  flex: 0 0 auto;
-/*  min-width: 150px;
-  max-width: 150px;*/
-  width: 140px;
-/*  border: 1px solid black;*/
-  margin-right: 15px;
-}
-.one  {
-  width: 90px;
-}
-.last  {
-  width: 250px;
-/*  margin-right: 50px;*/
-}
-.copy  {
-  height: 75px;
-  font-size: 14px;
-  line-height: 17px;
-/*  border: 1px solid black;*/
-}
-.short {
-  height: 60px;
-}
-.title  {
-  text-decoration: underline;
-  font-weight: 400;
-}
-.education .three  {
-  min-width: 300px;
-  max-width: 300px;
-}
-.education .last  {
-  min-width: 90px;
-  max-width: 90px;
- flex-grow:3;
-}
-.education .copy {
-  height: 70px;
-}
-.otherthings .copy {
-  height: 40px;
-}
-.whofor a {
+.cv a  {
   list-style-type: none;
+  text-decoration: underline;
   color: black;
+}
+  font-size: 20px;
+}
+.cv a:hover  {
+  text-decoration:;
+}
+.cv.education {
+  width: 450px;
+  right: 70px;
+/*  border: 1px solid black;*/
+}
+.cv.employment {
+  float: right;
+  padding-top: 40px;
+  padding-right: 0px;
+  width: 450px;
+/*  border: 1px solid black;*/
+}
+.containertest  {
+  position: absolute;
+  margin-top: 470px;
+  margin-left: 250px;
+  width: 450px;
+  height: 300px;
+  /*border: 1px solid black;*/
+}
+.cv.other {
+  padding-top: 155px;
+  padding-right: 0px;
+  width: 450px;
 }
 .bottom  {
   position: absolute;
-  top: 1350px;
+  top: 950px;
   left: 0px;
   width: 100%;
   height: 70px;
