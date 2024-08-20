@@ -34,7 +34,7 @@ body {
 .menuitems a:hover  {
   font-style: italic;
 }
-.deetscontainer  {
+/*.deetscontainer  {
   position: fixed;
   margin-top: 150px;
   margin-left: 50px;
@@ -45,16 +45,35 @@ body {
 }
 .deetstitle  {
   margin-top: -6px;
+}*/
+.deetscontainer  {
+  position: absolute;
+  top: calc(25px + 8vw);
+  left: calc(5px + 6vw);
+  width: calc(50px + 14vw);
+  z-index: 0;
+  /*border: 1px solid black;*/
+}
+.deetstitle  {
+  top: -0.57vw;
+  position: relative;
+  font-size: calc(10px + 5vw);
+  font-weight: 400;
+  text-decoration: underline;
+  /*width: calc(50px + 7vw);*/
+  /*border: 1px solid black;*/
 }
 .vitalcontainer  {
   position: absolute;
-  top: 150px;
-  left: 250px;
-  right: 250px;
+/*  margin-left: 20px;*/
+  top: calc(25px + 8vw);
+left: calc(130px + 15vw);
+/*  right: calc(15px + 5vw);*/
+/*  border: 1px solid black;*/
 }
 .category {
-  height: 50px;
-  font-size: 30px;
+  height: 4vw;
+  font-size: calc(12px + 1vw);
   font-style: italic;
   font-weight: 400;
   text-decoration: underline;
@@ -63,52 +82,55 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: auto;
+  width: 60vw;
 /*  border: 1px solid black;*/
 }
 .flex-item  {
   flex: 0 0 auto;
 /*  min-width: 150px;
   max-width: 150px;*/
-  width: 140px;
-/*  border: 1px solid black;*/
-  margin-right: 15px;
+  width: 13vw;
+  border: 1px solid black;
+/*  margin-right: 1vw;*/
 }
 .one  {
-  width: 90px;
+  width: 7vw;
 }
 .last  {
-  width: 250px;
+  width: 16vw;
 /*  margin-right: 50px;*/
 }
 .copy  {
-  height: 75px;
-  font-size: 14px;
-  line-height: 17px;
-/*  border: 1px solid black;*/
+/*height: 10vw;*/
+/*height: calc(110px - 1vw);*/
+height: calc(164px - 5vw);
+font-size: calc(10px + 0.41vw);
+/*font-size: calc(8px + 0.45vw);*/
+line-height: calc(3px + 1.2vw);
+ border: 1px solid black;
 }
-.short {
+/*.short {
   height: 60px;
-}
+}*/
 .title  {
   text-decoration: underline;
   font-weight: 400;
 }
 .education .three  {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 18vw;
+  max-width: 22vw;
 }
 .education .last  {
-  min-width: 90px;
-  max-width: 90px;
+/*  min-width: 12vw;*/
+  max-width: 11vw;
  flex-grow:3;
 }
-.education .copy {
+/*.education .copy {
   height: 70px;
 }
 .otherthings .copy {
   height: 40px;
-}
+}*/
 .whofor a {
   list-style-type: none;
   color: black;
