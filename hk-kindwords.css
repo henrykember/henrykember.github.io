@@ -40,7 +40,7 @@ body {
   left: calc(5px + 6vw);
   width: calc(50px + 14vw);
   z-index: 0;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .deetstitle  {
   top: -0.57vw;
@@ -60,11 +60,11 @@ body {
 }
 .kindcontainer  {
   position: absolute;
-  top: calc(-55px + 8vw);
+  top: calc(-52px + 8vw);
   left: calc(75px + 24vw);
   right: calc(115px + 5vw);
   min-width: 500px;
-/*  border: 1px solid black;*/
+  border: 1px solid black;
 }
 .recocontainer {
   margin: auto;
