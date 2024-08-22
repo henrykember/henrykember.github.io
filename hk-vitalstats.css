@@ -58,6 +58,8 @@ body {
   font-style: italic;
   font-weight: 400;
   text-decoration: underline;
+  margin-bottom: 10px;
+/*    border: 1px solid black;*/
 }
 .flex-container  {
   display: flex;
